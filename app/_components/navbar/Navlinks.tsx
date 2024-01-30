@@ -3,10 +3,6 @@ import { Navlink } from '@/_types/types';
 
 const navlinks: Navlink[] = [
   {
-    name: 'Home',
-    path: '/',
-  },
-  {
     name: 'About',
     path: '/about',
   },
@@ -18,13 +14,18 @@ const navlinks: Navlink[] = [
 
 const Navlinks = () => {
   return (
-    <div className="text-xl lg:flex-grow">
-      {navlinks.map((navlink, i) => (
+    <div className="h-[80vh] flex flex-col lg:inline-block justify-center lg:h-fit lg:flex-end">
+      {navlinks.map((item, i) => (
         <span
           key={i}
-          className="flex justify-end mt-4 lg:inline-block lg:mt-0 mr-4"
+          className="flex items-center justify-center h-[20%] lg:inline-block lg:mt-0 lg:ml-12 lg:mr-2"
         >
-          <a href={navlink.path}>{navlink.name}</a>
+          <a
+            href={item.path}
+            className="text-white font-medium tracking-widest text-2xl lg:text-lg"
+          >
+            {item.name}
+          </a>
         </span>
       ))}
     </div>

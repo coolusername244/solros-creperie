@@ -4,18 +4,18 @@ import Navlinks from './Navlinks';
 import { GiSunflower } from 'react-icons/gi';
 
 const Navbar = () => {
-  const [navItemsShown, setNavItemsShown] = useState(false);
+  const [navItemsShown, setNavItemsShown] = useState<boolean>(false);
 
   return (
     <nav className="flex justify-between flex-wrap bg-green-900 text-white p-6">
-      <div className="flex items-center flex-shrink-0 mr-6">
-        <a href="/" className="text-4xl ">
+      <div className="flex mr-6">
+        <a href="/" className="text-4xl">
           <GiSunflower />
         </a>
       </div>
-      <div className="block lg:hidden">
+      <div className="flex items-center lg:hidden">
         <button
-          className="flex items-center px-3 py-2"
+          className="flex"
           onClick={() => {
             setNavItemsShown(!navItemsShown);
           }}
@@ -32,8 +32,8 @@ const Navbar = () => {
       </div>
       <div
         className={`${
-          navItemsShown ? '' : 'hidden'
-        } w-full lg:flex lg:justify-end lg:items-center lg:w-auto`}
+          navItemsShown ? 'inline' : 'hidden'
+        } w-full lg:flex lg:items-center lg:w-auto`}
       >
         <Navlinks />
       </div>
