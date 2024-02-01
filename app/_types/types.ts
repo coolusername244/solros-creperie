@@ -12,6 +12,7 @@ export type ContactMethod = {
   method: string;
   icon: JSX.Element;
   contact: string;
+  href: string;
 };
 
 export type SocialLink = {
