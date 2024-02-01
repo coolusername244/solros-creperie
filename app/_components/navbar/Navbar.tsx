@@ -7,7 +7,7 @@ const Navbar = () => {
   const [navItemsShown, setNavItemsShown] = useState<boolean>(false);
 
   return (
-    <nav className="flex justify-between flex-wrap bg-green-900 text-white p-6">
+    <nav className="flex justify-between flex-wrap bg-primary text-white p-6">
       <div className="flex mr-6">
         <a href="/" className="text-4xl">
           <GiSunflower />
