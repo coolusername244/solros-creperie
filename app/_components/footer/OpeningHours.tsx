@@ -1,6 +1,5 @@
 import React from 'react';
 import { OpenTime } from '@/_types/types';
-import { FaRegClock } from 'react-icons/fa';
 
 const openTimes: OpenTime[] = [
   {
@@ -17,14 +16,13 @@ const openTimes: OpenTime[] = [
   },
 ];
 
-const OpeningTimes = () => {
+const OpeningHours = () => {
   return (
     <section className="footer-section">
       <div className="footer-heading">
-        <FaRegClock />
-        <h5 className="ml-3">Opening Times</h5>
+        <h5>Opening Hours</h5>
       </div>
-      <div className="footer-text">
+      <div className="footer-text ml-4">
         {openTimes.map((time, i) => (
           <>
             <p key={i}>{time.day}</p>
@@ -36,4 +34,4 @@ const OpeningTimes = () => {
   );
 };
 
-export default OpeningTimes;
+export default OpeningHours;
