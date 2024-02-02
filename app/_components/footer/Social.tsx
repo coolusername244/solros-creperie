@@ -1,6 +1,7 @@
 import React from 'react';
 import { SocialLink } from '@/_types/types';
 import { FaInstagram } from 'react-icons/fa';
+import { useTranslations } from 'next-intl';
 
 const socialLinks: SocialLink[] = [
   {
@@ -11,10 +12,12 @@ const socialLinks: SocialLink[] = [
 ];
 
 const Social = () => {
+  const t = useTranslations('footer');
+
   return (
     <section className="footer-section lg:basis-1/3">
       <div className="footer-heading">
-        <h5>Social Media</h5>
+        <h5>{t('social-media')}</h5>
       </div>
       <ul className="flex lg:justify-center">
         {socialLinks.map(social => (
