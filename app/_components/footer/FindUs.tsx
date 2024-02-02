@@ -1,10 +1,13 @@
 import React from 'react';
+import { useTranslations } from 'next-intl';
 
 const FindUs = () => {
+  const t = useTranslations('footer');
+
   return (
     <section className="footer-section lg:basis-1/3">
       <div className="footer-heading">
-        <h5>Find Us</h5>
+        <h5>{t('find-us')}</h5>
       </div>
       <a
         className="footer-text underline"
