@@ -3,21 +3,43 @@
 @tailwind utilities;
 
 .footer-component {
-  @apply bg-primary text-white px-12 py-6;
+  @apply bg-primary 
+  text-white 
+  px-12 
+  py-6;
 }
 
 .footer-section {
-  @apply my-6 lg:text-center lg:justify-center;
+  @apply my-6 
+  lg:text-center 
+  lg:justify-center;
 }
 
 .footer-heading {
-  @apply text-2xl font-bold pb-3 flex items-center tracking-wide lg:block;
+  @apply text-2xl 
+  font-bold 
+  pb-3 
+  flex 
+  items-center 
+  tracking-wide 
+  lg:block;
 }
 
 .footer-text {
-  @apply text-lg;
+  @apply text-lg
+  ml-4 
+  lg:ml-0;
 }
 
 .social-button {
-  @apply bg-secondary h-[4.5rem] w-[4.5rem] text-4xl items-center flex justify-center rounded-full ml-4 lg:ml-0;
+  @apply bg-secondary 
+  h-[4.5rem] 
+  w-[4.5rem] 
+  text-4xl 
+  items-center 
+  flex 
+  justify-center 
+  rounded-full 
+  ml-4 
+  lg:ml-0;
 }

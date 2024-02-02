@@ -22,7 +22,7 @@ const OpeningHours = () => {
       <div className="footer-heading lg:justify-center">
         <h5>Opening Hours</h5>
       </div>
-      <div className="footer-text ml-4 lg:ml-0">
+      <div className="footer-text">
         {openTimes.map((time, i) => (
           <>
             <p key={i}>{time.day}</p>

@@ -24,7 +24,7 @@ const ContactUs = () => {
       <div className="footer-heading">
         <h5>Contact Us</h5>
       </div>
-      <ul className="ml-4 space-y-3 lg:ml-0">
+      <ul className="space-y-3">
         {contactMethods.map(contact => (
           <li key={contact.method} className="flex lg:justify-center">
             <a href={contact.href} className="footer-text flex items-center">

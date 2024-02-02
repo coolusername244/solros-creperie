@@ -7,7 +7,7 @@ const FindUs = () => {
         <h5>Find Us</h5>
       </div>
       <a
-        className="footer-text underline ml-4 lg:ml-0"
+        className="footer-text underline"
         href="https://maps.app.goo.gl/3rH2jLrK8ed4ZN1f9"
         target="_blank"
       >
