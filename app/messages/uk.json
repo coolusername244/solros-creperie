@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "about": "про",
+    "gallery": "Галерея"
+  },
+  "footer": {
+    "open-hours": {
+      "title": "Години роботи",
+      "days": {
+        "monday-friday": "Понеділок - п'ятниця",
+        "saturday": "Субота",
+        "sunday": "неділя"
+      }
+    },
+    "find-us": "Знайди нас",
+    "contact-us": "Зв'яжіться з нами",
+    "social-media": "Соц.медіа"
+  }
+}

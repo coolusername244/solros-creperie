@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "about": "Om oss",
+    "gallery": "Galleri"
+  },
+  "footer": {
+    "open-hours": {
+      "title": "Öppettider",
+      "days": {
+        "monday-friday": "Måndag - Fredag",
+        "saturday": "Lördag",
+        "sunday": "Söndag"
+      }
+    },
+    "find-us": "Hitta Oss",
+    "contact-us": "Kontakta Oss",
+    "social-media": "Sociala media"
+  }
+}

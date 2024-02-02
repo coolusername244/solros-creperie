@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "about": "About",
+    "gallery": "Gallery"
+  },
+  "footer": {
+    "open-hours": {
+      "title": "Opening Hours",
+      "days": {
+        "monday-friday": "Monday - Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday"
+      }
+    },
+    "find-us": "Find Us",
+    "contact-us": "Contact Us",
+    "social-media": "Social Media"
+  }
+}
