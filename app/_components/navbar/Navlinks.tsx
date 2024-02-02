@@ -1,18 +1,21 @@
 import React from 'react';
 import { Navlink } from '@/_types/types';
+import { useTranslations } from 'next-intl';
 
 const navlinks: Navlink[] = [
   {
-    name: 'About',
+    name: 'about',
     path: '/about',
   },
   {
-    name: 'Gallery',
+    name: 'gallery',
     path: '/gallery',
   },
 ];
 
 const Navlinks = () => {
+  const t = useTranslations('nav');
+
   return (
     <div className="h-[80vh] flex flex-col lg:inline-block justify-center lg:h-fit lg:flex-end">
       {navlinks.map((item, i) => (
@@ -24,7 +27,7 @@ const Navlinks = () => {
             href={item.path}
             className="text-white font-medium tracking-widest text-2xl lg:text-lg"
           >
-            {item.name}
+            {t(item.name)}
           </a>
         </span>
       ))}
