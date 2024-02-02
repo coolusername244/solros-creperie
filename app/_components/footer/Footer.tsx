@@ -8,9 +8,12 @@ const Footer = () => {
   return (
     <footer className="footer-component">
       <OpeningHours />
-      <FindUs />
-      <ContactUs />
-      <Social />
+      <hr className="hidden lg:flex bg-secondary my-8" />
+      <div className="lg:flex">
+        <FindUs />
+        <ContactUs />
+        <Social />
+      </div>
     </footer>
   );
 };

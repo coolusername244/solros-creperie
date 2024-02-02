@@ -18,11 +18,11 @@ const openTimes: OpenTime[] = [
 
 const OpeningHours = () => {
   return (
-    <section className="footer-section">
-      <div className="footer-heading">
+    <section className="footer-section lg:w-[100%] lg:text-center">
+      <div className="footer-heading lg:justify-center">
         <h5>Opening Hours</h5>
       </div>
-      <div className="footer-text ml-4">
+      <div className="footer-text ml-4 lg:ml-0">
         {openTimes.map((time, i) => (
           <>
             <p key={i}>{time.day}</p>

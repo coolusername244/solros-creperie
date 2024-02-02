@@ -20,13 +20,13 @@ const contactMethods: ContactMethod[] = [
 
 const ContactUs = () => {
   return (
-    <section className="footer-section">
+    <section className="footer-section lg:basis-1/3">
       <div className="footer-heading">
         <h5>Contact Us</h5>
       </div>
-      <ul className="ml-4 space-y-3">
+      <ul className="ml-4 space-y-3 lg:ml-0">
         {contactMethods.map(contact => (
-          <li key={contact.method}>
+          <li key={contact.method} className="flex lg:justify-center">
             <a href={contact.href} className="footer-text flex items-center">
               <span className="text-xl">{contact.icon}</span>
               <span className="ml-3">{contact.contact}</span>
