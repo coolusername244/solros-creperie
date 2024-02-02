@@ -2,6 +2,7 @@ import React from 'react';
 import { ContactMethod } from '@/_types/types';
 import { FiPhone } from 'react-icons/fi';
 import { TfiEmail } from 'react-icons/tfi';
+import { useTranslations } from 'next-intl';
 
 const contactMethods: ContactMethod[] = [
   {
@@ -19,10 +20,12 @@ const contactMethods: ContactMethod[] = [
 ];
 
 const ContactUs = () => {
+  const t = useTranslations('footer');
+
   return (
     <section className="footer-section lg:basis-1/3">
       <div className="footer-heading">
-        <h5>Contact Us</h5>
+        <h5>{t('contact-us')}</h5>
       </div>
       <ul className="space-y-3">
         {contactMethods.map(contact => (
