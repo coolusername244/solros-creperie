@@ -1,3 +1,9 @@
+export type MetaParams = {
+  params: {
+    locale: 'en' | 'sv' | 'uk';
+  };
+};
+
 export type Navlink = {
   name: string;
   path: string;

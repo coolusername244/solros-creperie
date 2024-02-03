@@ -1,4 +1,8 @@
 {
+  "meta": {
+    "title": "Solros Crêperie",
+    "description": "Detta måste fixas"
+  },
   "nav": {
     "about": "Om oss",
     "gallery": "Galleri"

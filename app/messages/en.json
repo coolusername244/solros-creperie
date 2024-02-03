@@ -1,4 +1,8 @@
 {
+  "meta": {
+    "title": "Solros Crêperie",
+    "description": "This needs to be fixed"
+  },
   "nav": {
     "about": "About",
     "gallery": "Gallery"
