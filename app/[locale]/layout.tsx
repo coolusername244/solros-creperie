@@ -23,7 +23,7 @@ export async function generateMetadata({ params: { locale } }: MetaParams) {
 
 type Props = {
   children: React.ReactNode;
-  params: { locale: 'en' | 'sv' | 'uk' };
+  params: { locale: 'sv' | 'en' | 'uk' };
 };
 
 const RootLayout: React.FC<Props> = ({ children, params: { locale } }) => {
