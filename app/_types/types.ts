@@ -26,3 +26,9 @@ export type SocialLink = {
   icon: JSX.Element;
   link: string;
 };
+
+export type locales = {
+  locale: string;
+  language: string;
+  flag: React.JSX.Element;
+};
