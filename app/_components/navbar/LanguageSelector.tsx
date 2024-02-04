@@ -34,7 +34,7 @@ const LanguageSelector = () => {
     case 'en':
       flag = <GB />;
       break;
-    case 'uk':
+    case 'ua':
       flag = <UA />;
       break;
     default:
