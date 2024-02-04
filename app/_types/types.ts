@@ -6,7 +6,6 @@ export type MetaParams = {
 
 export type Navlink = {
   name: string;
-  path: string;
 };
 
 export type OpenTime = {
