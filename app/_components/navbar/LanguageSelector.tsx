@@ -39,7 +39,7 @@ const LanguageSelector = () => {
     },
     {
       locale: 'ua',
-      language: 'Український',
+      language: 'Українська',
       flag: <UA height={15} />,
     },
   ];
