@@ -2,6 +2,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useLocale } from 'next-intl';
 import { GB, SE, UA } from 'country-flag-icons/react/3x2';
+import { usePathname, useRouter } from 'next/navigation';
 import { locales } from '@/_types/types';
 
 const LanguageSelector = () => {
@@ -9,8 +10,15 @@ const LanguageSelector = () => {
   const languageSelectorRef = useRef<HTMLDivElement>(null);
 
   const userLocale = useLocale();
+  const pathname = usePathname();
+  const router = useRouter();
 
-  const handleClickOutside = (e: MouseEvent) => {
+  const updateLanguage = (locale: string): void => {
+    const newPath = pathname.replace(pathname.split('/')[1], locale);
+    router.push(newPath);
+  };
+
+  const handleClickOutside = (e: MouseEvent): void => {
     if (
       languageSelectorRef.current &&
       !languageSelectorRef.current.contains(e.target as Node)
@@ -96,13 +104,15 @@ const LanguageSelector = () => {
           {locales.map((l, i) => {
             if (l.locale !== userLocale) {
               return (
-                <a
+                <button
                   key={i}
-                  href={`/${l.locale}`}
+                  onClick={() => {
+                    updateLanguage(l.locale);
+                  }}
                   className="flex items-center text-gray-700 px-4 py-2 text-sm"
                 >
                   <span className="mr-2">{l.flag}</span> {l.language}
-                </a>
+                </button>
               );
             } else {
               return null;
