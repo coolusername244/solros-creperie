@@ -1,8 +1,9 @@
 'use client';
 import React, { useState } from 'react';
+import Image from 'next/image';
 import Navlinks from './Navlinks';
 import LanguageSelector from './LanguageSelector';
-import { GiSunflower } from 'react-icons/gi';
+import SunFlower from '@/_assets/logo-no-background-no-text.png';
 
 const Navbar = () => {
   const [navItemsShown, setNavItemsShown] = useState<boolean>(false);
@@ -11,7 +12,13 @@ const Navbar = () => {
     <nav className="flex justify-between flex-wrap bg-primary text-white p-6">
       <div className="flex mr-6">
         <a href="/" className="text-4xl">
-          <GiSunflower />
+          <Image
+            src={SunFlower}
+            alt="Sunflower"
+            width={500}
+            height={500}
+            className="h-12 w-12"
+          />
         </a>
       </div>
       <div className="flex">
