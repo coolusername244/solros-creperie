@@ -56,16 +56,16 @@ const LanguageSelector = () => {
 
   switch (userLocale) {
     case 'sv':
-      flag = <SE />;
+      flag = <SE height={15} />;
       break;
     case 'en':
-      flag = <GB />;
+      flag = <GB height={15} />;
       break;
     case 'ua':
-      flag = <UA />;
+      flag = <UA height={15} />;
       break;
     default:
-      flag = <SE />;
+      flag = <SE height={15} />;
   }
 
   return (
