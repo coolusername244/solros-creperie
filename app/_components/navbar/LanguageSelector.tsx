@@ -73,7 +73,7 @@ const LanguageSelector = () => {
       ref={languageSelectorRef}
       className="relative inline-block text-left mr-6"
     >
-      <div>
+      <div className="flex">
         <button
           type="button"
           className="inline-flex items-center px-2 rounded-md"
@@ -83,7 +83,7 @@ const LanguageSelector = () => {
         >
           {flag}
           <svg
-            className="-mr-1 ml-1 h-10 w-10 text-secondary"
+            className="-mr-1 h-5 w-5 text-secondary"
             viewBox="0 0 20 20"
             fill="currentColor"
           >
