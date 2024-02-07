@@ -2,6 +2,7 @@ import React from 'react';
 import { SocialLink } from '@/_types/types';
 import { FaInstagram } from 'react-icons/fa';
 import { useTranslations } from 'next-intl';
+import Link from 'next/link';
 
 const socialLinks: SocialLink[] = [
   {
@@ -23,7 +24,7 @@ const Social = () => {
         {socialLinks.map(social => (
           <li key={social.name}>
             <button className="social-button">
-              <a href={social.link}>{social.icon}</a>
+              <Link href={social.link}>{social.icon}</Link>
             </button>
           </li>
         ))}
