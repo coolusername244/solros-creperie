@@ -11,7 +11,7 @@ const Navbar = () => {
   const [navItemsShown, setNavItemsShown] = useState<boolean>(false);
 
   const navItemsShownHandler = () => {
-    setNavItemsShown(!navItemsShown);
+    setNavItemsShown(false);
   };
 
   return (
