@@ -69,14 +69,11 @@ const LanguageSelector = () => {
   }
 
   return (
-    <div
-      ref={languageSelectorRef}
-      className="relative inline-block text-left mr-6"
-    >
+    <div ref={languageSelectorRef} className="relative inline-block  text-left">
       <div className="flex">
         <button
           type="button"
-          className="inline-flex items-center px-2 rounded-md"
+          className="inline-flex items-center rounded-md"
           onClick={() => {
             setLanguagesShown(!languagesShown);
           }}
@@ -98,7 +95,7 @@ const LanguageSelector = () => {
       <div
         className={`${
           languagesShown ? 'absolute' : 'hidden'
-        } right-0 z-10 mt-2 w-auto p-1 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5`}
+        } right-0 z-10 mt-2 w-auto  origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5`}
       >
         <div className="py-1" role="none">
           {locales.map((l, i) => {
@@ -109,7 +106,7 @@ const LanguageSelector = () => {
                   onClick={() => {
                     updateLanguage(l.locale);
                   }}
-                  className="flex items-center text-gray-700 px-4 py-2 text-sm"
+                  className="flex w-full items-center text-gray-700 px-4 py-2 text-sm hover:bg-tertiary"
                 >
                   <span className="mr-2">{l.flag}</span> {l.language}
                 </button>
