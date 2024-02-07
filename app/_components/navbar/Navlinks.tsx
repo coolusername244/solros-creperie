@@ -21,7 +21,7 @@ const Navlinks = () => {
       {navlinks.map((item, i) => (
         <span
           key={i}
-          className="flex items-center justify-center h-[20%] lg:inline-block lg:mt-0 lg:ml-12 lg:mr-2"
+          className="flex items-center justify-center h-[20%] lg:inline-block lg:mt-0 lg:ml-6 lg:mr-2"
         >
           <Link
             href={`/${userLocale}/${item.name}`}
