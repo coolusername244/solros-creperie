@@ -48,7 +48,7 @@ const Navbar = () => {
           navItemsShown ? 'inline' : 'hidden'
         } w-full lg:flex lg:items-center lg:w-auto`}
       >
-        <div className="sm:hidden lg:flex">
+        <div className="hidden lg:flex">
           <LanguageSelector />
         </div>
         <Navlinks />
