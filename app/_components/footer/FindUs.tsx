@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslations } from 'next-intl';
+import Link from 'next/link';
 
 const FindUs = () => {
   const t = useTranslations('footer');
@@ -9,13 +10,13 @@ const FindUs = () => {
       <div className="footer-heading">
         <h5>{t('find-us')}</h5>
       </div>
-      <a
+      <Link
         className="footer-text underline"
         href="https://maps.app.goo.gl/3rH2jLrK8ed4ZN1f9"
         target="_blank"
       >
         Hornsgatan 29B, Stockholm, 11849
-      </a>
+      </Link>
     </section>
   );
 };
