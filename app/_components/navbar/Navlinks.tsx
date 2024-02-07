@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { FC } from 'react';
 import Link from 'next/link';
 import { Navlink } from '@/_types/types';
 import { useTranslations, useLocale } from 'next-intl';
+
+type NavlinksProps = {
+  navItemsShownHandler: () => void;
+};
 
 const navlinks: Navlink[] = [
   {
@@ -12,7 +16,7 @@ const navlinks: Navlink[] = [
   },
 ];
 
-const Navlinks = () => {
+const Navlinks: FC<NavlinksProps> = ({ navItemsShownHandler }) => {
   const t = useTranslations('nav');
   const userLocale = useLocale();
 
@@ -25,6 +29,7 @@ const Navlinks = () => {
         >
           <Link
             href={`/${userLocale}/${item.name}`}
+            onClick={navItemsShownHandler}
             className="text-white font-medium tracking-widest text-2xl lg:text-lg"
           >
             {t(item.name)}

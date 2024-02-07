@@ -10,11 +10,16 @@ import SunFlower from '@/_assets/logo-no-background-no-text.png';
 const Navbar = () => {
   const [navItemsShown, setNavItemsShown] = useState<boolean>(false);
 
+  const navItemsShownHandler = () => {
+    setNavItemsShown(!navItemsShown);
+  };
+
   return (
     <nav className="flex justify-between flex-wrap bg-primary text-white p-6">
       <div className="flex mr-6">
         <Link href="/">
           <Image
+            priority={true}
             src={SunFlower}
             alt="Sunflower"
             width={500}
@@ -51,7 +56,7 @@ const Navbar = () => {
         <div className="hidden lg:flex">
           <LanguageSelector />
         </div>
-        <Navlinks />
+        <Navlinks navItemsShownHandler={navItemsShownHandler} />
       </div>
     </nav>
   );
