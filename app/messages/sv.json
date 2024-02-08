@@ -19,5 +19,9 @@
     "find-us": "Hitta Oss",
     "contact-us": "Kontakta Oss",
     "social-media": "Sociala media"
+  },
+  "not-found": {
+    "heading": "Sidan du letar efter finns inte",
+    "button": "Åka hem"
   }
 }
