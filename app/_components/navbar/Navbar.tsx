@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 import Navlinks from './Navlinks';
 import LanguageSelector from './LanguageSelector';
-import SunFlower from '@/_assets/logo-no-background-no-text.png';
+import SunFlower from '@/_assets/site-icons/logo-no-background-no-text.png';
 
 const Navbar = () => {
   const [navItemsShown, setNavItemsShown] = useState<boolean>(false);
