@@ -1,3 +1,5 @@
+import { StaticImageData } from 'next/image';
+
 export type MetaParams = {
   params: {
     locale: 'en' | 'sv' | 'uk';
@@ -30,4 +32,9 @@ export type locales = {
   locale: string;
   language: string;
   flag: React.JSX.Element;
+};
+
+export type Hero = {
+  title: string;
+  image: StaticImageData;
 };
