@@ -23,7 +23,7 @@ const Social = () => {
       <ul className="flex lg:justify-center">
         {socialLinks.map(social => (
           <li key={social.name}>
-            <button className="social-button">
+            <button className="social-button transition duration-300 hover:bg-yellow-100 hover:text-primary">
               <Link href={social.link}>{social.icon}</Link>
             </button>
           </li>
