@@ -7,6 +7,13 @@
     "about": "Om oss",
     "gallery": "Galleri"
   },
+  "gallery": {
+    "title": "Galleri",
+    "drinks": "Drycker",
+    "pancakes": "Pannkakor",
+    "galettes": "Galetter",
+    "paninis": "Paninis"
+  },
   "footer": {
     "open-hours": {
       "title": "Öppettider",

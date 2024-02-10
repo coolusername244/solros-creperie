@@ -7,6 +7,13 @@
     "about": "About",
     "gallery": "Gallery"
   },
+  "gallery": {
+    "title": "Gallery",
+    "drinks": "Drinks",
+    "pancakes": "Pancakes",
+    "galettes": "Galettes",
+    "paninis": "Paninis"
+  },
   "footer": {
     "open-hours": {
       "title": "Opening Hours",
