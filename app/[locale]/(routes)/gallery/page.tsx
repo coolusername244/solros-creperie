@@ -34,7 +34,7 @@ const Gallery = () => {
       <div className="flex items-center justify-center pt-12 text-3xl font-semibold">
         <h1>{t('title')}</h1>
       </div>
-      <div className="lg:grid lg:grid-cols-2 lg:gap-12 p-12 ">
+      <div className="lg:grid lg:grid-cols-2 lg:gap-12 p-12 2xl:px-32">
         {heros.map((hero, i) => (
           <div
             key={i}
