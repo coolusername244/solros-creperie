@@ -30,7 +30,7 @@ const Gallery = () => {
   ];
 
   return (
-    <>
+    <main className="screen-content">
       <div className="flex items-center justify-center pt-12 text-3xl font-semibold">
         <h1>{t('title')}</h1>
       </div>
@@ -58,7 +58,7 @@ const Gallery = () => {
           </div>
         ))}
       </div>
-    </>
+    </main>
   );
 };
 
