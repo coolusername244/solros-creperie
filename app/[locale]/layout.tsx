@@ -34,9 +34,7 @@ const RootLayout: React.FC<Props> = ({ children, params: { locale } }) => {
       <body className={inter.className}>
         <NextIntlClientProvider messages={messages}>
           <Navbar />
-          <main className="bg-secondary min-h-[calc(100vh-96px)]">
-            {children}
-          </main>
+          {children}
           <Footer />
         </NextIntlClientProvider>
       </body>
