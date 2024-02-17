@@ -9,10 +9,19 @@ type NavlinksProps = {
 
 const navlinks: Navlink[] = [
   {
+    name: 'menu',
+  },
+  {
+    name: 'offers',
+  },
+  {
+    name: 'news',
+  },
+  {
     name: 'about',
   },
   {
-    name: 'gallery',
+    name: 'contact',
   },
 ];
 

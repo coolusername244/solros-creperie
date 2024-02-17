@@ -4,8 +4,11 @@
     "description": "Hejsan! Vi erbjuder premiumkaffe, äkta franska galetter och söta crêpes. Slappna av i en mysig atmosfär eller ta med dig. Även frukost- och luncherbjudande fr o m 60krs"
   },
   "nav": {
+    "menu": "Meny",
+    "offers": "Erbjudande",
+    "news": "Nyheter",
     "about": "Om oss",
-    "gallery": "Galleri"
+    "contact": "Kontakt"
   },
   "gallery": {
     "title": "Galleri",

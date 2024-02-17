@@ -4,8 +4,11 @@
     "description": "Hello! We offer premium coffee, authentic French galettes and sweet crêpes. Relax in a cozy atmosphere or take away. Also breakfast and lunch offer from SEK 60"
   },
   "nav": {
+    "menu": "Menu",
+    "offers": "Offers",
+    "news": "News",
     "about": "About",
-    "gallery": "Gallery"
+    "contact": "Contact"
   },
   "gallery": {
     "title": "Gallery",
