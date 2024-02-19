@@ -6,57 +6,91 @@ import Link from 'next/link';
 import Navlinks from './Navlinks';
 import LanguageSelector from './LanguageSelector';
 import SunFlower from '@/_assets/site-icons/logo-no-background-no-text.png';
+import SolrosLogo from '@/_assets/site-icons/solros-logo.png';
+import { SocialLink } from '@/_types/types';
+import { FaInstagram } from 'react-icons/fa';
 
 const Navbar = () => {
   const [navItemsShown, setNavItemsShown] = useState<boolean>(false);
+
+  const socialLinks: SocialLink[] = [
+    {
+      name: 'Instagram',
+      icon: <FaInstagram />,
+      link: 'https://www.instagram.com/solroscreperie',
+    },
+  ];
 
   const navItemsShownHandler = () => {
     setNavItemsShown(false);
   };
 
   return (
-    <nav className="flex justify-between flex-wrap bg-primary text-white p-6">
-      <div className="flex mr-6">
-        <Link href="/">
-          <Image
-            priority={true}
-            src={SunFlower}
-            alt="Sunflower"
-            width={500}
-            height={500}
-            className="h-12 w-12"
-          />
-        </Link>
-      </div>
-      <div className="flex items-center">
-        <div className="flex mr-4 lg:hidden">
-          <LanguageSelector />
+    <nav className="border-b border-slate-500 flex justify-between px-6">
+      <div className="w-full flex flex-col">
+        <div className="h-1/2 border-b flex items-center">
+          <button className="text-2xl hover:text-primary transition duration-200">
+            <FaInstagram />
+          </button>
         </div>
-        <button
-          className="flex lg:hidden"
-          onClick={() => {
-            setNavItemsShown(!navItemsShown);
-          }}
-        >
-          <svg
-            className="fill-current h-5 w-5"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <title>Menu</title>
-            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-          </svg>
-        </button>
+        <section className="h-1/2">
+          <ul className="flex h-full items-center justify-evenly uppercase text-xl tracking-widest">
+            <li>
+              <Link
+                href={'/'}
+                className="hover:text-primary transition duration-200"
+              >
+                menu
+              </Link>
+            </li>
+            <li>
+              <Link
+                href={'/'}
+                className="hover:text-primary transition duration-200"
+              >
+                erb
+              </Link>
+            </li>
+            <li>
+              <Link
+                href={'/'}
+                className="hover:text-primary transition duration-200"
+              >
+                nyh
+              </Link>
+            </li>
+          </ul>
+        </section>
       </div>
-      <div
-        className={`${
-          navItemsShown ? 'inline' : 'hidden'
-        } w-full lg:flex lg:items-center lg:w-auto`}
-      >
-        <div className="hidden lg:flex">
+      <Image
+        src={SolrosLogo}
+        alt="Solros Creperie Logo"
+        className="w-28 py-3"
+      />
+      <div className="w-full flex flex-col">
+        <section className="h-1/2 border-b flex items-center justify-end">
           <LanguageSelector />
-        </div>
-        <Navlinks navItemsShownHandler={navItemsShownHandler} />
+        </section>
+        <section className="grow">
+          <ul className="flex h-full items-center justify-evenly uppercase text-xl tracking-widest">
+            <li>
+              <Link
+                href={'/'}
+                className="hover:text-primary transition duration-200"
+              >
+                about
+              </Link>
+            </li>
+            <li>
+              <Link
+                href={'/'}
+                className="hover:text-primary transition duration-200"
+              >
+                contact
+              </Link>
+            </li>
+          </ul>
+        </section>
       </div>
     </nav>
   );
