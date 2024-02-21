@@ -4,48 +4,21 @@ import { Navlink } from '@/_types/types';
 import { useTranslations, useLocale } from 'next-intl';
 
 type NavlinksProps = {
-  navItemsShownHandler: () => void;
+  navlink: Navlink;
 };
 
-const navlinks: Navlink[] = [
-  {
-    name: 'menu',
-  },
-  {
-    name: 'offers',
-  },
-  {
-    name: 'news',
-  },
-  {
-    name: 'about',
-  },
-  {
-    name: 'contact',
-  },
-];
-
-const Navlinks: FC<NavlinksProps> = ({ navItemsShownHandler }) => {
+const Navlinks: FC<NavlinksProps> = ({ navlink }) => {
   const t = useTranslations('nav');
   const userLocale = useLocale();
 
   return (
-    <div className="h-[80vh] flex flex-col lg:inline-block justify-center lg:h-fit lg:flex-end">
-      {navlinks.map((item, i) => (
-        <span
-          key={i}
-          className="flex items-center justify-center h-[20%] lg:inline-block lg:mt-0 lg:ml-6 lg:mr-2"
-        >
-          <Link
-            href={`/${userLocale}/${item.name}`}
-            onClick={navItemsShownHandler}
-            className="text-white font-medium tracking-widest text-2xl lg:text-lg"
-          >
-            {t(item.name)}
-          </Link>
-        </span>
-      ))}
-    </div>
+    <>
+      <li className="navbar-li">
+        <Link href={`/${userLocale}/${navlink.name}`} className="navbar-link">
+          {t(navlink.name)}
+        </Link>
+      </li>
+    </>
   );
 };
 

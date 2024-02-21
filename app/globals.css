@@ -2,6 +2,51 @@
 @tailwind components;
 @tailwind utilities;
 
+.navbar {
+  @apply border-b 
+  lg:justify-between 
+  lg:px-6;
+}
+
+.navbar-section {
+  @apply w-full 
+  flex 
+  flex-col;
+}
+
+.navbar-link-list {
+  @apply flex 
+  h-full
+  items-center
+  justify-evenly
+  uppercase
+  text-xl
+  tracking-widest;
+}
+
+.navbar-li {
+  @apply border-b 
+  w-1/2 
+  py-6
+  lg:border-none
+  lg:w-auto;
+}
+
+.navbar-link {
+  @apply hover:text-primary
+  transition
+  duration-200
+  text-xl
+  uppercase
+  tracking-widest;
+}
+
+.navbar-logo {
+  @apply w-20 
+  py-3
+  lg:w-28;
+}
+
 .footer-component {
   @apply bg-primary 
   text-white 
@@ -27,19 +72,6 @@
 
 .footer-text {
   @apply text-lg
-  ml-4 
-  lg:ml-0;
-}
-
-.social-button {
-  @apply bg-secondary 
-  h-[4.5rem] 
-  w-[4.5rem] 
-  text-4xl 
-  items-center 
-  flex 
-  justify-center 
-  rounded-full 
   ml-4 
   lg:ml-0;
 }
