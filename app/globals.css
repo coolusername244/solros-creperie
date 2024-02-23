@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Navbar start */
+
 .navbar {
   @apply border-b 
   lg:justify-between 
@@ -33,7 +35,7 @@
 }
 
 .navbar-link {
-  @apply hover:text-primary
+  @apply hover:text-[#38b137]
   transition
   duration-200
   text-xl
@@ -47,10 +49,22 @@
   lg:w-28;
 }
 
+/* Navbar end */
+
+.screen-content {
+  /* @apply bg-[#b6ffbb]; */
+  /* @apply bg-[#BFFFC3]; */
+  /* @apply bg-[#C8FFCC]; */
+  /* @apply bg-[#D1FFD4]; */
+  /* @apply bg-[#DBFFDD]; */
+  /* @apply bg-[#E4FFE5]; */
+  @apply bg-[#EDFFEE];
+}
+
+/* Footer start */
+
 .footer-component {
-  @apply bg-primary 
-  text-white 
-  px-12 
+  @apply px-12 
   py-6;
 }
 
@@ -76,7 +90,4 @@
   lg:ml-0;
 }
 
-.screen-content {
-  @apply bg-secondary 
-  min-h-[calc(100vh-96px)];
-}
+/* footer end */
