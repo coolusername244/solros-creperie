@@ -4,8 +4,6 @@ import { NextIntlClientProvider, useMessages } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 
 import '@/globals.css';
-import Navbar from '@/components/navbar/Navbar';
-import Footer from '@/components/footer/Footer';
 import { MetaParams } from '@/_types/types';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -33,9 +31,7 @@ const RootLayout: React.FC<Props> = ({ children, params: { locale } }) => {
     <html lang={locale}>
       <body className={inter.className}>
         <NextIntlClientProvider messages={messages}>
-          <Navbar />
           {children}
-          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>
