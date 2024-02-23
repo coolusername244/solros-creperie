@@ -10,12 +10,14 @@
     "about": "Om oss",
     "contact": "Kontakt"
   },
-  "gallery": {
-    "title": "Galleri",
-    "drinks": "Drycker",
-    "pancakes": "Pannkakor",
+  "menu": {
+    "title": "Meny",
     "galettes": "Galetter",
-    "paninis": "Paninis"
+    "crepes": "Söta Crêpes",
+    "paninis": "Toasts & Paninis",
+    "kids": "Barn Meny",
+    "coffee-and-tea": "Kaffe & Te",
+    "other-drinks": "Övriga Drycker"
   },
   "footer": {
     "open-hours": {

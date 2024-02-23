@@ -10,12 +10,14 @@
     "about": "Про",
     "contact": "контакт"
   },
-  "gallery": {
-    "title": "Галерея",
-    "drinks": "Напої",
-    "pancakes": "млинці",
+  "menu": {
+    "title": "Меню",
     "galettes": "Галети",
-    "paninis": "Паніні"
+    "crepes": "Солодкі млинці",
+    "paninis": "Тости та паніні",
+    "kids": "Дитяче Меню",
+    "coffee-and-tea": "Кава та чай",
+    "other-drinks": "Інші напої"
   },
   "footer": {
     "open-hours": {

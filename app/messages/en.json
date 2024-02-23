@@ -10,12 +10,14 @@
     "about": "About",
     "contact": "Contact"
   },
-  "gallery": {
-    "title": "Gallery",
-    "drinks": "Drinks",
-    "pancakes": "Pancakes",
+  "menu": {
+    "title": "Menu",
     "galettes": "Galettes",
-    "paninis": "Paninis"
+    "crepes": "Sweet Crêpes",
+    "paninis": "Toasts & Paninis",
+    "kids": "Kids Menu",
+    "coffee-and-tea": "Coffee & Tea",
+    "other-drinks": "Other Drinks"
   },
   "footer": {
     "open-hours": {
