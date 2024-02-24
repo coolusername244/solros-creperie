@@ -38,3 +38,7 @@ export type Hero = {
   title: string;
   image: StaticImageData;
 };
+
+export type AboutParagraph = {
+  text: string;
+};
