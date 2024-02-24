@@ -8,25 +8,25 @@ import pancake1 from '@/_assets/images/food/pancakes/pancake-1.jpg';
 import panini1 from '@/_assets/images/food/paninis/panini-1.jpg';
 
 const Offers = () => {
-  const t = useTranslations('menu');
+  const t = useTranslations();
   const heros: Hero[] = [
     {
-      title: t('galettes'),
+      title: t('menu.galettes'),
       image: galette1,
     },
     {
-      title: t('crepes'),
+      title: t('menu.crepes'),
       image: pancake1,
     },
     {
-      title: t('paninis'),
+      title: t('menu.paninis'),
       image: panini1,
     },
   ];
   return (
     <section>
       <div className="flex items-center justify-center pt-12 text-3xl font-semibold">
-        <h2>Offers</h2>
+        <h2>{t('offers.title')}</h2>
       </div>
       <div className="lg:grid lg:grid-cols-3 lg:gap-12 p-12 2xl:px-32">
         {heros.map((hero, index) => (
