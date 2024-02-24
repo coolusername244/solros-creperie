@@ -19,6 +19,17 @@
     "coffee-and-tea": "Coffee & Tea",
     "other-drinks": "Other Drinks"
   },
+  "about": {
+    "title": "About",
+    "p1": "Welcome to Solros Crêperie!",
+    "p2": "Our cafe opened its doors in November 2023, after we underwent an extensive renovation of the premises where every single detail was carefully renewed. From the walls to the floors and the interior, everything bears the stamp of our own idea and creativity.",
+    "p3": "We wish that visitors choose to stay in a relaxed atmosphere with us and reconnect with a tasty cup of coffee.",
+    "p4": "Our main goal is to offer our guests the best coffee, which is why we chose Johan & Nyström. We sampled several varieties during a visit to the brewery and chose Bold Statement for brewed coffee with flavors of chocolate, hazelnuts and cherries.",
+    "p5": "Our beloved La Marzocco espresso machine, a handcrafted Italian companion, creates coffee from Bob-o-Link beans with flavors of chocolate, caramel and sweet plum. Our dishes, galettes and crêpes, convey French food culture and create a sense of exclusivity for everyday life.",
+    "p6": "They are filled with carefully selected ingredients that are harmoniously combined to create an extraordinary taste experience.",
+    "p7": "The batter for the galettes is made from buckwheat and water, completely gluten-free and lactose-free, while the crêpes batter is mixed with regular milk, real eggs and wheat flour.",
+    "p8": "Take a look at our menu and welcome to us at the creperie!"
+  },
   "footer": {
     "open-hours": {
       "title": "Opening Hours",
