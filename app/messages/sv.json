@@ -19,6 +19,12 @@
     "coffee-and-tea": "Kaffe & Te",
     "other-drinks": "Övriga Drycker"
   },
+  "offers": {
+    "title": "Erbjudande"
+  },
+  "news": {
+    "title": "Nyheter"
+  },
   "about": {
     "title": "Om Oss",
     "p1": "Välkommen till Solros Crêperie!",
