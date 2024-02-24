@@ -1,4 +1,4 @@
-import { Navlink, SocialLink } from '@/_types/types';
+import { AboutParagraph, Navlink, SocialLink } from '@/_types/types';
 import { FaInstagram } from 'react-icons/fa';
 
 export const socialLinks: SocialLink[] = [
@@ -24,5 +24,32 @@ export const navlinks: Navlink[] = [
   },
   {
     name: 'contact',
+  },
+];
+
+export const about: AboutParagraph[] = [
+  {
+    text: 'p1',
+  },
+  {
+    text: 'p2',
+  },
+  {
+    text: 'p3',
+  },
+  {
+    text: 'p4',
+  },
+  {
+    text: 'p5',
+  },
+  {
+    text: 'p6',
+  },
+  {
+    text: 'p7',
+  },
+  {
+    text: 'p8',
   },
 ];
