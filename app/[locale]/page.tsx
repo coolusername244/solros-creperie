@@ -5,6 +5,7 @@ import Offers from '@/_components/offers/Offers';
 import About from '@/_components/about/About';
 import Contact from '@/_components/contact/Contact';
 import VideoBlock from '@/_components/VideoBlock/VideoBlock';
+import Footer from '@/_components/footer/Footer';
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
       <VideoBlock />
       <About />
       <Contact />
+      <Footer />
     </main>
   );
 }
