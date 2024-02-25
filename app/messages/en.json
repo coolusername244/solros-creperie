@@ -19,6 +19,12 @@
     "coffee-and-tea": "Coffee & Tea",
     "other-drinks": "Other Drinks"
   },
+  "offers": {
+    "title": "Offers"
+  },
+  "news": {
+    "title": "News"
+  },
   "about": {
     "title": "About",
     "p1": "Welcome to Solros Crêperie!",
