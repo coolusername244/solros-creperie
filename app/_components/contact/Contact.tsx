@@ -2,8 +2,6 @@ import React from 'react';
 import OpeningHours from './OpeningHours';
 import FindUs from './FindUs';
 import ContactUs from './ContactUs';
-import Social from '../navbar/Social';
-import { socialLinks } from '@/_assets/datasets/data';
 
 const Contact = () => {
   return (
