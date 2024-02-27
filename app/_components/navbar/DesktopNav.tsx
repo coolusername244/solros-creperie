@@ -12,9 +12,9 @@ const DesktopNav = () => {
     <nav className="navbar hidden lg:flex">
       <div className="navbar-section">
         <div className="h-1/2 border-b flex items-center">
-          {socialLinks.map(socialLink => (
+          {socialLinks.map((socialLink, i) => (
             <Social
-              key={socialLink.name}
+              key={i}
               name={socialLink.name}
               icon={socialLink.icon}
               link={socialLink.link}
@@ -42,7 +42,7 @@ const DesktopNav = () => {
         <section className="h-1/2">
           <ul className="navbar-link-list">
             {navlinks.map((navlink, i) =>
-              i >= 3 ? <Navlinks key={navlink.name} navlink={navlink} /> : null,
+              i >= 3 ? <Navlinks key={i} navlink={navlink} /> : null,
             )}
           </ul>
         </section>

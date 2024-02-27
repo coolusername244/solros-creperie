@@ -47,9 +47,9 @@ const MobileNav = () => {
               <Navlinks key={i} navlink={navlink} />
             ))}
             <li className="flex items-center justify-center space-x-8 py-6">
-              {socialLinks.map(socialLink => (
+              {socialLinks.map((socialLink, i) => (
                 <Social
-                  key={socialLink.name}
+                  key={i}
                   name={socialLink.name}
                   icon={socialLink.icon}
                   link={socialLink.link}
