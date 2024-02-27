@@ -1,5 +1,14 @@
-import { AboutParagraph, Hero, Navlink, SocialLink } from '@/_types/types';
 import { FaInstagram } from 'react-icons/fa';
+import { FiPhone } from 'react-icons/fi';
+import { TfiEmail } from 'react-icons/tfi';
+
+import {
+  AboutParagraph,
+  ContactMethod,
+  Hero,
+  Navlink,
+  SocialLink,
+} from '@/_types/types';
 import smoothie1 from '@/_assets/images/drinks/smoothies/smoothie-1.jpg';
 import galette1 from '@/_assets/images/food/galettes/galette-1.jpg';
 import pancake1 from '@/_assets/images/food/pancakes/pancake-1.jpg';
@@ -11,6 +20,21 @@ export const socialLinks: SocialLink[] = [
     name: 'Instagram',
     icon: <FaInstagram />,
     link: 'https://www.instagram.com/solroscreperie',
+  },
+];
+
+export const contactMethods: ContactMethod[] = [
+  {
+    method: 'Phone',
+    icon: <FiPhone />,
+    href: 'tel:+46700415015',
+    contact: '+46700415015',
+  },
+  {
+    method: 'Email',
+    icon: <TfiEmail />,
+    href: 'mailto:info@solroscreperie.se',
+    contact: 'info@solroscreperie.se',
   },
 ];
 
