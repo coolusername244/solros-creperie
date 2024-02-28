@@ -6,6 +6,68 @@ export type MetaParams = {
   };
 };
 
+export type About = {
+  title: string;
+  p1: string;
+  p2: string;
+  p3: string;
+  p4: string;
+  p5: string;
+  p6: string;
+  p7: string;
+  p8: string;
+};
+
+export type Footer = {
+  'open-hours': OpenHours;
+  'find-us': string;
+  'contact-us': string;
+  'social-media': string;
+};
+
+export type OpenHours = {
+  title: string;
+  days: Days;
+};
+
+export type Days = {
+  'monday-friday': string;
+  saturday: string;
+  sunday: string;
+};
+
+export type Menu = {
+  title: string;
+  galettes: string;
+  crepes: string;
+  paninis: string;
+  kids: string;
+  'coffee-and-tea': string;
+  'other-drinks': string;
+};
+
+export type Meta = {
+  title: string;
+  description: string;
+};
+
+export type Nav = {
+  menu: string;
+  offers: string;
+  news: string;
+  about: string;
+  contact: string;
+};
+
+export type News = {
+  title: string;
+};
+
+export type NotFound = {
+  heading: string;
+  button: string;
+};
+
 export type Navlink = {
   name: string;
 };
