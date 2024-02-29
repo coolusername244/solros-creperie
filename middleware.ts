@@ -6,6 +6,9 @@ export default createMiddleware({
 
   // Used when no locale matches
   defaultLocale: 'sv',
+
+  // Hide default locale prefix in the URL (/sv)
+  localePrefix: 'as-needed',
 });
 
 export const config = {
