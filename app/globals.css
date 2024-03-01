@@ -61,6 +61,10 @@
   @apply bg-[#EDFFEE];
 }
 
+.about-text {
+  @apply pb-6 tracking-wide;
+}
+
 /* Footer start */
 
 .footer-component {
