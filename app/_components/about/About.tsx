@@ -10,33 +10,42 @@ const About = () => {
   const t = useTranslations('about');
   return (
     <section className="screen-content px-6">
-      {about.map((p, i) =>
-        i === 0 ? (
-          <div key={i}>
+      <div className="xl:w-full">
+        {about.slice(0, 1).map((p, i) => (
+          <span key={i}>
             <SectionHeading heading={t(p.text)} />
-          </div>
-        ) : i === 1 ? (
+          </span>
+        ))}
+      </div>
+      <div className="xl:w-full">
+        {about.slice(1, 2).map((p, i) => (
           <p key={i} className="about-text">
             {t(p.text)}
           </p>
-        ) : null,
-      )}
-      <Image src={cafe} alt={'cafe'} className="pb-6 px-4" />
-      {about.map((p, i) =>
-        i > 2 && i <= 5 ? (
-          <p key={i} className="about-text">
-            {t(p.text)}
-          </p>
-        ) : null,
-      )}
-      <div className="col-span-2">
-        {about.map((p, i) =>
-          i >= 6 ? (
+        ))}
+      </div>
+      <div className="flex flex-col xl:flex-row xl:items-center">
+        <div className="xl:w-2/5 xl:order-last xl:m-auto">
+          <Image
+            src={cafe}
+            alt={'cafe'}
+            className="pb-6 px-2 md:px-20 lg:px-28 xl:px-0 xl:w-full"
+          />
+        </div>
+        <div className="xl:w-1/2">
+          {about.slice(2, 6).map((p, i) => (
             <p key={i} className="about-text">
               {t(p.text)}
             </p>
-          ) : null,
-        )}
+          ))}
+        </div>
+      </div>
+      <div className="xl:w-full ">
+        {about.slice(6).map((p, i) => (
+          <p key={i} className="about-text">
+            {t(p.text)}
+          </p>
+        ))}
       </div>
     </section>
   );
