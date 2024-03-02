@@ -51,23 +51,6 @@ export type Meta = {
   description: string;
 };
 
-export type Nav = {
-  menu: string;
-  offers: string;
-  news: string;
-  about: string;
-  contact: string;
-};
-
-export type News = {
-  title: string;
-};
-
-export type NotFound = {
-  heading: string;
-  button: string;
-};
-
 export type Navlink = {
   name: string;
 };
