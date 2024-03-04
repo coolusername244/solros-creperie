@@ -5,7 +5,7 @@
   },
   "nav": {
     "menu": "Meny",
-    "offers": "Erbjudande",
+    "offers": "Erbjudanden",
     "news": "Nyheter",
     "about": "Om oss",
     "contact": "Kontakt"
@@ -20,7 +20,10 @@
     "other-drinks": "Övriga Drycker"
   },
   "offers": {
-    "title": "Erbjudande"
+    "title": "Erbjudanden",
+    "breakfast": "Frukost Erbjudande",
+    "lunch": "Lunch Erbjudande",
+    "monthly": "Månads Erbjudande"
   },
   "news": {
     "title": "Nyheter"

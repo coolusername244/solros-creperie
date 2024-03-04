@@ -20,7 +20,10 @@
     "other-drinks": "Інші напої"
   },
   "offers": {
-    "title": "Пропозиції"
+    "title": "Offers",
+    "breakfast": "Пропозиція сніданку",
+    "lunch": "Пропозиція Ланч",
+    "monthly": "Місячна Пропозиція"
   },
   "news": {
     "title": "Новини"

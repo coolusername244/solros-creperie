@@ -20,7 +20,10 @@
     "other-drinks": "Other Drinks"
   },
   "offers": {
-    "title": "Offers"
+    "title": "Offers",
+    "breakfast": "Breakfast Offer",
+    "lunch": "Lunch Offer",
+    "monthly": "Monthly Offer"
   },
   "news": {
     "title": "News"
