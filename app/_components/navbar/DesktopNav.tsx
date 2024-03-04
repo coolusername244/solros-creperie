@@ -9,7 +9,7 @@ import SolrosLogo from '@/_assets/images/site-icons/solros-logo.png';
 
 const DesktopNav = () => {
   return (
-    <nav className="navbar hidden lg:flex">
+    <nav className="navbar hidden xl:flex xl:fixed xl:top-0 xl:w-full bg-white z-50 light-mint">
       <div className="navbar-section">
         <div className="h-1/2 border-b flex items-center">
           {socialLinks.map((socialLink, i) => (
