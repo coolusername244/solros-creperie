@@ -127,11 +127,11 @@ export const offersHeros: Hero[] = [
 
 export const newsHeros: Hero[] = [
   {
-    title: 'menu.galettes',
+    title: 'news.offer-1-title',
     image: galette1,
   },
   {
-    title: 'menu.crepes',
+    title: 'news.offer-2-title',
     image: pancake1,
   },
 ];
