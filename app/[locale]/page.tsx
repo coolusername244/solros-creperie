@@ -4,7 +4,6 @@ import News from '@/_components/news/News';
 import Offers from '@/_components/offers/Offers';
 import About from '@/_components/about/About';
 import Contact from '@/_components/contact/Contact';
-import VideoBlock from '@/_components/VideoBlock/VideoBlock';
 import Footer from '@/_components/footer/Footer';
 
 export default function Home() {
@@ -14,7 +13,6 @@ export default function Home() {
       <Menu />
       <Offers />
       <News />
-      <VideoBlock />
       <About />
       <Contact />
       <Footer />
