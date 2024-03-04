@@ -10,12 +10,10 @@ const Offers = () => {
     <section className="light-mint">
       <SectionHeading heading={'offers.title'} />
       <ShowcaseImage heros={offersHeros} />
-      {/* <Image src={coffee} alt="" /> */}
       <div className="w-[75vw] m-auto pb-12">
         <Image
           src={coffee}
           alt={'coffee'}
-          // fill={true}
           style={{ objectFit: 'cover' }}
           loading="eager"
           className="w-full h-96"
