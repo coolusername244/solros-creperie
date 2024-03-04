@@ -20,13 +20,15 @@
     "other-drinks": "Інші напої"
   },
   "offers": {
-    "title": "Offers",
+    "title": "Пропозиції",
     "breakfast": "Пропозиція сніданку",
     "lunch": "Пропозиція Ланч",
     "monthly": "Місячна Пропозиція"
   },
   "news": {
-    "title": "Новини"
+    "title": "Новини",
+    "offer-1-title": "Крофл",
+    "offer-2-title": "Морозиво"
   },
   "about": {
     "title": "Про нас",

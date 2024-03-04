@@ -26,7 +26,9 @@
     "monthly": "Månads Erbjudande"
   },
   "news": {
-    "title": "Nyheter"
+    "title": "Nyheter",
+    "offer-1-title": "Cråffla",
+    "offer-2-title": "Glass"
   },
   "about": {
     "title": "Om Oss",
