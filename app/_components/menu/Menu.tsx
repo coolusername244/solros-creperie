@@ -5,10 +5,10 @@ import SectionHeading from '../SectionHeading';
 
 const Menu = () => {
   return (
-    <main className="screen-content">
+    <section className="mt-[100px] lg:mt-[130px]">
       <SectionHeading heading={'menu.title'} />
-      <ShowcaseImage heros={menuHeros} cols={3} />
-    </main>
+      <ShowcaseImage heros={menuHeros} />
+    </section>
   );
 };
 
