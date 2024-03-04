@@ -5,9 +5,9 @@ import { offersHeros } from '@/_assets/datasets/data';
 
 const Offers = () => {
   return (
-    <section>
+    <section className="light-mint">
       <SectionHeading heading={'offers.title'} />
-      <ShowcaseImage heros={offersHeros} cols={3} />
+      <ShowcaseImage heros={offersHeros} />
     </section>
   );
 };

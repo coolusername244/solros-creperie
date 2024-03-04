@@ -5,7 +5,7 @@ import { useTranslations } from 'next-intl';
 export default function NotFound() {
   const t = useTranslations('not-found');
   return (
-    <main className="screen-content flex flex-col justify-center items-center">
+    <main className="flex flex-col justify-center items-center">
       <h1 className="text-2xl">{t('heading')}</h1>
       <div>
         <Link href="/">

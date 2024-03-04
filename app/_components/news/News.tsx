@@ -5,9 +5,9 @@ import SectionHeading from '@/_components/SectionHeading';
 
 const News = () => {
   return (
-    <section className="screen-content">
+    <section>
       <SectionHeading heading={'news.title'} />
-      <ShowcaseImage heros={newsHeros} cols={2} />
+      <ShowcaseImage heros={newsHeros} />
     </section>
   );
 };
