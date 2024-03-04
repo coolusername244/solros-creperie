@@ -2,7 +2,7 @@ import { StaticImageData } from 'next/image';
 
 export type MetaParams = {
   params: {
-    locale: 'en' | 'sv' | 'uk';
+    locale: 'en' | 'sv' | 'ua';
   };
 };
 
