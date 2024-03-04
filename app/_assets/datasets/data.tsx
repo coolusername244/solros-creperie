@@ -112,15 +112,15 @@ export const menuHeros: Hero[] = [
 
 export const offersHeros: Hero[] = [
   {
-    title: 'menu.galettes',
+    title: 'offers.breakfast',
     image: galette1,
   },
   {
-    title: 'menu.crepes',
+    title: 'offers.lunch',
     image: pancake1,
   },
   {
-    title: 'menu.paninis',
+    title: 'offers.monthly',
     image: panini1,
   },
 ];
