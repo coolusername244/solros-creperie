@@ -5,22 +5,21 @@ import { useTranslations } from 'next-intl';
 
 type ShowcaseImageProps = {
   heros: Hero[];
-  cols: number;
 };
 
-const ShowcaseImage: FC<ShowcaseImageProps> = ({ heros, cols }) => {
+const ShowcaseImage: FC<ShowcaseImageProps> = ({ heros }) => {
   const t = useTranslations();
 
   return (
     <div
       className={`grid ${
-        heros.length >= 3 ? 'lg:grid-cols-3' : 'lg:grid-cols-2'
+        heros.length >= 3 ? 'md:grid-cols-2 xl:grid-cols-3' : 'md:grid-cols-2'
       } gap-12 px-16 pb-16`}
     >
       {heros.map((hero, i) => (
         <div
           key={i}
-          className={`relative h-96 shadow-2xl rounded-md group overflow-hidden`}
+          className={`relative h-64 lg:h-96 shadow-2xl rounded-md group overflow-hidden`}
         >
           <Image
             src={hero.image}
