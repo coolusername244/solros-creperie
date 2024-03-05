@@ -29,6 +29,7 @@ const About = () => {
           <Image
             src={cafe}
             alt={'cafe'}
+            sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 50vw"
             className="pb-6 px-2 md:px-20 lg:px-28 xl:px-0 xl:w-full"
           />
         </div>

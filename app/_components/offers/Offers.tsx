@@ -15,7 +15,9 @@ const Offers = () => {
           src={coffee}
           alt={'coffee'}
           style={{ objectFit: 'cover' }}
-          loading="eager"
+          loading="lazy"
+          sizes="90vw"
+          priority={false}
           className="w-full h-96"
         />
       </div>
