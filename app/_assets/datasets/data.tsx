@@ -7,6 +7,7 @@ import {
   ContactMethod,
   Hero,
   Navlink,
+  OpenTime,
   SocialLink,
 } from '@/_types/types';
 import smoothie1 from '@/_assets/images/drinks/smoothies/smoothie-1.jpg';
@@ -20,6 +21,21 @@ export const socialLinks: SocialLink[] = [
     name: 'Instagram',
     icon: <FaInstagram />,
     link: 'https://www.instagram.com/solroscreperie',
+  },
+];
+
+export const openTimes: OpenTime[] = [
+  {
+    day: 'monday-friday',
+    times: '08:00 - 20:00',
+  },
+  {
+    day: 'saturday',
+    times: '09:00 - 18:00',
+  },
+  {
+    day: 'sunday',
+    times: '10:00 - 17:00',
   },
 ];
 
