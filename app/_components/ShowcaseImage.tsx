@@ -5,10 +5,13 @@ import { useTranslations } from 'next-intl';
 
 type ShowcaseImageProps = {
   heros: Hero[];
+  eager?: boolean;
 };
 
-const ShowcaseImage: FC<ShowcaseImageProps> = ({ heros }) => {
+const ShowcaseImage: FC<ShowcaseImageProps> = ({ heros, eager }) => {
   const t = useTranslations();
+
+  const sizes = '(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33.3vw';
 
   return (
     <div
@@ -25,8 +28,9 @@ const ShowcaseImage: FC<ShowcaseImageProps> = ({ heros }) => {
             src={hero.image}
             alt={t(hero.title)}
             fill={true}
+            sizes={sizes}
             style={{ objectFit: 'cover' }}
-            loading="eager"
+            loading={eager ? 'eager' : 'lazy'}
             className="rounded-md group-hover:scale-110 transition-transform"
           />
           <div className="cursor-pointer absolute inset-0 flex items-center justify-center bg-black bg-opacity-40 rounded-md hover:bg-opacity-50 transition duration-300">

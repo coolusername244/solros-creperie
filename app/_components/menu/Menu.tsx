@@ -7,7 +7,7 @@ const Menu = () => {
   return (
     <section className="mt-[100px] lg:mt-[130px]">
       <SectionHeading heading={'menu.title'} />
-      <ShowcaseImage heros={menuHeros} />
+      <ShowcaseImage heros={menuHeros} eager={true} />
     </section>
   );
 };
