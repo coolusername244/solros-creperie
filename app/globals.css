@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 /* Navbar start */
-
 .navbar {
   @apply border-b 
   lg:justify-between 
@@ -48,7 +47,6 @@
   py-3
   lg:w-28;
 }
-
 /* Navbar end */
 
 .light-mint {
@@ -65,33 +63,29 @@
   @apply pb-6 tracking-wide;
 }
 
-/* Footer start */
-
-.footer-component {
-  @apply px-12 
-  py-6;
+/* Contact */
+.contact-section {
+  @apply flex
+  flex-col
+  text-center
+  justify-center
+  items-center
+  tracking-wider;
 }
 
-.footer-section {
-  @apply my-6 
-  lg:text-center 
-  lg:justify-center;
+.contact-heading {
+  @apply font-bold
+  text-2xl
+  pb-3;
 }
 
-.footer-heading {
-  @apply text-2xl 
-  font-bold 
-  pb-3 
-  flex 
-  items-center 
-  tracking-wide 
-  lg:block;
+.contact-grid {
+  @apply grid 
+  lg:grid-cols-2 
+  gap-6 
+  xl:gap-0 
+  py-6 
+  lg:px-6 
+  xl:p-12;
 }
-
-.footer-text {
-  @apply text-lg
-  ml-4 
-  lg:ml-0;
-}
-
-/* footer end */
+/* Contact End */
