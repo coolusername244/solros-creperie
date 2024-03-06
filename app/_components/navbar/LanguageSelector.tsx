@@ -74,6 +74,7 @@ const LanguageSelector = () => {
         <button
           type="button"
           className="inline-flex items-center rounded-md"
+          aria-label="language selector"
           onClick={() => {
             setLanguagesShown(!languagesShown);
           }}
