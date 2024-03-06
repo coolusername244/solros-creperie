@@ -1,8 +1,8 @@
-'use client';
-import React, { useState } from 'react';
+import React, { FC } from 'react';
 import Image from 'next/image';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { IoCloseOutline } from 'react-icons/io5';
+import { handleClick } from '../../../helpers';
 
 import Social from './Social';
 import Navlinks from './Navlinks';
@@ -10,13 +10,17 @@ import LanguageSelector from './LanguageSelector';
 import { navlinks, socialLinks } from '@/_assets/datasets/data';
 import SolrosLogo from '@/_assets/images/site-icons/solros-logo.png';
 
-const MobileNav = () => {
-  const [navItemsShown, setNavItemsShown] = useState<boolean>(false);
+type NavProps = {
+  navItemsShown: boolean;
+  navItemsShownHandler: () => void;
+  closeNavItemsHandler: () => void;
+};
 
-  const navItemsShownHandler = () => {
-    setNavItemsShown(!navItemsShown);
-  };
-
+const MobileNav: FC<NavProps> = ({
+  navItemsShown,
+  navItemsShownHandler,
+  closeNavItemsHandler,
+}) => {
   return (
     <nav className="navbar block fixed top-0 w-full z-50 light-mint xl:hidden">
       <div className="flex flex-wrap items-center px-6 relative">
@@ -26,6 +30,7 @@ const MobileNav = () => {
             alt="Solros Creperie Logo"
             className="navbar-logo"
             priority
+            onClick={() => handleClick('menu')}
           />
         </a>
         <div className="flex ml-auto">
@@ -44,7 +49,11 @@ const MobileNav = () => {
         <div className={`${navItemsShown ? 'block' : 'hidden'} w-full`}>
           <ul className="text-center flex flex-col items-center">
             {navlinks.map((navlink, i) => (
-              <Navlinks key={i} navlink={navlink} />
+              <Navlinks
+                key={i}
+                navlink={navlink}
+                closeNavItemsHandler={closeNavItemsHandler}
+              />
             ))}
             <li className="flex items-center justify-center space-x-8 py-6">
               {socialLinks.map((socialLink, i) => (

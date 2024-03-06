@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FC } from 'react';
 import Image from 'next/image';
 
 import Social from './Social';
@@ -7,7 +7,11 @@ import LanguageSelector from './LanguageSelector';
 import { navlinks, socialLinks } from '@/_assets/datasets/data';
 import SolrosLogo from '@/_assets/images/site-icons/solros-logo.png';
 
-const DesktopNav = () => {
+type NavProps = {
+  closeNavItemsHandler: () => void;
+};
+
+const DesktopNav: FC<NavProps> = ({ closeNavItemsHandler }) => {
   return (
     <nav className="navbar hidden xl:flex xl:fixed xl:top-0 xl:w-full bg-white z-50 light-mint">
       <div className="navbar-section">
@@ -24,7 +28,13 @@ const DesktopNav = () => {
         <section className="h-1/2">
           <ul className="navbar-link-list">
             {navlinks.map((navlink, i) =>
-              i < 3 ? <Navlinks key={i} navlink={navlink} /> : null,
+              i < 3 ? (
+                <Navlinks
+                  key={i}
+                  navlink={navlink}
+                  closeNavItemsHandler={closeNavItemsHandler}
+                />
+              ) : null,
             )}
           </ul>
         </section>
@@ -42,7 +52,13 @@ const DesktopNav = () => {
         <section className="h-1/2">
           <ul className="navbar-link-list">
             {navlinks.map((navlink, i) =>
-              i >= 3 ? <Navlinks key={i} navlink={navlink} /> : null,
+              i >= 3 ? (
+                <Navlinks
+                  key={i}
+                  navlink={navlink}
+                  closeNavItemsHandler={closeNavItemsHandler}
+                />
+              ) : null,
             )}
           </ul>
         </section>
