@@ -7,7 +7,7 @@ import coffee from '@/_assets/images/drinks/coffee/coffee-4.jpg';
 
 const Offers = () => {
   return (
-    <section className="light-mint">
+    <section id="offers" className="light-mint">
       <SectionHeading heading={'offers.title'} />
       <ShowcaseImage heros={offersHeros} />
       <div className="w-[75vw] m-auto pb-12">

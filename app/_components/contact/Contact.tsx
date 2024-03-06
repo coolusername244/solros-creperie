@@ -5,7 +5,7 @@ import ContactUs from './ContactUs';
 
 const Contact = () => {
   return (
-    <section>
+    <section id="contact">
       <div className="contact-grid">
         <OpeningHours />
         <div className="lg:row-span-2">

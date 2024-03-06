@@ -5,7 +5,7 @@ import SectionHeading from '../SectionHeading';
 
 const Menu = () => {
   return (
-    <section className="mt-[100px] lg:mt-[130px]">
+    <section id="menu" className="mt-[100px] lg:mt-[130px]">
       <SectionHeading heading={'menu.title'} />
       <ShowcaseImage heros={menuHeros} eager={true} />
     </section>

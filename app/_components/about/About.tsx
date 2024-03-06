@@ -9,7 +9,7 @@ import SectionHeading from '../SectionHeading';
 const About = () => {
   const t = useTranslations('about');
   return (
-    <section className="light-mint px-6">
+    <section id="about" className="light-mint px-6">
       <div className="xl:w-full">
         {about.slice(0, 1).map((p, i) => (
           <span key={i}>
