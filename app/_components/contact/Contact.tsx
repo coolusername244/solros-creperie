@@ -5,7 +5,10 @@ import ContactUs from './ContactUs';
 
 const Contact = () => {
   return (
-    <section id="contact">
+    <section
+      id="contact"
+      className="min-h-[calc(100vh-100px)] flex items-center justify-center"
+    >
       <div className="contact-grid">
         <OpeningHours />
         <div className="lg:row-span-2">
