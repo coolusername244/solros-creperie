@@ -15,7 +15,7 @@ const DesktopNav: FC<NavProps> = ({ closeNavItemsHandler }) => {
   return (
     <nav className="navbar hidden xl:flex xl:fixed xl:top-0 xl:w-full bg-white z-50 light-mint">
       <div className="navbar-section">
-        <div className="h-1/2 border-b flex items-center">
+        <div className="h-1/2 border-b border-[#e2ae01] flex items-center">
           {socialLinks.map((socialLink, i) => (
             <Social
               key={i}
