@@ -1,7 +1,10 @@
+'use client';
 import React, { FC } from 'react';
 import Image from 'next/image';
 import { Hero } from '@/_types/types';
 import { useTranslations } from 'next-intl';
+import Link from 'next/link';
+import { useLocale } from 'next-intl';
 
 type ShowcaseImageProps = {
   heros: Hero[];
@@ -10,6 +13,7 @@ type ShowcaseImageProps = {
 
 const ShowcaseImage: FC<ShowcaseImageProps> = ({ heros, eager }) => {
   const t = useTranslations();
+  const locale = useLocale();
 
   const sizes = '(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33.3vw';
 
@@ -20,7 +24,8 @@ const ShowcaseImage: FC<ShowcaseImageProps> = ({ heros, eager }) => {
       } gap-12 px-16 pb-16`}
     >
       {heros.map((hero, i) => (
-        <div
+        <Link
+          href={`${locale}/${t(hero.title).toLowerCase().replace(' ', '-')}`}
           key={i}
           className={`relative h-64 lg:h-96 shadow-2xl rounded-md group overflow-hidden`}
         >
@@ -33,12 +38,12 @@ const ShowcaseImage: FC<ShowcaseImageProps> = ({ heros, eager }) => {
             loading={eager ? 'eager' : 'lazy'}
             className="rounded-md group-hover:scale-110 transition-transform"
           />
-          <div className="cursor-pointer absolute inset-0 flex items-center justify-center bg-black bg-opacity-40 rounded-md hover:bg-opacity-50 transition duration-300">
+          <div className="cursor-pointer absolute inset-0 flex items-center justify-center bg-black bg-opacity-20 rounded-md hover:bg-opacity-40 transition duration-300">
             <h2 className="text-white text-3xl font-bold tracking-wide group-hover:tracking-widest transition-all">
               {t(hero.title)}
             </h2>
           </div>
-        </div>
+        </Link>
       ))}
     </div>
   );
