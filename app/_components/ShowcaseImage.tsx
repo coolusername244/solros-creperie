@@ -25,7 +25,7 @@ const ShowcaseImage: FC<ShowcaseImageProps> = ({ heros, eager }) => {
     >
       {heros.map((hero, i) => (
         <Link
-          href={`${locale}/${t(hero.title).toLowerCase().replace(' ', '-')}`}
+          href={`${locale}/${t(hero.slug)}`}
           key={i}
           className={`relative h-64 lg:h-96 shadow-2xl rounded-md group overflow-hidden`}
         >
