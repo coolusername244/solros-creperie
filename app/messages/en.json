@@ -209,6 +209,18 @@
         "price": "35"
       }
     },
+    "kids-menu": {
+      "SuperHero": {
+        "title": "SuperHero",
+        "description": "Mini galette with Emmental, Ham and Ranch Dressing",
+        "price": "75"
+      },
+      "CrepeKid": {
+        "title": "CrepeKid",
+        "description": "A sweet crêpe with a filling: Nutella, Banana, Jam, Vanilla Ice Cream and sauce of your choice",
+        "price": "75"
+      }
+    },
     "other-drinks": {
       "smoothies": {
         "Kiwi+": {
