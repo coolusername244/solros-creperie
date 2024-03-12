@@ -81,9 +81,16 @@ export type locales = {
 
 export type Hero = {
   title: string;
+  slug: string;
   image: StaticImageData;
 };
 
 export type AboutParagraph = {
   text: string;
+};
+
+export type MenuItem = {
+  title: string;
+  description?: string;
+  price?: string;
 };
