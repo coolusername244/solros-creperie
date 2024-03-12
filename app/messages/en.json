@@ -12,18 +12,258 @@
   },
   "menu": {
     "title": "Menu",
-    "galettes": "Galettes",
-    "crepes": "Sweet Crêpes",
-    "paninis": "Toasts & Paninis",
-    "kids": "Kids Menu",
-    "coffee-and-tea": "Coffee & Tea",
-    "other-drinks": "Other Drinks"
+    "galettes": {
+      "title": "Galettes",
+      "slug": "galettes"
+    },
+    "crepes": {
+      "title": "Sweet Crêpes",
+      "slug": "sweet-crepes"
+    },
+    "paninis": {
+      "title": "Toasts & Paninis",
+      "slug": "toasts-and-paninis"
+    },
+    "kids": {
+      "title": "Kids Menu",
+      "slug": "kids-menu"
+    },
+    "coffee-and-tea": {
+      "title": "Coffee & Tea",
+      "slug": "coffee-and-tea"
+    },
+    "other-drinks": {
+      "title": "Other Drinks",
+      "slug": "other-drinks"
+    }
   },
   "offers": {
     "title": "Offers",
     "breakfast": "Breakfast Offer",
     "lunch": "Lunch Offer",
     "monthly": "Monthly Offer"
+  },
+  "food": {
+    "galettes": {
+      "HamHarmony": {
+        "title": "HamHarmony",
+        "description": "Emmental, Ham, Tomato, Iceberg Lettuce",
+        "price": "140"
+      },
+      "ChickNCherry": {
+        "title": "ChickNCherry",
+        "description": "Emmental, Chicken, Salad Mix, Cherry tomatoes",
+        "price": "140"
+      },
+      "EggElegy": {
+        "title": "EggElegy",
+        "description": "Emmental, Bacon, Egg, Black Pepper, Iceberg Lettuce, Chives",
+        "price": "140"
+      },
+      "MozzaMix": {
+        "title": "MozzaMix",
+        "description": "Salad Mix, Mozzarella, Pesto, Tomato",
+        "price": "130"
+      },
+      "BrieBravado": {
+        "title": "BrieBravado",
+        "description": "Prosciutto, Brie, Tomato, Dried Tomatoes, Salad mix",
+        "price": "160"
+      },
+      "GuacaGlow": {
+        "title": "GuacaGlow",
+        "description": "Diced Salmon, Homemade Guacamole, Avocado, Tomato, Red Onion, Lemon, Salt, Black Pepper, Sprouts, Salad Mix",
+        "price": "160"
+      },
+      "GreenTango": {
+        "title": "GreenTango",
+        "description": "Emmental, Avocado, Salad Mix, Tomato, Sprouts",
+        "price": "140"
+      },
+      "CheeseFiesta": {
+        "title": "CheeseFiesta",
+        "description": "Emmental, Cream Cheese, Mozzarella, Halloumi, Salad Mix",
+        "price": "160"
+      },
+      "PearlyBoo": {
+        "title": "PearlyBoo",
+        "description": "Avocado, Tomato, Yellow Pepper, Burrata, Pesto, Sprouts",
+        "price": "160"
+      }
+    },
+    "sweet-crepes": {
+      "ChocoBana": {
+        "title": "ChocoBana",
+        "description": "Banana, Nutella, Whipped cream, Fruit sauce",
+        "price": "110"
+      },
+      "MonLemon": {
+        "title": "MonLemon",
+        "description": "Butter, Lemon, Cane Sugar, Mint Leaves",
+        "price": "90"
+      },
+      "WhiteDelight": {
+        "title": "WhiteDelight",
+        "description": "Strawberries or Blueberries, White Chocolate, Whipped Cream",
+        "price": "120"
+      },
+      "CreamyBerry": {
+        "title": "CreamyBerry",
+        "description": "Cream Cheese, Strawberry or Blueberry Jam, White Chocolate Sauce, Strawberry or Blueberry, Chopped Almonds",
+        "price": "130"
+      },
+      "Frutti-di-Keso": {
+        "title": "Frutti di Keso",
+        "description": "Cottage Cheese, Raisins, Vanilla, Fruit Sauce",
+        "price": "130"
+      },
+      "AppleMaple": {
+        "title": "AppleMaple",
+        "description": "Butter, Apple Sauce, Maple Syrup, Cinnamon, Pecans",
+        "price": "120"
+      },
+      "Orange-Bliss": {
+        "title": "Orange Bliss",
+        "description": "Butter, Orange Marmalade, Caramel Sauce, Vanilla Ice Cream",
+        "price": "130"
+      },
+      "HoneyBana": {
+        "title": "HoneyBana",
+        "description": "Emmental, Banana, Honey, Chopped Almonds",
+        "price": "130"
+      }
+    },
+    "toasts-and-paninis": {
+      "Ost-and-Skinka": {
+        "title": "Cheese & Ham",
+        "description": "Emmental, Ham, Tomato, Spinach"
+      },
+      "Ost-and-Kyckling": {
+        "title": "Cheese & Chicken",
+        "description": "Emmental, Iceberg Lettuce, Chicken, Ranch Sauce"
+      },
+      "Mozzarella-and-Pesto": {
+        "title": "Mozzarella & Pesto",
+        "description": "Mozzarella, Pesto, Tomato, Spinach"
+      },
+      "Avokado-and-Pesto": {
+        "title": "Avocado & Pesto",
+        "description": "Emmental, Pesto, Avocado, Spinach"
+      }
+    },
+    "coffee-and-tea": {
+      "Espresso": {
+        "title": "Espresso",
+        "price": "35 / 40"
+      },
+      "Latte": {
+        "title": "Latte",
+        "price": "50 / 60"
+      },
+      "Cappuccino": {
+        "title": "Cappuccino",
+        "price": "55"
+      },
+      "Americano": {
+        "title": "Americano",
+        "price": "45"
+      },
+      "Flat White": {
+        "title": "Flat White",
+        "price": "55"
+      },
+      "Cortado": {
+        "title": "Cortado",
+        "price": "55"
+      },
+      "Latte Macchiato": {
+        "title": "Latte Macchiato",
+        "price": "55"
+      },
+      "Kaffe Mocca": {
+        "title": "Caffè mocha",
+        "price": "60"
+      },
+      "Bryggkaffe": {
+        "title": "Filter Coffee",
+        "price": "35 / 45"
+      },
+      "Chai Latte": {
+        "title": "Chai Latte",
+        "price": "50 / 60"
+      },
+      "Dirty Chai Latte": {
+        "title": "Dirty Chai Latte",
+        "price": "60 / 70"
+      },
+      "Varm Choklad": {
+        "title": "Hot Chocolate",
+        "price": "55"
+      },
+      "Matcha Latte": {
+        "title": "Matcha Latte",
+        "price": "55 / 65"
+      },
+      "Te": {
+        "title": "Tea (Various Flavors)",
+        "price": "35"
+      }
+    },
+    "other-drinks": {
+      "smoothies": {
+        "Kiwi+": {
+          "title": "Kiwi+",
+          "description": "Kiwi, Strawberry, Pineapple, Mango"
+        },
+        "Beet+": {
+          "title": "Beet+",
+          "description": "Beetroot, Banana, Raspberry"
+        },
+        "Acai+": {
+          "title": "Acai+",
+          "description": "Acai, Blueberry, Mango, Strawberry"
+        },
+        "Mango+": {
+          "title": "Mango+",
+          "description": "Mango, Passion Fruit, Pineapple"
+        },
+        "Avocado+": {
+          "title": "Avocado+",
+          "description": "Avocado, Kale, Lemon, Banana"
+        },
+        "Broccoli+": {
+          "title": "Broccoli+",
+          "description": "Broccoli, Celery, Spinach, Banana, Pineapple"
+        }
+      },
+      "milkshakes": {
+        "Strawberry": {
+          "title": "Strawberry",
+          "description": "Milk, Frozen Strawberries and Vanilla Ice Cream",
+          "price": "50"
+        },
+        "Vanilla": {
+          "title": "Vanilla",
+          "description": "Milk, Vanilla and Vanilla Ice Cream",
+          "price": "45"
+        },
+        "Blueberry": {
+          "title": "Blueberry",
+          "description": "Milk, Frozen Blueberries and Vanilla Ice Cream",
+          "price": "50"
+        },
+        "Chocolate": {
+          "title": "Chocolate",
+          "description": "Milk and Chocolate Ice Cream",
+          "price": "45"
+        },
+        "Coffee": {
+          "title": "Coffee",
+          "description": "Milk, a simple Espresso and Vanilla Ice Cream",
+          "price": "55"
+        }
+      }
+    }
   },
   "news": {
     "title": "News",
