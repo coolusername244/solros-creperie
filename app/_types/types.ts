@@ -81,7 +81,7 @@ export type locales = {
 
 export type Hero = {
   title: string;
-  slug: string;
+  slug?: string;
   image: StaticImageData;
 };
 
