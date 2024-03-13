@@ -45,177 +45,177 @@
   },
   "food": {
     "galettes": {
-      "HamHarmony": {
+      "hamHarmony": {
         "title": "HamHarmony",
         "description": "Emmentaler, Skinka, Tomat, Isbergssallad",
         "price": "140"
       },
-      "ChickNCherry": {
+      "chickNCherry": {
         "title": "ChickNCherry",
         "description": "Emmentaler, Kyckling, Salladsmix, Körsbärstomater",
         "price": "140"
       },
-      "EggElegy": {
+      "eggElegy": {
         "title": "EggElegy",
         "description": "Emmentaler, Bacon, Ägg, Svart peppar, Isbergssallad, Gräslök",
         "price": "140"
       },
-      "MozzaMix": {
+      "mozzaMix": {
         "title": "MozzaMix",
         "description": "Salladsmix, Mozzarella, Pesto, Tomat",
         "price": "130"
       },
-      "BrieBravado": {
+      "brieBravado": {
         "title": "BrieBravado",
         "description": "Prosciutto, Brieost, Tomat, Torkade tomater, Salladsmix",
         "price": "160"
       },
-      "GuacaGlow": {
+      "guacaGlow": {
         "title": "GuacaGlow",
         "description": "Gravad Lax, Hemlagad Guacamole, Avokado, Tomat, Rödlök, Citron, Salt, Svart Peppar, Groddar, Salladsmix",
         "price": "160"
       },
-      "GreenTango": {
+      "greenTango": {
         "title": "GreenTango",
         "description": "Emmentaler, Avokado, Salladsmix, Tomat, Groddar",
         "price": "140"
       },
-      "CheeseFiesta": {
+      "cheeseFiesta": {
         "title": "CheeseFiesta",
         "description": "Emmentaler, Cream Cheese, Mozzarella, Halloumi, Salladsmix",
         "price": "160"
       },
-      "PearlyBoo": {
+      "pearlyBoo": {
         "title": "PearlyBoo",
         "description": "Avocado, Tomat, Gul Paprika, Burrata, Pesto, Groddar",
         "price": "160"
       }
     },
     "sweet-crepes": {
-      "ChocoBana": {
+      "chocoBana": {
         "title": "ChocoBana",
         "description": "Banan, Nutella, Vispgrädde, Fruktsås",
         "price": "110"
       },
-      "MonLemon": {
+      "monLemon": {
         "title": "MonLemon",
         "description": "Smör, Citron, Rörsocker, Myntablad",
         "price": "90"
       },
-      "WhiteDelight": {
+      "whiteDelight": {
         "title": "WhiteDelight",
         "description": "Jordgubbar eller Blåbär, Vit Choklad, Vispgrädde",
         "price": "120"
       },
-      "CreamyBerry": {
+      "creamyBerry": {
         "title": "CreamyBerry",
         "description": "Cream Cheese, Jordgubbs eller Blåbärssylt, Vit Choklad Sås, Jordgubb eller blåbär, Hackade Mandlar",
         "price": "130"
       },
-      "Frutti-di-Keso": {
+      "fruttiDiKeso": {
         "title": "Frutti di Keso",
         "description": "Keso, Russin, Vanilj, Fruktsås",
         "price": "130"
       },
-      "AppleMaple": {
+      "appleMaple": {
         "title": "AppleMaple",
         "description": "Smör, Äppelmos, Lönnsirap, Kanel, Pekannötter",
         "price": "120"
       },
-      "Orange-Bliss": {
+      "orangeBliss": {
         "title": "Orange Bliss",
         "description": "Smör, Apelsinmarmelad, Kolasås, Vaniljglass",
         "price": "130"
       },
-      "HoneyBana": {
+      "honeyBana": {
         "title": "HoneyBana",
         "description": "Emmentaler, Banan, Honung, Hackade Mandlar",
         "price": "130"
       }
     },
     "toasts-and-paninis": {
-      "Ost-and-Skinka": {
+      "cheeseAndHam": {
         "title": "Ost & Skinka",
         "description": "Emmentaler, Skinka, Tomat, Spenat"
       },
-      "Ost-and-Kyckling": {
+      "cheeseAndChicken": {
         "title": "Ost & Kyckling",
         "description": "Emmentaler, Isbergsallad, Kyckling, Ränch-sås"
       },
-      "Mozzarella-and-Pesto": {
+      "mozzarellaAndPesto": {
         "title": "Mozzarella & Pesto",
         "description": "Mozzarella, Pesto, Tomat, Spenat"
       },
-      "Avokado-and-Pesto": {
+      "avocadoAndPesto": {
         "title": "Avokado & Pesto",
         "description": "Emmentaler, Pesto, Avokado, Spenat"
       }
     },
     "coffee-and-tea": {
-      "Espresso": {
+      "espresso": {
         "title": "Espresso",
         "price": "35 / 40"
       },
-      "Latte": {
+      "latte": {
         "title": "Latte",
         "price": "50 / 60"
       },
-      "Cappuccino": {
+      "cappuccino": {
         "title": "Cappuccino",
         "price": "55"
       },
-      "Americano": {
+      "americano": {
         "title": "Americano",
         "price": "45"
       },
-      "Flat-White": {
+      "flatWhite": {
         "title": "Flat White",
         "price": "55"
       },
-      "Cortado": {
+      "cortado": {
         "title": "Cortado",
         "price": "55"
       },
-      "Latte-Macchiato": {
+      "latteMacchiato": {
         "title": "Latte Macchiato",
         "price": "55"
       },
-      "Kaffe-Mocca": {
+      "kaffeMocca": {
         "title": "Kaffe Mocca",
         "price": "60"
       },
-      "Bryggkaffe": {
+      "filterCoffee": {
         "title": "Bryggkaffe",
         "price": "35 / 45"
       },
-      "Chai-Latte": {
+      "chaiLatte": {
         "title": "Chai Latte",
         "price": "50 / 60"
       },
-      "Dirty-Chai-Latte": {
+      "dirtyChaiLatte": {
         "title": "Dirty Chai Latte",
         "price": "60 / 70"
       },
-      "Varm-Choklad": {
+      "hotChocolate": {
         "title": "Varm Choklad",
         "price": "55"
       },
-      "Matcha-Latte": {
+      "matchaLatte": {
         "title": "Matcha Latte",
         "price": "55 / 65"
       },
-      "Te": {
+      "tea": {
         "title": "Te (Olika Smaker)",
         "price": "35"
       }
     },
     "kids-menu": {
-      "SuperHero": {
+      "superHero": {
         "title": "SuperHero",
         "description": "Mini galett med emmentaler, skinka och Ranch dressing",
         "price": "75"
       },
-      "CrepeKid": {
+      "crepeKid": {
         "title": "CrepeKid",
         "description": "en söt crêpe med en fyllning: Nutella, banan, sylt, vaniljglass och valfri sås",
         "price": "75"
@@ -223,53 +223,53 @@
     },
     "other-drinks": {
       "smoothies": {
-        "Kiwi+": {
+        "kiwi": {
           "title": "Kiwi+",
           "description": "Kiwi, Jordgubb, Ananas, Mango"
         },
-        "Beet+": {
+        "beet": {
           "title": "Beet+",
           "description": "Rödbeta, Banan, Hallon"
         },
-        "Acai+": {
+        "acai": {
           "title": "Acai+",
           "description": "Acai, blåbär, Mango, Jorgubb"
         },
-        "Mango+": {
+        "mango": {
           "title": "Mango+",
           "description": "Mango, Passionsfrukt, Ananas"
         },
-        "Avocado+": {
+        "avocado": {
           "title": "Avocado+",
           "description": "Avokado, Grönkål, Citron, Banan"
         },
-        "Broccoli+": {
+        "broccoli": {
           "title": "Broccoli+",
           "description": "Broccoli, Selleri, Spenat, Banan, Ananas"
         }
       },
       "milkshakes": {
-        "Strawberry": {
+        "strawberry": {
           "title": "Strawberry",
           "description": "Mjölk, Frysta Jordgubbar och Vaniljglass",
           "price": "50"
         },
-        "Vanilla": {
+        "vanilla": {
           "title": "Vanilla",
           "description": "Mjölk, Vanilj och Vaniljglass",
           "price": "45"
         },
-        "Blueberry": {
+        "blueberry": {
           "title": "Blueberry",
           "description": "Mjölk, Frysta Blåbär och Vaniljglass",
           "price": "50"
         },
-        "Chocolate": {
+        "chocolate": {
           "title": "Chocolate",
           "description": "Mjölk och Chokladglass",
           "price": "45"
         },
-        "Coffee": {
+        "coffee": {
           "title": "Coffee",
           "description": "Mjölk, en enkel Espresso och Vaniljglass",
           "price": "55"
