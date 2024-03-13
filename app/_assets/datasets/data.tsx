@@ -11,10 +11,38 @@ import {
   OpenTime,
   SocialLink,
 } from '@/_types/types';
+
+import hamHarmony from '@/_assets/images/food/galettes/hamHarmony.jpg';
+import guacaGlow from '@/_assets/images/food/galettes/guacaGlow.jpg';
+import greenTango from '@/_assets/images/food/galettes/greenTango.jpg';
+import brieBravado from '@/_assets/images/food/galettes/brieBravado.jpg';
+import chickNCherry from '@/_assets/images/food/galettes/chickNCherry.jpg';
+import cheeseFiesta from '@/_assets/images/food/galettes/cheeseFiesta.jpg';
+import mozzaMix from '@/_assets/images/food/galettes/mozzaMix.jpg';
+import eggElegy from '@/_assets/images/food/galettes/eggElegy.jpg';
+import pearlyBoo from '@/_assets/images/food/galettes/pearlyBoo.jpg';
+
+import chocoBana from '@/_assets/images/food/crepes/chocoBana.jpg';
+import monLemon from '@/_assets/images/food/crepes/monLemon.jpg';
+import whiteDelight from '@/_assets/images/food/crepes/whiteDelight.jpg';
+import fruttiDiKeso from '@/_assets/images/food/crepes/fruttiDiKeso.jpg';
+import creamyBerry from '@/_assets/images/food/crepes/creamyBerry.jpg';
+import appleMaple from '@/_assets/images/food/crepes/appleMaple.jpg';
+import orangeBliss from '@/_assets/images/food/crepes/orangeBliss.jpg';
+import honeyBana from '@/_assets/images/food/crepes/honeyBana.jpg';
+
+import cheeseAndHam from '@/_assets/images/food/paninis/cheeseAndHam.jpg';
+import mozzarellaAndPesto from '@/_assets/images/food/paninis/mozzarellaAndPesto.jpg';
+import cheeseAndChicken from '@/_assets/images/food/paninis/cheeseAndChicken.jpg';
+import avocadoAndPesto from '@/_assets/images/food/paninis/avocadoAndPesto.jpg';
+
 import smoothie1 from '@/_assets/images/drinks/smoothies/smoothie-1.jpg';
-import galette1 from '@/_assets/images/food/galettes/galette-1.jpg';
-import pancake1 from '@/_assets/images/food/pancakes/pancake-1.jpg';
-import panini1 from '@/_assets/images/food/paninis/panini-1.jpg';
+
+import strawberry from '@/_assets/images/drinks/milkshakes/strawberry.jpg';
+import chocolate from '@/_assets/images/drinks/milkshakes/chocolate.jpg';
+import coffee from '@/_assets/images/drinks/milkshakes/coffee.jpg';
+import blueberry from '@/_assets/images/drinks/milkshakes/blueberry.jpg';
+
 import coffee1 from '@/_assets/images/drinks/coffee/coffee-4.jpg';
 
 export const socialLinks: SocialLink[] = [
@@ -104,22 +132,22 @@ export const menuHeros: Hero[] = [
   {
     title: 'menu.galettes.title',
     slug: 'menu.galettes.slug',
-    image: galette1,
+    image: hamHarmony,
   },
   {
     title: 'menu.crepes.title',
     slug: 'menu.crepes.slug',
-    image: pancake1,
+    image: chocoBana,
   },
   {
     title: 'menu.paninis.title',
     slug: 'menu.paninis.slug',
-    image: panini1,
+    image: cheeseAndHam,
   },
   {
     title: 'menu.kids.title',
     slug: 'menu.kids.slug',
-    image: panini1,
+    image: cheeseAndHam,
   },
   {
     title: 'menu.coffee-and-tea.title',
@@ -136,259 +164,284 @@ export const menuHeros: Hero[] = [
 export const offersHeros: Hero[] = [
   {
     title: 'offers.breakfast',
-    image: galette1,
+    image: hamHarmony,
   },
   {
     title: 'offers.lunch',
-    image: pancake1,
+    image: chocoBana,
   },
   {
     title: 'offers.monthly',
-    image: panini1,
+    image: cheeseAndHam,
   },
 ];
 
 export const newsHeros: Hero[] = [
   {
     title: 'news.offer-1-title',
-    image: galette1,
+    image: hamHarmony,
   },
   {
     title: 'news.offer-2-title',
-    image: pancake1,
+    image: chocoBana,
   },
 ];
 
 export const galetteItems: MenuItem[] = [
   {
-    title: 'HamHarmony.title',
-    description: 'HamHarmony.description',
-    price: 'HamHarmony.price',
+    title: 'hamHarmony.title',
+    description: 'hamHarmony.description',
+    price: 'hamHarmony.price',
+    image: hamHarmony,
   },
   {
-    title: 'ChickNCherry.title',
-    description: 'ChickNCherry.description',
-    price: 'ChickNCherry.price',
+    title: 'chickNCherry.title',
+    description: 'chickNCherry.description',
+    price: 'chickNCherry.price',
+    image: chickNCherry,
   },
   {
-    title: 'EggElegy.title',
-    description: 'EggElegy.description',
-    price: 'EggElegy.price',
+    title: 'eggElegy.title',
+    description: 'eggElegy.description',
+    price: 'eggElegy.price',
+    image: eggElegy,
   },
   {
-    title: 'MozzaMix.title',
-    description: 'MozzaMix.description',
-    price: 'MozzaMix.price',
+    title: 'mozzaMix.title',
+    description: 'mozzaMix.description',
+    price: 'mozzaMix.price',
+    image: mozzaMix,
   },
   {
-    title: 'BrieBravado.title',
-    description: 'BrieBravado.description',
-    price: 'BrieBravado.price',
+    title: 'brieBravado.title',
+    description: 'brieBravado.description',
+    price: 'brieBravado.price',
+    image: brieBravado,
   },
   {
-    title: 'GuacaGlow.title',
-    description: 'GuacaGlow.description',
-    price: 'GuacaGlow.price',
+    title: 'guacaGlow.title',
+    description: 'guacaGlow.description',
+    price: 'guacaGlow.price',
+    image: guacaGlow,
   },
   {
-    title: 'GreenTango.title',
-    description: 'GreenTango.description',
-    price: 'GreenTango.price',
+    title: 'greenTango.title',
+    description: 'greenTango.description',
+    price: 'greenTango.price',
+    image: greenTango,
   },
   {
-    title: 'CheeseFiesta.title',
-    description: 'CheeseFiesta.description',
-    price: 'CheeseFiesta.price',
+    title: 'cheeseFiesta.title',
+    description: 'cheeseFiesta.description',
+    price: 'cheeseFiesta.price',
+    image: cheeseFiesta,
   },
   {
-    title: 'PearlyBoo.title',
-    description: 'PearlyBoo.description',
-    price: 'PearlyBoo.price',
+    title: 'pearlyBoo.title',
+    description: 'pearlyBoo.description',
+    price: 'pearlyBoo.price',
+    image: pearlyBoo,
   },
 ];
 
 export const crepeItems: MenuItem[] = [
   {
-    title: 'ChocoBana.title',
-    description: 'ChocoBana.description',
-    price: 'ChocoBana.price',
+    title: 'chocoBana.title',
+    description: 'chocoBana.description',
+    price: 'chocoBana.price',
+    image: chocoBana,
   },
   {
-    title: 'MonLemon.title',
-    description: 'MonLemon.description',
-    price: 'MonLemon.price',
+    title: 'monLemon.title',
+    description: 'monLemon.description',
+    price: 'monLemon.price',
+    image: monLemon,
   },
   {
-    title: 'WhiteDelight.title',
-    description: 'WhiteDelight.description',
-    price: 'WhiteDelight.price',
+    title: 'whiteDelight.title',
+    description: 'whiteDelight.description',
+    price: 'whiteDelight.price',
+    image: whiteDelight,
   },
   {
-    title: 'CreamyBerry.title',
-    description: 'CreamyBerry.description',
-    price: 'CreamyBerry.price',
+    title: 'creamyBerry.title',
+    description: 'creamyBerry.description',
+    price: 'creamyBerry.price',
+    image: creamyBerry,
   },
   {
-    title: 'Frutti-di-Keso.title',
-    description: 'Frutti-di-Keso.description',
-    price: 'Frutti-di-Keso.price',
+    title: 'fruttiDiKeso.title',
+    description: 'fruttiDiKeso.description',
+    price: 'fruttiDiKeso.price',
+    image: fruttiDiKeso,
   },
   {
-    title: 'AppleMaple.title',
-    description: 'AppleMaple.description',
-    price: 'AppleMaple.price',
+    title: 'appleMaple.title',
+    description: 'appleMaple.description',
+    price: 'appleMaple.price',
+    image: appleMaple,
   },
   {
-    title: 'Orange-Bliss.title',
-    description: 'Orange-Bliss.description',
-    price: 'Orange-Bliss.price',
+    title: 'orangeBliss.title',
+    description: 'orangeBliss.description',
+    price: 'orangeBliss.price',
+    image: orangeBliss,
   },
   {
-    title: 'HoneyBana.title',
-    description: 'HoneyBana.description',
-    price: 'HoneyBana.price',
+    title: 'honeyBana.title',
+    description: 'honeyBana.description',
+    price: 'honeyBana.price',
+    image: honeyBana,
   },
 ];
 
 export const toastItems: MenuItem[] = [
   {
-    title: 'Ost-and-Skinka.title',
-    description: 'Ost-and-Skinka.description',
+    title: 'cheeseAndHam.title',
+    description: 'cheeseAndHam.description',
+    image: cheeseAndHam,
   },
   {
-    title: 'Ost-and-Kyckling.title',
-    description: 'Ost-and-Kyckling.description',
+    title: 'cheeseAndChicken.title',
+    description: 'cheeseAndChicken.description',
+    image: cheeseAndChicken,
   },
   {
-    title: 'Mozzarella-and-Pesto.title',
-    description: 'Mozzarella-and-Pesto.description',
+    title: 'mozzarellaAndPesto.title',
+    description: 'mozzarellaAndPesto.description',
+    image: mozzarellaAndPesto,
   },
   {
-    title: 'Avokado-and-Pesto.title',
-    description: 'Avokado-and-Pesto.description',
+    title: 'avocadoAndPesto.title',
+    description: 'avocadoAndPesto.description',
+    image: avocadoAndPesto,
   },
 ];
 
 export const kidsItems: MenuItem[] = [
   {
-    title: 'SuperHero.title',
-    description: 'SuperHero.description',
-    price: 'SuperHero.price',
+    title: 'superHero.title',
+    description: 'superHero.description',
+    price: 'superHero.price',
   },
   {
-    title: 'CrepeKid.title',
-    description: 'CrepeKid.description',
-    price: 'CrepeKid.price',
+    title: 'crepeKid.title',
+    description: 'crepeKid.description',
+    price: 'crepeKid.price',
   },
 ];
 
 export const coffeeTeaItems: MenuItem[] = [
   {
-    title: 'Espresso.title',
-    price: 'Espresso.price',
+    title: 'espresso.title',
+    price: 'espresso.price',
   },
   {
-    title: 'Latte.title',
-    price: 'Latte.price',
+    title: 'latte.title',
+    price: 'latte.price',
   },
   {
-    title: 'Cappuccino.title',
-    price: 'Cappuccino.price',
+    title: 'cappuccino.title',
+    price: 'cappuccino.price',
   },
   {
-    title: 'Americano.title',
-    price: 'Americano.price',
+    title: 'americano.title',
+    price: 'americano.price',
   },
   {
-    title: 'Flat-White.title',
-    price: 'Flat-White.price',
+    title: 'flatWhite.title',
+    price: 'flatWhite.price',
   },
   {
-    title: 'Cortado.title',
-    price: 'Cortado.price',
+    title: 'cortado.title',
+    price: 'cortado.price',
   },
   {
-    title: 'Latte-Macchiato.title',
-    price: 'Latte-Macchiato.price',
+    title: 'latteMacchiato.title',
+    price: 'latteMacchiato.price',
   },
   {
-    title: 'Kaffe-Mocca.title',
-    price: 'Kaffe-Mocca.price',
+    title: 'kaffeMocca.title',
+    price: 'kaffeMocca.price',
   },
   {
-    title: 'Bryggkaffe.title',
-    price: 'Bryggkaffe.price',
+    title: 'filterCoffee.title',
+    price: 'filterCoffee.price',
   },
   {
-    title: 'Chai-Latte.title',
-    price: 'Chai-Latte.price',
+    title: 'chaiLatte.title',
+    price: 'chaiLatte.price',
   },
   {
-    title: 'Dirty-Chai-Latte.title',
-    price: 'Dirty-Chai-Latte.price',
+    title: 'dirtyChaiLatte.title',
+    price: 'dirtyChaiLatte.price',
   },
   {
-    title: 'Varm-Choklad.title',
-    price: 'Varm-Choklad.price',
+    title: 'hotChocolate.title',
+    price: 'hotChocolate.price',
   },
   {
-    title: 'Matcha-Latte.title',
-    price: 'Matcha-Latte.price',
+    title: 'matchaLatte.title',
+    price: 'matchaLatte.price',
   },
   {
-    title: 'Te.title',
-    price: 'Te.price',
+    title: 'tea.title',
+    price: 'tea.price',
   },
 ];
 
 export const otherItems: MenuItem[] = [
   {
-    title: 'smoothies.Kiwi+.title',
-    description: 'smoothies.Kiwi+.description',
+    title: 'smoothies.kiwi.title',
+    description: 'smoothies.kiwi.description',
   },
   {
-    title: 'smoothies.Beet+.title',
-    description: 'smoothies.Beet+.description',
+    title: 'smoothies.beet.title',
+    description: 'smoothies.beet.description',
   },
   {
-    title: 'smoothies.Acai+.title',
-    description: 'smoothies.Acai+.description',
+    title: 'smoothies.acai.title',
+    description: 'smoothies.acai.description',
   },
   {
-    title: 'smoothies.Mango+.title',
-    description: 'smoothies.Mango+.description',
+    title: 'smoothies.mango.title',
+    description: 'smoothies.mango.description',
   },
   {
-    title: 'smoothies.Avocado+.title',
-    description: 'smoothies.Avocado+.description',
+    title: 'smoothies.avocado.title',
+    description: 'smoothies.avocado.description',
   },
   {
-    title: 'smoothies.Broccoli+.title',
-    description: 'smoothies.Broccoli+.description',
+    title: 'smoothies.broccoli.title',
+    description: 'smoothies.broccoli.description',
   },
   {
-    title: 'milkshakes.Strawberry.title',
-    description: 'milkshakes.Strawberry.description',
-    price: 'milkshakes.Strawberry.price',
+    title: 'milkshakes.strawberry.title',
+    description: 'milkshakes.strawberry.description',
+    price: 'milkshakes.strawberry.price',
+    image: strawberry,
   },
   {
-    title: 'milkshakes.Vanilla.title',
-    description: 'milkshakes.Vanilla.description',
-    price: 'milkshakes.Vanilla.price',
+    title: 'milkshakes.vanilla.title',
+    description: 'milkshakes.vanilla.description',
+    price: 'milkshakes.vanilla.price',
   },
   {
-    title: 'milkshakes.Blueberry.title',
-    description: 'milkshakes.Blueberry.description',
-    price: 'milkshakes.Blueberry.price',
+    title: 'milkshakes.blueberry.title',
+    description: 'milkshakes.blueberry.description',
+    price: 'milkshakes.blueberry.price',
+    image: blueberry,
   },
   {
-    title: 'milkshakes.Chocolate.title',
-    description: 'milkshakes.Chocolate.description',
-    price: 'milkshakes.Chocolate.price',
+    title: 'milkshakes.chocolate.title',
+    description: 'milkshakes.chocolate.description',
+    price: 'milkshakes.chocolate.price',
+    image: chocolate,
   },
   {
-    title: 'milkshakes.Coffee.title',
-    description: 'milkshakes.Coffee.description',
-    price: 'milkshakes.Coffee.price',
+    title: 'milkshakes.coffee.title',
+    description: 'milkshakes.coffee.description',
+    price: 'milkshakes.coffee.price',
+    image: coffee,
   },
 ];
