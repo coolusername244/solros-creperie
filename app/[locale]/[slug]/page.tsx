@@ -1,5 +1,7 @@
 import React from 'react';
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+
 import {
   galetteItems,
   crepeItems,
@@ -72,6 +74,14 @@ const MenuCategoryItems = ({ params }: { params: { slug: string } }) => {
           <p key={i}>{t(item.title)}</p>
           {item.description && <p>{t(item.description)}</p>}
           {item.price && <p>{t(item.price)}</p>}
+          {item.image && (
+            <Image
+              src={item.image.src}
+              alt={item.title}
+              width={100}
+              height={100}
+            />
+          )}
         </>
       ))}
     </main>
