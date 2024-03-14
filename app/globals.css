@@ -60,6 +60,12 @@
   @apply bg-[#EDFFEE];
 }
 
+.section-heading {
+  @apply font-bold
+  text-2xl
+  pb-3;
+}
+
 .about-text {
   @apply pb-6 
   tracking-wide;
@@ -73,12 +79,6 @@
   justify-center
   items-center
   tracking-wider;
-}
-
-.contact-heading {
-  @apply font-bold
-  text-2xl
-  pb-3;
 }
 
 .contact-grid {
