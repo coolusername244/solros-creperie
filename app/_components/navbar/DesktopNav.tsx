@@ -13,9 +13,9 @@ type NavProps = {
 
 const DesktopNav: FC<NavProps> = ({ closeNavItemsHandler }) => {
   return (
-    <nav className="navbar hidden xl:flex xl:fixed xl:top-0 xl:w-full bg-white z-50 light-mint">
+    <nav className="navbar hidden xl:flex xl:fixed xl:top-0 xl:w-full bg-white z-50 light-mint bg-[#EDFFEE]">
       <div className="navbar-section">
-        <div className="h-1/2 border-b border-[#e2ae01] flex items-center">
+        <div className="h-1/2 border-b border-slate-500 flex items-center">
           {socialLinks.map((socialLink, i) => (
             <Social
               key={i}
@@ -46,7 +46,7 @@ const DesktopNav: FC<NavProps> = ({ closeNavItemsHandler }) => {
         priority
       />
       <div className="navbar-section">
-        <section className="h-1/2 border-b flex items-center justify-end">
+        <section className="h-1/2 border-b border-slate-500 flex items-center justify-end">
           <LanguageSelector />
         </section>
         <section className="h-1/2">
