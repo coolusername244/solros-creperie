@@ -38,7 +38,7 @@ const ShowcaseImage: FC<ShowcaseImageProps> = ({ heros, eager }) => {
             loading={eager ? 'eager' : 'lazy'}
             className="rounded-md group-hover:scale-110 transition-transform"
           />
-          <div className="cursor-pointer absolute inset-0 flex items-center justify-center bg-black bg-opacity-20 rounded-md hover:bg-opacity-40 transition duration-300">
+          <div className="cursor-pointer absolute inset-0 flex items-center justify-center bg-black bg-opacity-10 rounded-md hover:bg-opacity-30 transition duration-300">
             <h2 className="text-white text-3xl font-bold tracking-wide group-hover:tracking-widest transition-all">
               {t(hero.title)}
             </h2>
