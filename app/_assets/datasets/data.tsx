@@ -12,29 +12,53 @@ import {
   SocialLink,
 } from '@/_types/types';
 
-import hamHarmony from '@/_assets/images/food/galettes/hamHarmony.jpg';
-import guacaGlow from '@/_assets/images/food/galettes/guacaGlow.jpg';
-import greenTango from '@/_assets/images/food/galettes/greenTango.jpg';
-import brieBravado from '@/_assets/images/food/galettes/brieBravado.jpg';
-import chickNCherry from '@/_assets/images/food/galettes/chickNCherry.jpg';
-import cheeseFiesta from '@/_assets/images/food/galettes/cheeseFiesta.jpg';
-import mozzaMix from '@/_assets/images/food/galettes/mozzaMix.jpg';
-import eggElegy from '@/_assets/images/food/galettes/eggElegy.jpg';
-import pearlyBoo from '@/_assets/images/food/galettes/pearlyBoo.jpg';
+import hamHarmonyLarge from '@/_assets/images/food/galettes/large/hamHarmony.jpg';
+import guacaGlowLarge from '@/_assets/images/food/galettes/large/guacaGlow.jpg';
+import greenTangoLarge from '@/_assets/images/food/galettes/large/greenTango.jpg';
+import brieBravadoLarge from '@/_assets/images/food/galettes/large/brieBravado.jpg';
+import chickNCherryLarge from '@/_assets/images/food/galettes/large/chickNCherry.jpg';
+import cheeseFiestaLarge from '@/_assets/images/food/galettes/large/cheeseFiesta.jpg';
+import mozzaMixLarge from '@/_assets/images/food/galettes/large/mozzaMix.jpg';
+import eggElegyLarge from '@/_assets/images/food/galettes/large/eggElegy.jpg';
+import pearlyBooLarge from '@/_assets/images/food/galettes/large/pearlyBoo.jpg';
 
-import chocoBana from '@/_assets/images/food/crepes/chocoBana.jpg';
-import monLemon from '@/_assets/images/food/crepes/monLemon.jpg';
-import whiteDelight from '@/_assets/images/food/crepes/whiteDelight.jpg';
-import fruttiDiKeso from '@/_assets/images/food/crepes/fruttiDiKeso.jpg';
-import creamyBerry from '@/_assets/images/food/crepes/creamyBerry.jpg';
-import appleMaple from '@/_assets/images/food/crepes/appleMaple.jpg';
-import orangeBliss from '@/_assets/images/food/crepes/orangeBliss.jpg';
-import honeyBana from '@/_assets/images/food/crepes/honeyBana.jpg';
+import hamHarmonySmall from '@/_assets/images/food/galettes/small/hamHarmony.jpg';
+import guacaGlowSmall from '@/_assets/images/food/galettes/small/guacaGlow.jpg';
+import greenTangoSmall from '@/_assets/images/food/galettes/small/greenTango.jpg';
+import brieBravadoSmall from '@/_assets/images/food/galettes/small/brieBravado.jpg';
+import chickNCherrySmall from '@/_assets/images/food/galettes/small/chickNCherry.jpg';
+import cheeseFiestaSmall from '@/_assets/images/food/galettes/small/cheeseFiesta.jpg';
+import mozzaMixSmall from '@/_assets/images/food/galettes/small/mozzaMix.jpg';
+import eggElegySmall from '@/_assets/images/food/galettes/small/eggElegy.jpg';
+import pearlyBooSmall from '@/_assets/images/food/galettes/small/pearlyBoo.jpg';
 
-import cheeseAndHam from '@/_assets/images/food/paninis/cheeseAndHam.jpg';
-import mozzarellaAndPesto from '@/_assets/images/food/paninis/mozzarellaAndPesto.jpg';
-import cheeseAndChicken from '@/_assets/images/food/paninis/cheeseAndChicken.jpg';
-import avocadoAndPesto from '@/_assets/images/food/paninis/avocadoAndPesto.jpg';
+import chocoBanaLarge from '@/_assets/images/food/crepes/large/chocoBana.jpg';
+import monLemonLarge from '@/_assets/images/food/crepes/large/monLemon.jpg';
+import whiteDelightLarge from '@/_assets/images/food/crepes/large/whiteDelight.jpg';
+import fruttiDiKesoLarge from '@/_assets/images/food/crepes/large/fruttiDiKeso.jpg';
+import creamyBerryLarge from '@/_assets/images/food/crepes/large/creamyBerry.jpg';
+import appleMapleLarge from '@/_assets/images/food/crepes/large/appleMaple.jpg';
+import orangeBlissLarge from '@/_assets/images/food/crepes/large/orangeBliss.jpg';
+import honeyBanaLarge from '@/_assets/images/food/crepes/large/honeyBana.jpg';
+
+import chocoBanaSmall from '@/_assets/images/food/crepes/small/chocoBana.jpg';
+import monLemonSmall from '@/_assets/images/food/crepes/small/monLemon.jpg';
+import whiteDelightSmall from '@/_assets/images/food/crepes/small/whiteDelight.jpg';
+import fruttiDiKesoSmall from '@/_assets/images/food/crepes/small/fruttiDiKeso.jpg';
+import creamyBerrySmall from '@/_assets/images/food/crepes/small/creamyBerry.jpg';
+import appleMapleSmall from '@/_assets/images/food/crepes/small/appleMaple.jpg';
+import orangeBlissSmall from '@/_assets/images/food/crepes/small/orangeBliss.jpg';
+import honeyBanaSmall from '@/_assets/images/food/crepes/small/honeyBana.jpg';
+
+import cheeseAndHamLarge from '@/_assets/images/food/paninis/large/cheeseAndHam.jpg';
+import mozzarellaAndPestoLarge from '@/_assets/images/food/paninis/large/mozzarellaAndPesto.jpg';
+import cheeseAndChickenLarge from '@/_assets/images/food/paninis/large/cheeseAndChicken.jpg';
+import avocadoAndPestoLarge from '@/_assets/images/food/paninis/large/avocadoAndPesto.jpg';
+
+import cheeseAndHamSmall from '@/_assets/images/food/paninis/small/cheeseAndHam.jpg';
+import mozzarellaAndPestoSmall from '@/_assets/images/food/paninis/small/mozzarellaAndPesto.jpg';
+import cheeseAndChickenSmall from '@/_assets/images/food/paninis/small/cheeseAndChicken.jpg';
+import avocadoAndPestoSmall from '@/_assets/images/food/paninis/small/avocadoAndPesto.jpg';
 
 import smoothie1 from '@/_assets/images/drinks/smoothies/smoothie-1.jpg';
 
@@ -132,22 +156,22 @@ export const menuHeros: Hero[] = [
   {
     title: 'menu.galettes.title',
     slug: 'menu.galettes.slug',
-    image: hamHarmony,
+    image: hamHarmonyLarge,
   },
   {
     title: 'menu.crepes.title',
     slug: 'menu.crepes.slug',
-    image: chocoBana,
+    image: chocoBanaLarge,
   },
   {
     title: 'menu.paninis.title',
     slug: 'menu.paninis.slug',
-    image: cheeseAndHam,
+    image: cheeseAndHamLarge,
   },
   {
     title: 'menu.kids.title',
     slug: 'menu.kids.slug',
-    image: cheeseAndHam,
+    image: cheeseAndHamLarge,
   },
   {
     title: 'menu.coffee-and-tea.title',
@@ -164,26 +188,26 @@ export const menuHeros: Hero[] = [
 export const offersHeros: Hero[] = [
   {
     title: 'offers.breakfast',
-    image: hamHarmony,
+    image: hamHarmonyLarge,
   },
   {
     title: 'offers.lunch',
-    image: chocoBana,
+    image: chocoBanaLarge,
   },
   {
     title: 'offers.monthly',
-    image: cheeseAndHam,
+    image: cheeseAndHamLarge,
   },
 ];
 
 export const newsHeros: Hero[] = [
   {
     title: 'news.offer-1-title',
-    image: hamHarmony,
+    image: hamHarmonyLarge,
   },
   {
     title: 'news.offer-2-title',
-    image: chocoBana,
+    image: chocoBanaLarge,
   },
 ];
 
@@ -192,55 +216,64 @@ export const galetteItems: MenuItem[] = [
     title: 'hamHarmony.title',
     description: 'hamHarmony.description',
     price: 'hamHarmony.price',
-    image: hamHarmony,
+    imageLarge: hamHarmonyLarge,
+    imageSmall: hamHarmonySmall,
   },
   {
     title: 'chickNCherry.title',
     description: 'chickNCherry.description',
     price: 'chickNCherry.price',
-    image: chickNCherry,
+    imageLarge: chickNCherryLarge,
+    imageSmall: chickNCherrySmall,
   },
   {
     title: 'eggElegy.title',
     description: 'eggElegy.description',
     price: 'eggElegy.price',
-    image: eggElegy,
+    imageLarge: eggElegyLarge,
+    imageSmall: eggElegySmall,
   },
   {
     title: 'mozzaMix.title',
     description: 'mozzaMix.description',
     price: 'mozzaMix.price',
-    image: mozzaMix,
+    imageLarge: mozzaMixLarge,
+    imageSmall: mozzaMixSmall,
   },
   {
     title: 'brieBravado.title',
     description: 'brieBravado.description',
     price: 'brieBravado.price',
-    image: brieBravado,
+    imageLarge: brieBravadoLarge,
+    imageSmall: brieBravadoSmall,
   },
   {
     title: 'guacaGlow.title',
     description: 'guacaGlow.description',
     price: 'guacaGlow.price',
-    image: guacaGlow,
+    imageLarge: guacaGlowLarge,
+    imageSmall: guacaGlowSmall,
   },
   {
     title: 'greenTango.title',
     description: 'greenTango.description',
     price: 'greenTango.price',
-    image: greenTango,
+    imageLarge: greenTangoLarge,
+    imageSmall: greenTangoSmall,
   },
   {
     title: 'cheeseFiesta.title',
     description: 'cheeseFiesta.description',
     price: 'cheeseFiesta.price',
-    image: cheeseFiesta,
+    imageLarge: cheeseFiestaLarge,
+    imageSmall: cheeseFiestaSmall,
   },
   {
     title: 'pearlyBoo.title',
     description: 'pearlyBoo.description',
     price: 'pearlyBoo.price',
-    image: pearlyBoo,
+    imageLarge: pearlyBooLarge,
+    imageSmall: pearlyBooSmall,
   },
 ];
 
@@ -249,49 +282,57 @@ export const crepeItems: MenuItem[] = [
     title: 'chocoBana.title',
     description: 'chocoBana.description',
     price: 'chocoBana.price',
-    image: chocoBana,
+    imageLarge: chocoBanaLarge,
+    imageSmall: chocoBanaSmall,
   },
   {
     title: 'monLemon.title',
     description: 'monLemon.description',
     price: 'monLemon.price',
-    image: monLemon,
+    imageLarge: monLemonLarge,
+    imageSmall: monLemonSmall,
   },
   {
     title: 'whiteDelight.title',
     description: 'whiteDelight.description',
     price: 'whiteDelight.price',
-    image: whiteDelight,
+    imageLarge: whiteDelightLarge,
+    imageSmall: whiteDelightSmall,
   },
   {
     title: 'creamyBerry.title',
     description: 'creamyBerry.description',
     price: 'creamyBerry.price',
-    image: creamyBerry,
+    imageLarge: creamyBerryLarge,
+    imageSmall: creamyBerrySmall,
   },
   {
     title: 'fruttiDiKeso.title',
     description: 'fruttiDiKeso.description',
     price: 'fruttiDiKeso.price',
-    image: fruttiDiKeso,
+    imageLarge: fruttiDiKesoLarge,
+    imageSmall: fruttiDiKesoSmall,
   },
   {
     title: 'appleMaple.title',
     description: 'appleMaple.description',
     price: 'appleMaple.price',
-    image: appleMaple,
+    imageLarge: appleMapleLarge,
+    imageSmall: appleMapleSmall,
   },
   {
     title: 'orangeBliss.title',
     description: 'orangeBliss.description',
     price: 'orangeBliss.price',
-    image: orangeBliss,
+    imageLarge: orangeBlissLarge,
+    imageSmall: orangeBlissSmall,
   },
   {
     title: 'honeyBana.title',
     description: 'honeyBana.description',
     price: 'honeyBana.price',
-    image: honeyBana,
+    imageLarge: honeyBanaLarge,
+    imageSmall: honeyBanaSmall,
   },
 ];
 
@@ -299,22 +340,26 @@ export const toastItems: MenuItem[] = [
   {
     title: 'cheeseAndHam.title',
     description: 'cheeseAndHam.description',
-    image: cheeseAndHam,
+    imageLarge: cheeseAndHamLarge,
+    imageSmall: cheeseAndHamSmall,
   },
   {
     title: 'cheeseAndChicken.title',
     description: 'cheeseAndChicken.description',
-    image: cheeseAndChicken,
+    imageLarge: cheeseAndChickenLarge,
+    imageSmall: cheeseAndChickenSmall,
   },
   {
     title: 'mozzarellaAndPesto.title',
     description: 'mozzarellaAndPesto.description',
-    image: mozzarellaAndPesto,
+    imageLarge: mozzarellaAndPestoLarge,
+    imageSmall: mozzarellaAndPestoSmall,
   },
   {
     title: 'avocadoAndPesto.title',
     description: 'avocadoAndPesto.description',
-    image: avocadoAndPesto,
+    imageLarge: avocadoAndPestoLarge,
+    imageSmall: avocadoAndPestoSmall,
   },
 ];
 
@@ -419,7 +464,7 @@ export const otherItems: MenuItem[] = [
     title: 'milkshakes.strawberry.title',
     description: 'milkshakes.strawberry.description',
     price: 'milkshakes.strawberry.price',
-    image: strawberry,
+    imageLarge: strawberry,
   },
   {
     title: 'milkshakes.vanilla.title',
@@ -430,18 +475,18 @@ export const otherItems: MenuItem[] = [
     title: 'milkshakes.blueberry.title',
     description: 'milkshakes.blueberry.description',
     price: 'milkshakes.blueberry.price',
-    image: blueberry,
+    imageLarge: blueberry,
   },
   {
     title: 'milkshakes.chocolate.title',
     description: 'milkshakes.chocolate.description',
     price: 'milkshakes.chocolate.price',
-    image: chocolate,
+    imageLarge: chocolate,
   },
   {
     title: 'milkshakes.coffee.title',
     description: 'milkshakes.coffee.description',
     price: 'milkshakes.coffee.price',
-    image: coffee,
+    imageLarge: coffee,
   },
 ];
