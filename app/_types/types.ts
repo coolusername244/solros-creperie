@@ -93,5 +93,6 @@ export type MenuItem = {
   title: string;
   description?: string;
   price?: string;
-  image?: StaticImageData;
+  imageLarge?: StaticImageData;
+  imageSmall?: StaticImageData;
 };
