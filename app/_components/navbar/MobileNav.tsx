@@ -22,7 +22,7 @@ const MobileNav: FC<NavProps> = ({
   closeNavItemsHandler,
 }) => {
   return (
-    <nav className="navbar block fixed top-0 w-full z-50 light-mint xl:hidden">
+    <nav className="navbar block fixed top-0 w-full z-50 bg-[#EDFFEE] xl:hidden">
       <div className="flex flex-wrap items-center px-6 relative">
         <a href="#">
           <Image
