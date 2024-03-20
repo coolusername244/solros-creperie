@@ -4,8 +4,6 @@
 
 /* Navbar start */
 .navbar {
-  /* @apply border-b */
-  /* border-slate-500 */
   @apply lg:justify-between 
   lg:px-6;
 }
