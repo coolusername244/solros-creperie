@@ -4,9 +4,9 @@
 
 /* Navbar start */
 .navbar {
-  @apply border-b-2
-  border-[#38b137]
-  lg:justify-between 
+  /* @apply border-b */
+  /* border-slate-500 */
+  @apply lg:justify-between 
   lg:px-6;
 }
 
@@ -51,13 +51,7 @@
 /* Navbar end */
 
 .light-mint {
-  /* @apply bg-[#b6ffbb]; */
-  /* @apply bg-[#BFFFC3]; */
-  /* @apply bg-[#C8FFCC]; */
-  /* @apply bg-[#D1FFD4]; */
-  /* @apply bg-[#DBFFDD]; */
-  /* @apply bg-[#E4FFE5]; */
-  @apply bg-[#EDFFEE];
+  /* @apply bg-[#EDFFEE]; */
 }
 
 .section-heading {
