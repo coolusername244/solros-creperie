@@ -10,7 +10,7 @@ const Footer = () => {
 
   const year = getCurrentYear();
   return (
-    <footer className="light-mint text-center w-full p-4">
+    <footer className="light-mint text-center w-full p-4 bg-[#EDFFEE]">
       &#169; {year} - {t('copyright')}
     </footer>
   );
