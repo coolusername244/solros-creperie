@@ -8,7 +8,10 @@ import { MetaParams } from '@/_types/types';
 import Navbar from '@/_components/navbar/Navbar';
 import Footer from '@/_components/footer/Footer';
 
-const poppins = Poppins({ weight: '400', subsets: ['latin'] });
+const poppins = Poppins({
+  weight: ['400', '500', '600', '700', '800'],
+  subsets: ['latin'],
+});
 
 export async function generateMetadata({ params: { locale } }: MetaParams) {
   const t = await getTranslations({ locale, namespace: 'meta' });
