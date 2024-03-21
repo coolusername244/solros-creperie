@@ -91,8 +91,10 @@ export type AboutParagraph = {
 
 export type MenuItem = {
   title: string;
+  ingredients?: string;
   description?: string;
   price?: string;
+  allergy?: string;
   imageLarge?: StaticImageData;
   imageSmall?: StaticImageData;
 };
