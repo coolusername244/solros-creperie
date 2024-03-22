@@ -33,6 +33,7 @@ const ShowcaseImage: FC<ShowcaseImageProps> = ({ heros, eager }) => {
             src={hero.image}
             alt={t(hero.title)}
             fill={true}
+            placeholder="blur"
             sizes={sizes}
             style={{ objectFit: 'cover' }}
             loading={eager ? 'eager' : 'lazy'}
