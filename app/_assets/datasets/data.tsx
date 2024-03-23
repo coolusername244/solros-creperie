@@ -1,6 +1,7 @@
 import { FaInstagram } from 'react-icons/fa';
 import { FiPhone } from 'react-icons/fi';
 import { TfiEmail } from 'react-icons/tfi';
+import { Photo } from 'react-photo-album';
 
 import {
   AboutParagraph,
@@ -61,6 +62,10 @@ import cheeseAndChickenSmall from '@/_assets/images/food/paninis/small/cheeseAnd
 import avocadoAndPestoSmall from '@/_assets/images/food/paninis/small/avocadoAndPesto.jpg';
 
 import smoothie1 from '@/_assets/images/drinks/smoothies/smoothie-1.jpg';
+import smoothie2 from '@/_assets/images/drinks/smoothies/smoothie-2.jpg';
+import smoothie3 from '@/_assets/images/drinks/smoothies/smoothie-3.jpg';
+import smoothie4 from '@/_assets/images/drinks/smoothies/smoothie-4.jpg';
+import smoothie5 from '@/_assets/images/drinks/smoothies/smoothie-5.jpg';
 
 import strawberry from '@/_assets/images/drinks/milkshakes/strawberry.jpg';
 import chocolate from '@/_assets/images/drinks/milkshakes/chocolate.jpg';
@@ -68,6 +73,13 @@ import coffee from '@/_assets/images/drinks/milkshakes/coffee.jpg';
 import blueberry from '@/_assets/images/drinks/milkshakes/blueberry.jpg';
 
 import coffee1 from '@/_assets/images/drinks/coffee/coffee-1.jpg';
+import coffee2 from '@/_assets/images/drinks/coffee/coffee-2.jpg';
+import coffee3 from '@/_assets/images/drinks/coffee/coffee-3.jpg';
+import coffee4 from '@/_assets/images/drinks/coffee/coffee-4.jpg';
+import coffee5 from '@/_assets/images/drinks/coffee/coffee-5.jpg';
+import coffee6 from '@/_assets/images/drinks/coffee/coffee-6.jpg';
+import coffee7 from '@/_assets/images/drinks/coffee/coffee-7.jpg';
+import coffee8 from '@/_assets/images/drinks/coffee/coffee-8.jpg';
 
 export const socialLinks: SocialLink[] = [
   {
@@ -533,4 +545,79 @@ export const otherItems: MenuItem[] = [
     ingredients: 'milkshakes.coffee.ingredients',
     price: 'milkshakes.coffee.price',
   },
+];
+
+export const coffeeImages: Photo[] = [
+  {
+    src: coffee1.src,
+    width: coffee1.width,
+    height: coffee1.height,
+  },
+  {
+    src: coffee2.src,
+    width: coffee2.width,
+    height: coffee2.height,
+  },
+  {
+    src: coffee3.src,
+    width: coffee3.width,
+    height: coffee3.height,
+  },
+  {
+    src: coffee4.src,
+    width: coffee4.width,
+    height: coffee4.height,
+  },
+  {
+    src: coffee5.src,
+    width: coffee5.width,
+    height: coffee5.height,
+  },
+  {
+    src: coffee6.src,
+    width: coffee6.width,
+    height: coffee6.height,
+  },
+  {
+    src: coffee7.src,
+    width: coffee7.width,
+    height: coffee7.height,
+  },
+  {
+    src: coffee8.src,
+    width: coffee8.width,
+    height: coffee8.height,
+  },
+];
+
+export const otherDrinkImages: Photo[] = [
+  {
+    src: smoothie1.src,
+    width: smoothie1.width,
+    height: smoothie1.height,
+  },
+  {
+    src: smoothie2.src,
+    width: smoothie2.width,
+    height: smoothie2.height,
+  },
+  {
+    src: smoothie3.src,
+    width: smoothie3.width,
+    height: smoothie3.height,
+  },
+  {
+    src: smoothie4.src,
+    width: smoothie4.width,
+    height: smoothie4.height,
+  },
+  {
+    src: smoothie5.src,
+    width: smoothie5.width,
+    height: smoothie5.height,
+  },
+  { src: strawberry.src, width: strawberry.width, height: strawberry.height },
+  { src: chocolate.src, width: chocolate.width, height: chocolate.height },
+  { src: coffee.src, width: coffee.width, height: coffee.height },
+  { src: blueberry.src, width: blueberry.width, height: blueberry.height },
 ];
