@@ -53,7 +53,7 @@
 }
 
 .section-heading {
-  @apply font-bold
+  @apply font-medium
   text-2xl
   pb-3;
 }
