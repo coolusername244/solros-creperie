@@ -98,3 +98,8 @@ export type MenuItem = {
   imageLarge?: StaticImageData;
   imageSmall?: StaticImageData;
 };
+
+export type MenuLayoutProps = {
+  slug: string;
+  items: MenuItem[];
+};
