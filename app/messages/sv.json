@@ -47,108 +47,126 @@
     "galettes": {
       "hamHarmony": {
         "title": "HamHarmony",
-        "description": "Emmentaler, Skinka, Tomat, Isbergssallad",
-        "price": "140"
+        "ingredients": "Emmentaler, Skinka, Tomat, Isbergssallad",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "140",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "chickNCherry": {
         "title": "ChickNCherry",
-        "description": "Emmentaler, Kyckling, Salladsmix, Körsbärstomater",
-        "price": "140"
+        "ingredients": "Emmentaler, Kyckling, Salladsmix, Körsbärstomater",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "140",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "eggElegy": {
         "title": "EggElegy",
-        "description": "Emmentaler, Bacon, Ägg, Svart peppar, Isbergssallad, Gräslök",
-        "price": "140"
+        "ingredients": "Emmentaler, Bacon, Ägg, Svart peppar, Isbergssallad, Gräslök",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "140",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "mozzaMix": {
         "title": "MozzaMix",
-        "description": "Salladsmix, Mozzarella, Pesto, Tomat",
-        "price": "130"
+        "ingredients": "Salladsmix, Mozzarella, Pesto, Tomat",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "130",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "brieBravado": {
         "title": "BrieBravado",
-        "description": "Prosciutto, Brieost, Tomat, Torkade tomater, Salladsmix",
-        "price": "160"
+        "ingredients": "Prosciutto, Brieost, Tomat, Torkade tomater, Salladsmix",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "160",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "guacaGlow": {
         "title": "GuacaGlow",
-        "description": "Gravad Lax, Hemlagad Guacamole, Avokado, Tomat, Rödlök, Citron, Salt, Svart Peppar, Groddar, Salladsmix",
-        "price": "160"
+        "ingredients": "Gravad Lax, Hemlagad Guacamole, Avokado, Tomat, Rödlök, Citron, Salt, Svart Peppar, Groddar, Salladsmix",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "160",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "greenTango": {
         "title": "GreenTango",
-        "description": "Emmentaler, Avokado, Salladsmix, Tomat, Groddar",
-        "price": "140"
+        "ingredients": "Emmentaler, Avokado, Salladsmix, Tomat, Groddar",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "140",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "cheeseFiesta": {
         "title": "CheeseFiesta",
-        "description": "Emmentaler, Cream Cheese, Mozzarella, Halloumi, Salladsmix",
-        "price": "160"
+        "ingredients": "Emmentaler, Cream Cheese, Mozzarella, Halloumi, Salladsmix",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "160",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "pearlyBoo": {
         "title": "PearlyBoo",
-        "description": "Avocado, Tomat, Gul Paprika, Burrata, Pesto, Groddar",
-        "price": "160"
+        "ingredients": "Avocado, Tomat, Gul Paprika, Burrata, Pesto, Groddar",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "160",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       }
     },
     "sweet-crepes": {
       "chocoBana": {
         "title": "ChocoBana",
-        "description": "Banan, Nutella, Vispgrädde, Fruktsås",
+        "ingredients": "Banan, Nutella, Vispgrädde, Fruktsås",
         "price": "110"
       },
       "monLemon": {
         "title": "MonLemon",
-        "description": "Smör, Citron, Rörsocker, Myntablad",
+        "ingredients": "Smör, Citron, Rörsocker, Myntablad",
         "price": "90"
       },
       "whiteDelight": {
         "title": "WhiteDelight",
-        "description": "Jordgubbar eller Blåbär, Vit Choklad, Vispgrädde",
+        "ingredients": "Jordgubbar eller Blåbär, Vit Choklad, Vispgrädde",
         "price": "120"
       },
       "creamyBerry": {
         "title": "CreamyBerry",
-        "description": "Cream Cheese, Jordgubbs eller Blåbärssylt, Vit Choklad Sås, Jordgubb eller blåbär, Hackade Mandlar",
+        "ingredients": "Cream Cheese, Jordgubbs eller Blåbärssylt, Vit Choklad Sås, Jordgubb eller blåbär, Hackade Mandlar",
         "price": "130"
       },
       "fruttiDiKeso": {
         "title": "Frutti di Keso",
-        "description": "Keso, Russin, Vanilj, Fruktsås",
+        "ingredients": "Keso, Russin, Vanilj, Fruktsås",
         "price": "130"
       },
       "appleMaple": {
         "title": "AppleMaple",
-        "description": "Smör, Äppelmos, Lönnsirap, Kanel, Pekannötter",
+        "ingredients": "Smör, Äppelmos, Lönnsirap, Kanel, Pekannötter",
         "price": "120"
       },
       "orangeBliss": {
         "title": "Orange Bliss",
-        "description": "Smör, Apelsinmarmelad, Kolasås, Vaniljglass",
+        "ingredients": "Smör, Apelsinmarmelad, Kolasås, Vaniljglass",
         "price": "130"
       },
       "honeyBana": {
         "title": "HoneyBana",
-        "description": "Emmentaler, Banan, Honung, Hackade Mandlar",
+        "ingredients": "Emmentaler, Banan, Honung, Hackade Mandlar",
         "price": "130"
       }
     },
     "toasts-and-paninis": {
       "cheeseAndHam": {
         "title": "Ost & Skinka",
-        "description": "Emmentaler, Skinka, Tomat, Spenat"
+        "ingredients": "Emmentaler, Skinka, Tomat, Spenat"
       },
       "cheeseAndChicken": {
         "title": "Ost & Kyckling",
-        "description": "Emmentaler, Isbergsallad, Kyckling, Ränch-sås"
+        "ingredients": "Emmentaler, Isbergsallad, Kyckling, Ränch-sås"
       },
       "mozzarellaAndPesto": {
         "title": "Mozzarella & Pesto",
-        "description": "Mozzarella, Pesto, Tomat, Spenat"
+        "ingredients": "Mozzarella, Pesto, Tomat, Spenat"
       },
       "avocadoAndPesto": {
         "title": "Avokado & Pesto",
-        "description": "Emmentaler, Pesto, Avokado, Spenat"
+        "ingredients": "Emmentaler, Pesto, Avokado, Spenat"
       }
     },
     "coffee-and-tea": {
@@ -225,53 +243,53 @@
       "smoothies": {
         "kiwi": {
           "title": "Kiwi+",
-          "description": "Kiwi, Jordgubb, Ananas, Mango"
+          "ingredients": "Kiwi, Jordgubb, Ananas, Mango"
         },
         "beet": {
           "title": "Beet+",
-          "description": "Rödbeta, Banan, Hallon"
+          "ingredients": "Rödbeta, Banan, Hallon"
         },
         "acai": {
           "title": "Acai+",
-          "description": "Acai, blåbär, Mango, Jorgubb"
+          "ingredients": "Acai, blåbär, Mango, Jorgubb"
         },
         "mango": {
           "title": "Mango+",
-          "description": "Mango, Passionsfrukt, Ananas"
+          "ingredients": "Mango, Passionsfrukt, Ananas"
         },
         "avocado": {
           "title": "Avocado+",
-          "description": "Avokado, Grönkål, Citron, Banan"
+          "ingredients": "Avokado, Grönkål, Citron, Banan"
         },
         "broccoli": {
           "title": "Broccoli+",
-          "description": "Broccoli, Selleri, Spenat, Banan, Ananas"
+          "ingredients": "Broccoli, Selleri, Spenat, Banan, Ananas"
         }
       },
       "milkshakes": {
         "strawberry": {
           "title": "Strawberry",
-          "description": "Mjölk, Frysta Jordgubbar och Vaniljglass",
+          "ingredients": "Mjölk, Frysta Jordgubbar och Vaniljglass",
           "price": "50"
         },
         "vanilla": {
           "title": "Vanilla",
-          "description": "Mjölk, Vanilj och Vaniljglass",
+          "ingredients": "Mjölk, Vanilj och Vaniljglass",
           "price": "45"
         },
         "blueberry": {
           "title": "Blueberry",
-          "description": "Mjölk, Frysta Blåbär och Vaniljglass",
+          "ingredients": "Mjölk, Frysta Blåbär och Vaniljglass",
           "price": "50"
         },
         "chocolate": {
           "title": "Chocolate",
-          "description": "Mjölk och Chokladglass",
+          "ingredients": "Mjölk och Chokladglass",
           "price": "45"
         },
         "coffee": {
           "title": "Coffee",
-          "description": "Mjölk, en enkel Espresso och Vaniljglass",
+          "ingredients": "Mjölk, en enkel Espresso och Vaniljglass",
           "price": "55"
         }
       }

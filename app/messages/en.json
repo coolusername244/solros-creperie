@@ -47,108 +47,150 @@
     "galettes": {
       "hamHarmony": {
         "title": "HamHarmony",
-        "description": "Emmental, Ham, Tomato, Iceberg Lettuce",
-        "price": "140"
+        "ingredients": "Emmental, Ham, Tomato, Iceberg Lettuce",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "140",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "chickNCherry": {
         "title": "ChickNCherry",
-        "description": "Emmental, Chicken, Salad Mix, Cherry tomatoes",
-        "price": "140"
+        "ingredients": "Emmental, Chicken, Salad Mix, Cherry tomatoes",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "140",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "eggElegy": {
         "title": "EggElegy",
-        "description": "Emmental, Bacon, Egg, Black Pepper, Iceberg Lettuce, Chives",
-        "price": "140"
+        "ingredients": "Emmental, Bacon, Egg, Black Pepper, Iceberg Lettuce, Chives",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "140",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "mozzaMix": {
         "title": "MozzaMix",
-        "description": "Salad Mix, Mozzarella, Pesto, Tomato",
-        "price": "130"
+        "ingredients": "Salad Mix, Mozzarella, Pesto, Tomato",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "130",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "brieBravado": {
         "title": "BrieBravado",
-        "description": "Prosciutto, Brie, Tomato, Dried Tomatoes, Salad mix",
-        "price": "160"
+        "ingredients": "Prosciutto, Brie, Tomato, Dried Tomatoes, Salad mix",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "160",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "guacaGlow": {
         "title": "GuacaGlow",
-        "description": "Diced Salmon, Homemade Guacamole, Avocado, Tomato, Red Onion, Lemon, Salt, Black Pepper, Sprouts, Salad Mix",
-        "price": "160"
+        "ingredients": "Diced Salmon, Homemade Guacamole, Avocado, Tomato, Red Onion, Lemon, Salt, Black Pepper, Sprouts, Salad Mix",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "160",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "greenTango": {
         "title": "GreenTango",
-        "description": "Emmental, Avocado, Salad Mix, Tomato, Sprouts",
-        "price": "140"
+        "ingredients": "Emmental, Avocado, Salad Mix, Tomato, Sprouts",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "140",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "cheeseFiesta": {
         "title": "CheeseFiesta",
-        "description": "Emmental, Cream Cheese, Mozzarella, Halloumi, Salad Mix",
-        "price": "160"
+        "ingredients": "Emmental, Cream Cheese, Mozzarella, Halloumi, Salad Mix",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "160",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "pearlyBoo": {
         "title": "PearlyBoo",
-        "description": "Avocado, Tomato, Yellow Pepper, Burrata, Pesto, Sprouts",
-        "price": "160"
+        "ingredients": "Avocado, Tomato, Yellow Pepper, Burrata, Pesto, Sprouts",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "160",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       }
     },
     "sweet-crepes": {
       "chocoBana": {
         "title": "ChocoBana",
-        "description": "Banana, Nutella, Whipped cream, Fruit sauce",
-        "price": "110"
+        "ingredients": "Banana, Nutella, Whipped cream, Fruit sauce",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "110",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "monLemon": {
         "title": "MonLemon",
-        "description": "Butter, Lemon, Cane Sugar, Mint Leaves",
-        "price": "90"
+        "ingredients": "Butter, Lemon, Cane Sugar, Mint Leaves",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "90",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "whiteDelight": {
         "title": "WhiteDelight",
-        "description": "Strawberries or Blueberries, White Chocolate, Whipped Cream",
-        "price": "120"
+        "ingredients": "Strawberries or Blueberries, White Chocolate, Whipped Cream",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "120",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "creamyBerry": {
         "title": "CreamyBerry",
-        "description": "Cream Cheese, Strawberry or Blueberry Jam, White Chocolate Sauce, Strawberry or Blueberry, Chopped Almonds",
-        "price": "130"
+        "ingredients": "Cream Cheese, Strawberry or Blueberry Jam, White Chocolate Sauce, Strawberry or Blueberry, Chopped Almonds",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "130",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "fruttiDiKeso": {
         "title": "Frutti di Keso",
-        "description": "Cottage Cheese, Raisins, Vanilla, Fruit Sauce",
-        "price": "130"
+        "ingredients": "Cottage Cheese, Raisins, Vanilla, Fruit Sauce",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "130",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "appleMaple": {
         "title": "AppleMaple",
-        "description": "Butter, Apple Sauce, Maple Syrup, Cinnamon, Pecans",
-        "price": "120"
+        "ingredients": "Butter, Apple Sauce, Maple Syrup, Cinnamon, Pecans",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "120",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "orangeBliss": {
         "title": "Orange Bliss",
-        "description": "Butter, Orange Marmalade, Caramel Sauce, Vanilla Ice Cream",
-        "price": "130"
+        "ingredients": "Butter, Orange Marmalade, Caramel Sauce, Vanilla Ice Cream",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "130",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "honeyBana": {
         "title": "HoneyBana",
-        "description": "Emmental, Banana, Honey, Chopped Almonds",
-        "price": "130"
+        "ingredients": "Emmental, Banana, Honey, Chopped Almonds",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "130",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       }
     },
     "toasts-and-paninis": {
       "cheeseAndHam": {
         "title": "Cheese & Ham",
-        "description": "Emmental, Ham, Tomato, Spinach"
+        "ingredients": "Emmental, Ham, Tomato, Spinach",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "cheeseAndChicken": {
         "title": "Cheese & Chicken",
-        "description": "Emmental, Iceberg Lettuce, Chicken, Ranch Sauce"
+        "ingredients": "Emmental, Iceberg Lettuce, Chicken, Ranch Sauce",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "mozzarellaAndPesto": {
         "title": "Mozzarella & Pesto",
-        "description": "Mozzarella, Pesto, Tomato, Spinach"
+        "ingredients": "Mozzarella, Pesto, Tomato, Spinach",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "avocadoAndPesto": {
         "title": "Avocado & Pesto",
-        "description": "Emmental, Pesto, Avocado, Spinach"
+        "ingredients": "Emmental, Pesto, Avocado, Spinach",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       }
     },
     "coffee-and-tea": {
@@ -225,53 +267,59 @@
       "smoothies": {
         "kiwi": {
           "title": "Kiwi+",
-          "description": "Kiwi, Strawberry, Pineapple, Mango"
+          "ingredients": "Kiwi, Strawberry, Pineapple, Mango",
+          "price": "55"
         },
         "beet": {
           "title": "Beet+",
-          "description": "Beetroot, Banana, Raspberry"
+          "ingredients": "Beetroot, Banana, Raspberry",
+          "price": "55"
         },
         "acai": {
           "title": "Acai+",
-          "description": "Acai, Blueberry, Mango, Strawberry"
+          "ingredients": "Acai, Blueberry, Mango, Strawberry",
+          "price": "55"
         },
         "mango": {
           "title": "Mango+",
-          "description": "Mango, Passion Fruit, Pineapple"
+          "ingredients": "Mango, Passion Fruit, Pineapple",
+          "price": "55"
         },
         "avocado": {
           "title": "Avocado+",
-          "description": "Avocado, Kale, Lemon, Banana"
+          "ingredients": "Avocado, Kale, Lemon, Banana",
+          "price": "55"
         },
         "broccoli": {
           "title": "Broccoli+",
-          "description": "Broccoli, Celery, Spinach, Banana, Pineapple"
+          "ingredients": "Broccoli, Celery, Spinach, Banana, Pineapple",
+          "price": "55"
         }
       },
       "milkshakes": {
         "strawberry": {
           "title": "Strawberry",
-          "description": "Milk, Frozen Strawberries and Vanilla Ice Cream",
+          "ingredients": "Milk, Frozen Strawberries and Vanilla Ice Cream",
           "price": "50"
         },
         "vanilla": {
           "title": "Vanilla",
-          "description": "Milk, Vanilla and Vanilla Ice Cream",
+          "ingredients": "Milk, Vanilla and Vanilla Ice Cream",
           "price": "45"
         },
         "blueberry": {
           "title": "Blueberry",
-          "description": "Milk, Frozen Blueberries and Vanilla Ice Cream",
+          "ingredients": "Milk, Frozen Blueberries and Vanilla Ice Cream",
           "price": "50"
         },
         "chocolate": {
           "title": "Chocolate",
-          "description": "Milk and Chocolate Ice Cream",
+          "ingredients": "Milk and Chocolate Ice Cream",
           "price": "45"
         },
         "coffee": {
           "title": "Coffee",
-          "description": "Milk, a simple Espresso and Vanilla Ice Cream",
+          "ingredients": "Milk, a simple Espresso and Vanilla Ice Cream",
           "price": "55"
         }
       }
