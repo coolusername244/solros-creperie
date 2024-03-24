@@ -12,9 +12,15 @@ const About = () => {
     <section id="about" className="light-mint px-6">
       <div className="xl:w-full">
         {about.slice(0, 1).map((p, i) => (
-          <span key={i}>
-            <h4 className="section-heading">{t(p.text)}</h4>
-          </span>
+          <div key={i} className="flex justify-center items-center">
+            <div className="w-full px-6">
+              <hr className="h-[2px] bg-slate-500" />
+            </div>
+            <h2 className="section-heading text-nowrap">{t(p.text)}</h2>
+            <div className="w-full px-6">
+              <hr className="h-[2px] bg-slate-500" />
+            </div>
+          </div>
         ))}
       </div>
       <div className="xl:w-full">
