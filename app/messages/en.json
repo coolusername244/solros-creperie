@@ -39,9 +39,18 @@
   },
   "offers": {
     "title": "Offers",
-    "breakfast": "Breakfast Offer",
-    "lunch": "Lunch Offer",
-    "monthly": "Monthly Offer"
+    "breakfast": {
+      "title": "Breakfast Offer",
+      "slug": "breakfast-offer"
+    },
+    "lunch": {
+      "title": "Lunch Offer",
+      "slug": "lunch-offer"
+    },
+    "monthly": {
+      "title": "Monthly Offer",
+      "slug": "monthly-offer"
+    }
   },
   "food": {
     "galettes": {
@@ -327,8 +336,14 @@
   },
   "news": {
     "title": "News",
-    "offer-1-title": "Croffle",
-    "offer-2-title": "Ice Cream"
+    "offer-1": {
+      "title": "Croffle",
+      "slug": "croffle"
+    },
+    "offer-2": {
+      "title": "Ice Cream",
+      "slug": "ice-cream"
+    }
   },
   "about": {
     "title": "About",
