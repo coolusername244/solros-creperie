@@ -63,6 +63,12 @@
   uppercase;
 }
 
+.sub-heading {
+  @apply font-medium
+  text-2xl
+  pb-3;
+}
+
 .about-text {
   @apply pb-6 
   tracking-wide;
@@ -89,9 +95,4 @@
   my-auto;
 }
 
-.contact-heading {
-  @apply font-medium
-  text-2xl
-  pb-3;
-}
 /* Contact End */
