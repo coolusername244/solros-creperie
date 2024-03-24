@@ -13,7 +13,7 @@ const FoodMenuLayout: FC<MenuLayoutProps> = ({ slug, items }) => {
       {items.map((item, i) => (
         <article key={i} className="py-12 grid xl:grid-cols-3">
           <div className="flex flex-col xl:text-right xl:col-span-2">
-            <h2 className="section-heading border-b border-slate-500 text-right pr-4">
+            <h2 className="sub-heading border-b border-slate-500 text-right pr-4">
               {t(item.title)} {item.price && <>- {t(item.price)}</>}
             </h2>
             <div className="px-4 xl:px-0 xl:flex xl:flex-col xl:h-full">
