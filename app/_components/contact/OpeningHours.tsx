@@ -11,10 +11,10 @@ const OpeningHours = () => {
         <h5>{t('title')}</h5>
       </div>
       {openTimes.map((time, i) => (
-        <>
-          <p key={i}>{t(`days.${time.day}`)}</p>
+        <span key={i}>
+          <p>{t(`days.${time.day}`)}</p>
           <p className="mb-3">{time.times}</p>
-        </>
+        </span>
       ))}
     </section>
   );
