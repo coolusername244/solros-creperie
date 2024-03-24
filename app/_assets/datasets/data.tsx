@@ -199,26 +199,31 @@ export const menuHeros: Hero[] = [
 
 export const offersHeros: Hero[] = [
   {
-    title: 'offers.breakfast',
+    title: 'offers.breakfast.title',
+    slug: 'offers.breakfast.slug',
     image: hamHarmonyLarge,
   },
   {
-    title: 'offers.lunch',
+    title: 'offers.lunch.title',
+    slug: 'offers.lunch.slug',
     image: chocoBanaLarge,
   },
   {
-    title: 'offers.monthly',
+    title: 'offers.monthly.title',
+    slug: 'offers.monthly.slug',
     image: cheeseAndHamLarge,
   },
 ];
 
 export const newsHeros: Hero[] = [
   {
-    title: 'news.offer-1-title',
+    title: 'news.offer-1.title',
+    slug: 'news.offer-1.slug',
     image: hamHarmonyLarge,
   },
   {
-    title: 'news.offer-2-title',
+    title: 'news.offer-2.title',
+    slug: 'news.offer-2.slug',
     image: chocoBanaLarge,
   },
 ];
