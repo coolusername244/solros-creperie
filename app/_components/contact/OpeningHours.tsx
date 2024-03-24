@@ -7,7 +7,7 @@ const OpeningHours = () => {
 
   return (
     <section className="contact-section">
-      <div className="section-heading">
+      <div className="contact-heading">
         <h5>{t('title')}</h5>
       </div>
       {openTimes.map((time, i) => (

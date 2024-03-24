@@ -8,7 +8,7 @@ const ContactUs = () => {
 
   return (
     <section className="contact-section">
-      <div className="section-heading">
+      <div className="contact-heading">
         <h5>{t('contact-us')}</h5>
       </div>
       <ul className="space-y-3">
