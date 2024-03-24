@@ -53,9 +53,14 @@
 }
 
 .section-heading {
-  @apply font-medium
-  text-2xl
-  pb-3;
+  @apply flex
+  items-center
+  text-center
+  justify-center
+  py-12
+  text-3xl
+  font-semibold
+  uppercase;
 }
 
 .about-text {
@@ -82,5 +87,11 @@
   lg:px-6 
   xl:p-12
   my-auto;
+}
+
+.contact-heading {
+  @apply font-medium
+  text-2xl
+  pb-3;
 }
 /* Contact End */
