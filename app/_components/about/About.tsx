@@ -1,19 +1,19 @@
 import React from 'react';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
-import cafe from '@/_assets/images/cafe/cafe.jpg';
 
+import cafe from '@/_assets/images/cafe/cafe.jpg';
 import { about } from '@/_assets/datasets/data';
-import SectionHeading from '../SectionHeading';
 
 const About = () => {
   const t = useTranslations('about');
+
   return (
     <section id="about" className="light-mint px-6">
       <div className="xl:w-full">
         {about.slice(0, 1).map((p, i) => (
           <span key={i}>
-            <SectionHeading heading={t(p.text)} />
+            <h4 className="section-heading">{t(p.text)}</h4>
           </span>
         ))}
       </div>

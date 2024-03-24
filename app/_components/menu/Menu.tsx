@@ -1,12 +1,15 @@
 import React from 'react';
+import { useTranslations } from 'next-intl';
+
 import { menuHeros } from '@/_assets/datasets/data';
 import ShowcaseImage from '@/_components/ShowcaseImage';
-import SectionHeading from '../SectionHeading';
 
 const Menu = () => {
+  const t = useTranslations('menu');
+
   return (
     <section id="menu" className="mt-[100px] lg:mt-[130px]">
-      <SectionHeading heading={'menu.title'} />
+      <h2 className="section-heading">{t('title')}</h2>
       <ShowcaseImage heros={menuHeros} eager={true} />
     </section>
   );
