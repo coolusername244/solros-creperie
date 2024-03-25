@@ -41,6 +41,10 @@
   tracking-widest;
 }
 
+.active {
+  @apply text-[#38b137];
+}
+
 .navbar-logo {
   @apply w-20 
   py-3
@@ -59,7 +63,7 @@
   justify-center
   py-12
   text-3xl
-  font-semibold
+  font-medium
   uppercase;
 }
 
