@@ -264,12 +264,14 @@
       "superHero": {
         "title": "SuperHero",
         "description": "Mini galette with Emmental, Ham and Ranch Dressing",
-        "price": "75"
+        "price": "75",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "crepeKid": {
         "title": "CrepeKid",
         "description": "A sweet crêpe with a filling: Nutella, Banana, Jam, Vanilla Ice Cream and sauce of your choice",
-        "price": "75"
+        "price": "75",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       }
     },
     "other-drinks": {
@@ -335,7 +337,7 @@
     }
   },
   "news": {
-    "title": "News",
+    "title": "New",
     "offer-1": {
       "title": "Croffle",
       "slug": "croffle"
@@ -346,7 +348,6 @@
     }
   },
   "about": {
-    "title": "About",
     "p1": "Welcome to Solros Crêperie!",
     "p2": "Our cafe opened its doors in November 2023, after we underwent an extensive renovation of the premises where every single detail was carefully renewed. From the walls to the floors and the interior, everything bears the stamp of our own idea and creativity.",
     "p3": "We wish that visitors choose to stay in a relaxed atmosphere with us and reconnect with a tasty cup of coffee.",

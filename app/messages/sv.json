@@ -39,9 +39,18 @@
   },
   "offers": {
     "title": "Erbjudanden",
-    "breakfast": "Frukost Erbjudande",
-    "lunch": "Lunch Erbjudande",
-    "monthly": "Månads Erbjudande"
+    "breakfast": {
+      "title": "Frukost Erbjudande",
+      "slug": "frukost-erbjudande"
+    },
+    "lunch": {
+      "title": "Lunch Erbjudande",
+      "slug": "lunch-erbjudande"
+    },
+    "monthly": {
+      "title": "Månads Erbjudande",
+      "slug": "manads-erbjudande"
+    }
   },
   "food": {
     "galettes": {
@@ -113,60 +122,84 @@
       "chocoBana": {
         "title": "ChocoBana",
         "ingredients": "Banan, Nutella, Vispgrädde, Fruktsås",
-        "price": "110"
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "110",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "monLemon": {
         "title": "MonLemon",
         "ingredients": "Smör, Citron, Rörsocker, Myntablad",
-        "price": "90"
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "90",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "whiteDelight": {
         "title": "WhiteDelight",
         "ingredients": "Jordgubbar eller Blåbär, Vit Choklad, Vispgrädde",
-        "price": "120"
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "120",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "creamyBerry": {
         "title": "CreamyBerry",
         "ingredients": "Cream Cheese, Jordgubbs eller Blåbärssylt, Vit Choklad Sås, Jordgubb eller blåbär, Hackade Mandlar",
-        "price": "130"
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "130",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "fruttiDiKeso": {
         "title": "Frutti di Keso",
         "ingredients": "Keso, Russin, Vanilj, Fruktsås",
-        "price": "130"
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "130",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "appleMaple": {
         "title": "AppleMaple",
         "ingredients": "Smör, Äppelmos, Lönnsirap, Kanel, Pekannötter",
-        "price": "120"
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "120",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "orangeBliss": {
         "title": "Orange Bliss",
         "ingredients": "Smör, Apelsinmarmelad, Kolasås, Vaniljglass",
-        "price": "130"
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "130",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "honeyBana": {
         "title": "HoneyBana",
         "ingredients": "Emmentaler, Banan, Honung, Hackade Mandlar",
-        "price": "130"
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "130",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       }
     },
     "toasts-and-paninis": {
       "cheeseAndHam": {
         "title": "Ost & Skinka",
-        "ingredients": "Emmentaler, Skinka, Tomat, Spenat"
+        "ingredients": "Emmentaler, Skinka, Tomat, Spenat",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "cheeseAndChicken": {
         "title": "Ost & Kyckling",
-        "ingredients": "Emmentaler, Isbergsallad, Kyckling, Ränch-sås"
+        "ingredients": "Emmentaler, Isbergsallad, Kyckling, Ränch-sås",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "mozzarellaAndPesto": {
         "title": "Mozzarella & Pesto",
-        "ingredients": "Mozzarella, Pesto, Tomat, Spenat"
+        "ingredients": "Mozzarella, Pesto, Tomat, Spenat",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "avocadoAndPesto": {
         "title": "Avokado & Pesto",
-        "ingredients": "Emmentaler, Pesto, Avokado, Spenat"
+        "ingredients": "Emmentaler, Pesto, Avokado, Spenat",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       }
     },
     "coffee-and-tea": {
@@ -231,39 +264,47 @@
       "superHero": {
         "title": "SuperHero",
         "description": "Mini galett med emmentaler, skinka och Ranch dressing",
-        "price": "75"
+        "price": "75",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "crepeKid": {
         "title": "CrepeKid",
         "description": "en söt crêpe med en fyllning: Nutella, banan, sylt, vaniljglass och valfri sås",
-        "price": "75"
+        "price": "75",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
       }
     },
     "other-drinks": {
       "smoothies": {
         "kiwi": {
           "title": "Kiwi+",
-          "ingredients": "Kiwi, Jordgubb, Ananas, Mango"
+          "ingredients": "Kiwi, Jordgubb, Ananas, Mango",
+          "price": "55"
         },
         "beet": {
           "title": "Beet+",
-          "ingredients": "Rödbeta, Banan, Hallon"
+          "ingredients": "Rödbeta, Banan, Hallon",
+          "price": "55"
         },
         "acai": {
           "title": "Acai+",
-          "ingredients": "Acai, blåbär, Mango, Jorgubb"
+          "ingredients": "Acai, blåbär, Mango, Jorgubb",
+          "price": "55"
         },
         "mango": {
           "title": "Mango+",
-          "ingredients": "Mango, Passionsfrukt, Ananas"
+          "ingredients": "Mango, Passionsfrukt, Ananas",
+          "price": "55"
         },
         "avocado": {
           "title": "Avocado+",
-          "ingredients": "Avokado, Grönkål, Citron, Banan"
+          "ingredients": "Avokado, Grönkål, Citron, Banan",
+          "price": "55"
         },
         "broccoli": {
           "title": "Broccoli+",
-          "ingredients": "Broccoli, Selleri, Spenat, Banan, Ananas"
+          "ingredients": "Broccoli, Selleri, Spenat, Banan, Ananas",
+          "price": "55"
         }
       },
       "milkshakes": {
@@ -297,11 +338,16 @@
   },
   "news": {
     "title": "Nyheter",
-    "offer-1-title": "Cråffla",
-    "offer-2-title": "Glass"
+    "offer-1": {
+      "title": "Cråffla",
+      "slug": "craffla"
+    },
+    "offer-2": {
+      "title": "Glass",
+      "slug": "glass"
+    }
   },
   "about": {
-    "title": "Om Oss",
     "p1": "Välkommen till Solros Crêperie!",
     "p2": "Vårt kafé öppnade dörrarna i november 2023, efter att vi genomgått en omfattande renovering i lokalen där varje enskild detalj noggrant förnyades. Från väggarna till golven och inredningen, allt bär prägeln av vår egen idé och kreativitet.",
     "p3": "Vi önskar att besökare väljer att stanna i en avslappnad atmosfär hos oss och återkoppla med en välsmakande kopp kaffe.",
