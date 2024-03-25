@@ -8,30 +8,346 @@
     "offers": "Пропозиції",
     "news": "Новини",
     "about": "Про",
-    "contact": "контакт"
+    "contact": "Контакт"
   },
   "menu": {
     "title": "Меню",
-    "galettes": "Галети",
-    "crepes": "Солодкі млинці",
-    "paninis": "Тости та паніні",
-    "kids": "Дитяче Меню",
-    "coffee-and-tea": "Кава та чай",
-    "other-drinks": "Інші напої"
+    "galettes": {
+      "title": "Галети",
+      "slug": "галети"
+    },
+    "crepes": {
+      "title": "Солодкі Млинці",
+      "slug": "солодкий-млинці"
+    },
+    "paninis": {
+      "title": "Тости та Паніні",
+      "slug": "тости-та-паніні"
+    },
+    "kids": {
+      "title": "Дитяче Меню",
+      "slug": "дитяче-меню"
+    },
+    "coffee-and-tea": {
+      "title": "Кава та Чай",
+      "slug": "кава-та-чай"
+    },
+    "other-drinks": {
+      "title": "Інші Напої",
+      "slug": "інші-напої"
+    }
   },
   "offers": {
     "title": "Пропозиції",
-    "breakfast": "Пропозиція сніданку",
-    "lunch": "Пропозиція Ланч",
-    "monthly": "Місячна Пропозиція"
+    "breakfast": {
+      "title": "Пропозиція Сніданку",
+      "slug": "пропозиція-сніданку"
+    },
+    "lunch": {
+      "title": "Пропозиція Ланч",
+      "slug": "пропозиція-ланч"
+    },
+    "monthly": {
+      "title": "Місячна Пропозиція",
+      "slug": "місячна-пропозиція"
+    }
+  },
+  "food": {
+    "galettes": {
+      "HamHarmony": {
+        "title": "HamHarmony",
+        "ingredients": "Ементаль, Шинка, Помідори, Салат Айсберг",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "140",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
+      },
+      "ChickNCherry": {
+        "title": "ChickNCherry",
+        "ingredients": "Ементалер, Курка, Мікс Салатів, Помідори Черрі",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "140",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
+      },
+      "EggElegy": {
+        "title": "EggElegy",
+        "ingredients": "Ементаль, Бекон, Яйце, Чорний Перець, Салат Айсберг, Зелена Цибуля",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "140",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
+      },
+      "MozzaMix": {
+        "title": "MozzaMix",
+        "ingredients": "Мікс Салатів, Моцарела, Песто, Помідори",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "130",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
+      },
+      "BrieBravado": {
+        "title": "BrieBravado",
+        "ingredients": "Прошутто, Сир Брі, Помідор, Сушені Помідори, Мікс Салатів",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "160",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
+      },
+      "GuacaGlow": {
+        "title": "GuacaGlow",
+        "ingredients": "Лосось, Нарізаний Кубиками, Домашнє Гуакамоле, Авокадо, Помідор, Червона Цибуля, Лимон, Сіль, Чорний Перець, Паростки, Мікс Салатів",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "160",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
+      },
+      "GreenTango": {
+        "title": "GreenTango",
+        "ingredients": "Ементаль, Авокадо, Мікс Салатів, Помідори, Паростки",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "140",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
+      },
+      "CheeseFiesta": {
+        "title": "CheeseFiesta",
+        "ingredients": "Ементалер, Вершковий Сир, Моцарелла, Халумі, Мікс Салатів",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "160",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
+      },
+      "PearlyBoo": {
+        "title": "PearlyBoo",
+        "ingredients": "Авокадо, Помідори, Жовтий Перець, Бурата, Песто, Паростки",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "160",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
+      }
+    },
+    "sweet-crepes": {
+      "chocoBana": {
+        "title": "ChocoBana",
+        "ingredients": "Банан, Нутелла, Збиті Вершки, Фруктовий Соус",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "110",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
+      },
+      "monLemon": {
+        "title": "MonLemon",
+        "ingredients": "Вершкове Масло, Лимон, Тростинний Цукор, Листя М'яти",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "90",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
+      },
+      "whiteDelight": {
+        "title": "WhiteDelight",
+        "ingredients": "Полуниця або Чорниця, Білий Шоколад, Збиті Вершки",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "120",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
+      },
+      "creamyBerry": {
+        "title": "CreamyBerry",
+        "ingredients": "Вершковий Сир, Полуничне або Чорничне Варення, Білий Шоколадний Соус, Полуниця або Чорниця, Рубаний Мигдаль",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "130",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
+      },
+      "fruttiDiKeso": {
+        "title": "Frutti di Keso",
+        "ingredients": "Сир, Родзинки, Ваніль, Фруктовий Соус",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "130",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
+      },
+      "appleMaple": {
+        "title": "AppleMaple",
+        "ingredients": "Вершкове Масло, Яблучний Соус, Кленовий Сироп, Кориця, Пекан",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "120",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
+      },
+      "orangeBliss": {
+        "title": "Orange Bliss",
+        "ingredients": "Вершкове Масло, Апельсиновий Мармелад, Карамельний Соус, Ванільне Морозиво",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "130",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
+      },
+      "honeyBana": {
+        "title": "HoneyBana",
+        "ingredients": "Ементаль, Банан, Мед, Рубаний Мигдаль",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "price": "130",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
+      }
+    },
+    "toasts-and-paninis": {
+      "cheeseAndHam": {
+        "title": "Cheese & Ham",
+        "ingredients": "Емменталь, Шинка, Помідори, Шпинат",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
+      },
+      "cheeseAndChicken": {
+        "title": "Cheese & Chicken",
+        "ingredients": "Емменталь, Салат Айсберг, Курка, Соус Ранч",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
+      },
+      "mozzarellaAndPesto": {
+        "title": "Mozzarella & Pesto",
+        "ingredients": "Моцарелла, Песто, Помідори, Шпинат",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
+      },
+      "avocadoAndPesto": {
+        "title": "Avocado & Pesto",
+        "ingredients": "Ементаль, Песто, Авокадо, Шпинат",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
+      }
+    },
+    "coffee-and-tea": {
+      "espresso": {
+        "title": "Еспресо",
+        "price": "35 / 40"
+      },
+      "latte": {
+        "title": "Латте",
+        "price": "50 / 60"
+      },
+      "cappuccino": {
+        "title": "Капучіно",
+        "price": "55"
+      },
+      "americano": {
+        "title": "Американо",
+        "price": "45"
+      },
+      "flatWhite": {
+        "title": "Флет Вайт",
+        "price": "55"
+      },
+      "cortado": {
+        "title": "Кортадо",
+        "price": "55"
+      },
+      "latteMacchiato": {
+        "title": "Латте Макіато",
+        "price": "55"
+      },
+      "kaffeMocca": {
+        "title": "Кава Мокко",
+        "price": "60"
+      },
+      "filterCoffee": {
+        "title": "Фільтр Кава",
+        "price": "35 / 45"
+      },
+      "chaiLatte": {
+        "title": "Чай Латте",
+        "price": "50 / 60"
+      },
+      "dirtyChaiLatte": {
+        "title": "Брудний Чай Латте",
+        "price": "60 / 70"
+      },
+      "hotChocolate": {
+        "title": "Гарячий Шоколад",
+        "price": "55"
+      },
+      "matchaLatte": {
+        "title": "Матча Латте",
+        "price": "55 / 65"
+      },
+      "tea": {
+        "title": "Чай (Різні Смаки)",
+        "price": "35"
+      }
+    },
+    "kids-menu": {
+      "superHero": {
+        "title": "SuperHero",
+        "description": "Міні Галет з Емменталем, Шинкою та Заправкою Ранчо",
+        "price": "75",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
+      },
+      "crepeKid": {
+        "title": "CrepeKid",
+        "description": "Солодкий Креп з Начинкою: Нутелла, Банан, Джем, Ванільне Морозиво та соус на ваш вибір",
+        "price": "75",
+        "allergy": "Lorem ipsum dolar sit amet consectetur"
+      }
+    },
+    "other-drinks": {
+      "smoothies": {
+        "kiwi": {
+          "title": "Kiwi+",
+          "ingredients": "Ківі, Полуниця, Ананас, Манго",
+          "price": "55"
+        },
+        "beet": {
+          "title": "Beet+",
+          "ingredients": "Буряк, Банан, Малина",
+          "price": "55"
+        },
+        "acai": {
+          "title": "Acai+",
+          "ingredients": "Асаї, Чорниця, Манго, Полуниця",
+          "price": "55"
+        },
+        "mango": {
+          "title": "Mango+",
+          "ingredients": "Манго, Маракуйя, Ананас",
+          "price": "55"
+        },
+        "avocado": {
+          "title": "Avocado+",
+          "ingredients": "Авокадо, Капуста, Лимон, Банан",
+          "price": "55"
+        },
+        "broccoli": {
+          "title": "Broccoli+",
+          "ingredients": "Брокколі, Селера, Шпинат, Банан, Ананас",
+          "price": "55"
+        }
+      },
+      "milkshakes": {
+        "strawberry": {
+          "title": "Strawberry",
+          "ingredients": "Молоко, Заморожена Полуниця та Ванільне Морозиво",
+          "price": "50"
+        },
+        "vanilla": {
+          "title": "Vanilla",
+          "ingredients": "Молоко, Ваніль та Ванільне Морозиво",
+          "price": "45"
+        },
+        "blueberry": {
+          "title": "Blueberry",
+          "ingredients": "Молоко, Заморожена Чорниця та Ванільне Морозиво",
+          "price": "50"
+        },
+        "chocolate": {
+          "title": "Chocolate",
+          "ingredients": "Молочно, Шоколадне Морозиво",
+          "price": "45"
+        },
+        "coffee": {
+          "title": "Coffee",
+          "ingredients": "Молоко, Простий Еспресо та Ванільне Морозиво",
+          "price": "55"
+        }
+      }
+    }
   },
   "news": {
     "title": "Новини",
-    "offer-1-title": "Крофл",
-    "offer-2-title": "Морозиво"
+    "offer-1": {
+      "title": "Крофл",
+      "slug": "крофл"
+    },
+    "offer-2": {
+      "title": "Морозиво",
+      "slug": "морозиво"
+    }
   },
   "about": {
-    "title": "Про нас",
     "p1": "Ласкаво просимо до Solros Crêperie!",
     "p2": "Наше кафе відкрило свої двері в листопаді 2023 року, після капітального ремонту приміщення, де була ретельно оновлена ​​кожна деталь. Від стін до підлоги та інтер’єру все несе на собі печать нашої власної ідеї та творчості.",
     "p3": "Ми бажаємо, щоб відвідувачі залишилися у нас у невимушеній атмосфері та відновили спілкування за чашкою смачної кави.",
