@@ -427,11 +427,13 @@ export const kidsItems: MenuItem[] = [
     title: 'superHero.title',
     description: 'superHero.description',
     price: 'superHero.price',
+    allergy: 'superHero.allergy',
   },
   {
     title: 'crepeKid.title',
     description: 'crepeKid.description',
     price: 'crepeKid.price',
+    allergy: 'crepeKid.allergy',
   },
 ];
 
