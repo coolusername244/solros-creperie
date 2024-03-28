@@ -122,56 +122,56 @@
       "chocoBana": {
         "title": "ChocoBana",
         "ingredients": "Banan, Nutella, Vispgrädde, Fruktsås",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "description": "En perfekt kombination av smaker som möter i en himmelsk brygd av sött och fruktigt. En crêpe fylld med mogna bananer, söt och krämig nutella, som serveras med fluffig vispgrädde och härlig fruktsås!",
         "price": "110",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "monLemon": {
         "title": "MonLemon",
         "ingredients": "Smör, Citron, Rörsocker, Myntablad",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "description": "En fräsch och smakrik crêpe som har den perfekta balansen mellan citronens syrlighet, rörsockers sötma, smörets rika smaken och friskheten av myntabladen.",
         "price": "90",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "whiteDelight": {
         "title": "WhiteDelight",
         "ingredients": "Jordgubbar eller Blåbär, Vit Choklad, Vispgrädde",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "description": "En förstklassig crêpe med färska jordgubbar/söta blåbär som skapar en explosion av smaker efter varje tugga. Den vita och krämiga chokladen smälter sig fint över bär och ger den sötman man behöver. Toppad med en fluffig vispgrädde såklart!",
         "price": "120",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "creamyBerry": {
         "title": "CreamyBerry",
         "ingredients": "Cream Cheese, Jordgubbs eller Blåbärssylt, Vit Choklad Sås, Jordgubb eller blåbär, Hackade Mandlar",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "description": "Krämigaste crêpen på menyn! En crêpe med krämig cream cheese, sötsyrlig blåbärs eller jordgubbssylt, krämig vitchokladsås. Toppad med färska jordgubbar eller blåbär och krispiga hackade mandlar. En perfekt kombination av smaker och texturer!",
         "price": "130",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "fruttiDiKeso": {
         "title": "Frutti di Keso",
         "ingredients": "Keso, Russin, Vanilj, Fruktsås",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "description": "En saftig crêpe fylld med krämig keso, söta russin toppad med en fruktsås av jordgubbar eller hallon. Toppas sedan med en liten mängd vaniljsocker för att skapa en starkare och härligare smakupplevelse. Den här kombinationen av sött och syrligt smälter sig i munnen och lämnar en god eftersmak.",
         "price": "130",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "appleMaple": {
         "title": "AppleMaple",
         "ingredients": "Smör, Äppelmos, Lönnsirap, Kanel, Pekannötter",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "description": "En crêpe som ger en perfekt avslutning efter en god måltid! Denna crêpen är fylld med en krämig smör och söt äppelmos, toppad med lönnsirap för att få den extra sötma. Den serveras med lite kanel för värme och smak samt pekannötter för en krispig touch.",
         "price": "120",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "orangeBliss": {
         "title": "Orange Bliss",
         "ingredients": "Smör, Apelsinmarmelad, Kolasås, Vaniljglass",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "description": "En crêpe med smakrik smör, söt apelsinmarmelad, ljuvlig kolasås serverad med vaniljglass för en lyxig dessert? Ja, tack! Smöret och apelsinmarmeladen skapar den rika och friska smakupplevelsen. Kolasåsen levererar extra sötman och vaniljglassen ger den krämiga eftersmaken man vill ha.",
         "price": "130",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "honeyBana": {
         "title": "HoneyBana",
         "ingredients": "Emmentaler, Banan, Honung, Hackade Mandlar",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "description": "En crêpe som har den perfekta kombinationen av sötma och sälta. Den krämiga smältningen av emmentalerost parar sig bra ihop med söta och mogna bananer, som balanserar sig bra med honungen. Hackade mandlar ger en krispig touch och en nötig smak och kompletterar desserten. Lyxiga och rika smaker med mix av krämig och krispig textur!",
         "price": "130",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       }
