@@ -99,7 +99,7 @@
       "greenTango": {
         "title": "GreenTango",
         "ingredients": "Emmental, Avocado, Salad Mix, Tomato, Sprouts",
-        "description": "A delicious, vegetarian galette with creamy emmental cheese, ripe avocado, fresh salad mix and juicy tomatoes, topped with a generous amount of pesto made from basil, cashews and parmigiano. Served with a touch of sprouts that give a lovely texture. A favorite!",
+        "description": "A delicious, vegetarian galette with creamy Emmental cheese, ripe avocado, fresh salad mix and juicy tomatoes, topped with a generous amount of pesto made from basil, cashews and parmigiano. Served with a touch of sprouts that give a lovely texture. A favorite!",
         "price": "140",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
@@ -122,56 +122,56 @@
       "chocoBana": {
         "title": "ChocoBana",
         "ingredients": "Banana, Nutella, Whipped cream, Fruit sauce",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "description": "A perfect combination of flavors that meet in a heavenly brew of sweet and fruity. A crêpe filled with ripe bananas, sweet and creamy nutella, served with fluffy whipped cream and delicious fruit sauce!",
         "price": "110",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "monLemon": {
         "title": "MonLemon",
         "ingredients": "Butter, Lemon, Cane Sugar, Mint Leaves",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "description": "A fresh and tasty crêpe that has the perfect balance between the tartness of the lemon, the sweetness of cane sugar, the rich flavor of the butter and the freshness of the mint leaves.",
         "price": "90",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "whiteDelight": {
         "title": "WhiteDelight",
         "ingredients": "Strawberries or Blueberries, White Chocolate, Whipped Cream",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "description": "A premium crêpe with fresh strawberries/sweet blueberries that creates an explosion of flavors after every bite. The white and creamy chocolate melts nicely over the berries and provides the sweetness you need. Topped with a fluffy whipped cream of course!",
         "price": "120",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "creamyBerry": {
         "title": "CreamyBerry",
         "ingredients": "Cream Cheese, Strawberry or Blueberry Jam, White Chocolate Sauce, Strawberry or Blueberry, Chopped Almonds",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "description": "The creamiest crepe on the menu! A crêpe with creamy cream cheese, sweet and sour blueberry or strawberry jam, creamy white chocolate sauce. Topped with fresh strawberries or blueberries and crunchy chopped almonds. A perfect combination of flavors and textures!",
         "price": "130",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "fruttiDiKeso": {
         "title": "Frutti di Keso",
         "ingredients": "Cottage Cheese, Raisins, Vanilla, Fruit Sauce",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "description": "A juicy crêpe filled with creamy cottage cheese, sweet raisins topped with a fruit sauce of strawberries or raspberries. Then topped with a small amount of vanilla sugar to create a stronger and more delicious taste experience. This combination of sweet and sour melts in your mouth and leaves a good aftertaste.",
         "price": "130",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "appleMaple": {
         "title": "AppleMaple",
         "ingredients": "Butter, Apple Sauce, Maple Syrup, Cinnamon, Pecans",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "description": "A crêpe that provides a perfect end to a good meal! This crêpe is filled with a creamy butter and sweet applesauce, topped with maple syrup for that extra sweetness. It is served with a little cinnamon for warmth and flavor and pecans for a crunchy touch.",
         "price": "120",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "orangeBliss": {
         "title": "Orange Bliss",
         "ingredients": "Butter, Orange Marmalade, Caramel Sauce, Vanilla Ice Cream",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "description": "A crêpe with flavorful butter, sweet orange marmalade, delicious caramel sauce served with vanilla ice cream for a luxurious dessert? Yes please! The butter and orange marmalade create the rich and healthy taste experience. The caramel sauce delivers extra sweetness and the vanilla ice cream gives the creamy aftertaste you want.",
         "price": "130",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "honeyBana": {
         "title": "HoneyBana",
         "ingredients": "Emmental, Banana, Honey, Chopped Almonds",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "description": "A crêpe that has the perfect combination of sweetness and saltiness. The creamy melt of Emmental cheese pairs well with sweet and ripe bananas, which balance well with the honey. Chopped almonds add a crunchy touch and a nutty flavor and complete the dessert. Luxurious and rich flavors with a mix of creamy and crunchy texture!",
         "price": "130",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       }
