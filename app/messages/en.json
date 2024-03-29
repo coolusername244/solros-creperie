@@ -57,63 +57,63 @@
       "hamHarmony": {
         "title": "HamHarmony",
         "ingredients": "Emmental, Ham, Tomato, Iceberg Lettuce",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "description": "A galette filled with Swiss mild Emmental cheese, Swedish salty ham, fresh tomatoes that contribute to juicy texture and crispy iceberg lettuce. Served with creamy ranch dressing. A tasty, harmonious and balanced meal!",
         "price": "140",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "chickNCherry": {
         "title": "ChickNCherry",
         "ingredients": "Emmental, Chicken, Salad Mix, Cherry tomatoes",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "description": "Creamy Emmental, juicy Swedish chicken, crispy salad mix with fresh and sweet cherry tomatoes. The salty and mild cheese pairs perfectly with the grilled chicken, which is then topped with fresh spinach and sweet cherry tomatoes. Served with creamy ranch dressing. A real taste experience!",
         "price": "140",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "eggElegy": {
         "title": "EggElegy",
         "ingredients": "Emmental, Bacon, Egg, Black Pepper, Iceberg Lettuce, Chives",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "description": "Our version of \"English breakfast\": creamy cheese, fried egg and bacon with a little pepper mix, topped with fresh iceberg lettuce and chives. You get the saltiness and mildness of the egg and cheese, which goes well with the bacon and the crispy iceberg lettuce. Served with creamy ranch dressing Perfect for breakfast, lunch and dinner!",
         "price": "140",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "mozzaMix": {
         "title": "MozzaMix",
         "ingredients": "Salad Mix, Mozzarella, Pesto, Tomato",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "description": "A galette with a creamy layer of mozzarella cheese, fresh spinach leaves, juicy tomato slices, topped with pesto made from basil, cashews and parmigiano. A harmonious combination of flavors!",
         "price": "130",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "brieBravado": {
         "title": "BrieBravado",
         "ingredients": "Prosciutto, Brie, Tomato, Dried Tomatoes, Salad mix",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "description": "A thin layer of prosciutto, creamy brie cheese that balances perfectly with the sun-dried tomatoes with a touch of fresh arugula - the perfect meal for someone who wants to have a unique taste experience! Served with creamy ranch dressing.",
         "price": "160",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "guacaGlow": {
         "title": "GuacaGlow",
         "ingredients": "Diced Salmon, Homemade Guacamole, Avocado, Tomato, Red Onion, Lemon, Salt, Black Pepper, Sprouts, Salad Mix",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "description": "A luxurious galette with homemade guacamole of ripe avocado, finely chopped red onion, fresh tomatoes, lemon juice and a pinch of salt. Then a pillow of fresh salad mix of spinach and arugula is added, which is then topped with the star of the dish - the grilled salmon! A tasty galette with the spicy and luxurious salmon. Our homemade guacamole provides the softness and acidity that is complemented perfectly with the fresh salad mix. Served with the sweet gooseberry jam. Could easily be your favorite!",
         "price": "160",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "greenTango": {
         "title": "GreenTango",
         "ingredients": "Emmental, Avocado, Salad Mix, Tomato, Sprouts",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "description": "A delicious, vegetarian galette with creamy emmental cheese, ripe avocado, fresh salad mix and juicy tomatoes, topped with a generous amount of pesto made from basil, cashews and parmigiano. Served with a touch of sprouts that give a lovely texture. A favorite!",
         "price": "140",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "cheeseFiesta": {
         "title": "CheeseFiesta",
         "ingredients": "Emmental, Cream Cheese, Mozzarella, Halloumi, Salad Mix",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "description": "A real fiesta with a combination of cheeses! A galette filled with a creamy mix of Swiss cheese, fresh cream cheese and pieces of mozzarella. Topped with grated halloumi and fresh arugula for a nice and unique aftertaste. Served with lingonberry jam for a little sweetness!",
         "price": "160",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "pearlyBoo": {
         "title": "PearlyBoo",
         "ingredients": "Avocado, Tomato, Yellow Pepper, Burrata, Pesto, Sprouts",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "description": "A galette with a lovely and fresh combination of vegetables, served with burrata cheese, tasty pesto and crispy sprouts. The base is topped with ripe avocado, juicy tomatoes, crispy yellow peppers, creamy burrata cheese and a small touch of pesto and sprouts. The flavors complement each other perfectly and give a taste explosion of sweet, salty, sour and creamy!",
         "price": "160",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       }
