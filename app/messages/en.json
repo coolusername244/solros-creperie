@@ -180,25 +180,25 @@
       "cheeseAndHam": {
         "title": "Cheese & Ham",
         "ingredients": "Emmental, Ham, Tomato, Spinach",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "description": "The bread is filled with a generous amount of a creamy Emmental cheese, juicy ham, fresh tomato slices and crispy spinach. When grilled, the cheese melts and combines perfectly with all the fresh ingredients. Tasty and filling meal!",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "cheeseAndChicken": {
         "title": "Cheese & Chicken",
         "ingredients": "Emmental, Iceberg Lettuce, Chicken, Ranch Sauce",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "description": "A panini with the perfect melted Emmental cheese that pairs with the juicy chicken and crispy iceberg lettuce for a crunch and fresh combination. To take your taste experience to the highest level, we top generously with the caesar dressing, which leaves a nice aftertaste.",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "mozzarellaAndPesto": {
         "title": "Mozzarella & Pesto",
         "ingredients": "Mozzarella, Pesto, Tomato, Spinach",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "description": "A panini that is filled with creamy and melted mozzarella cheese combined with the flavorful and aromatic pesto, topped with the fresh spinach leaves and juicy tomato slices. Fresh and healthy meal!",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "avocadoAndPesto": {
         "title": "Avocado & Pesto",
         "ingredients": "Emmental, Pesto, Avocado, Spinach",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "description": "A tasty panini with Emmental, pesto, avocado and spinach. The Emmental blends perfectly and is mixed with spicy pesto, ripe avocado slices and fresh spinach leaves. All flavors come to their full potential and deliver the best taste experience!",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       }
     },
