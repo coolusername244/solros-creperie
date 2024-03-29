@@ -71,7 +71,7 @@
       "eggElegy": {
         "title": "EggElegy",
         "ingredients": "Emmentaler, Bacon, Ägg, Svart peppar, Isbergssallad, Gräslök",
-        "description": "Vår version av \"English breakfast”: krämiga osten, stekt ägg och bacon med lite pepparmix, toppad med fräsch isbergssallad och gräslök. Man får den salta och mildheten från ägget och osten, som passar bra ihop med bacon och den krispiga isbergssalladen. Serveras med krämig ranchsås. Passar perfekt till frukost, lunch och middag!",
+        "description": "Vår version av \"English breakfast\": krämiga osten, stekt ägg och bacon med lite pepparmix, toppad med fräsch isbergssallad och gräslök. Man får den salta och mildheten från ägget och osten, som passar bra ihop med bacon och den krispiga isbergssalladen. Serveras med krämig ranchsås. Passar perfekt till frukost, lunch och middag!",
         "price": "140",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
@@ -180,25 +180,25 @@
       "cheeseAndHam": {
         "title": "Ost & Skinka",
         "ingredients": "Emmentaler, Skinka, Tomat, Spenat",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "description": "Brödet fylls med generös mängd av en krämig emmentalerost, saftig skinka, färska tomatskivor och krispig spenat. När den grillas blir osten smält och kombineras perfekt med alla färska ingredienser. Smakrik och mättande måltid!",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "cheeseAndChicken": {
         "title": "Ost & Kyckling",
         "ingredients": "Emmentaler, Isbergsallad, Kyckling, Ränch-sås",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "description": "En panini med den perfekta smält emmentalerosten som parar sig ihop med den saftiga kycklingen och krispiga isbergssalladen för en crunch och fräsch kombination. För att ta din smakupplevelse till högsta nivå, toppar vi generöst med caesardressingen som lämnar en fin eftersmak.",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "mozzarellaAndPesto": {
         "title": "Mozzarella & Pesto",
         "ingredients": "Mozzarella, Pesto, Tomat, Spenat",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "description": "En panini som är fylld med krämig och smält mozzarellaost som kombineras med den smakrika och aromatiska peston, toppas med den fräscha spenatbladen och saftiga tomatskivor. Fräsch och nyttig måltid!",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       },
       "avocadoAndPesto": {
         "title": "Avokado & Pesto",
         "ingredients": "Emmentaler, Pesto, Avokado, Spenat",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad quam nostrum, voluptatem praesentium quo repudiandae, asperiores quae minima, quisquam quod! Ut quibusdam incidunt consequuntur nesciunt deserunt, odio quia est?",
+        "description": "En smakfull panini med emmentaler, pesto, avokado och spenat. Emmentaler smälter sig perfekt och blandas in med kryddiga peston, mogna avokadoskivor och fräscha spenatblad. Alla smaker kommer till sin fulla rätt och levererar den bästa smakupplevelsen!",
         "allergy": "Lorem ipsum dolar sit amet consectetur"
       }
     },
