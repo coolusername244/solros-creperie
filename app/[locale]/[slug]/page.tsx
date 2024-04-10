@@ -1,15 +1,17 @@
 'use client';
 import React from 'react';
 
-import { getItems, getQuery } from '../../../helpers';
+import { getItems, getQuery, decodeSlug } from '../../../helpers';
 import FoodMenuLayout from '@/_components/FoodMenuLayout';
 import DrinkMenuLayout from '@/_components/DrinkMenuLayout';
 
 const MenuCategoryItems = ({ params }: { params: { slug: string } }) => {
   const { slug } = params;
 
-  const items = getItems(slug);
-  const query = getQuery(slug);
+  const decodedSlug = decodeSlug(slug);
+
+  const items = getItems(decodedSlug);
+  const query = getQuery(decodedSlug);
 
   let foodOrDrink;
 
@@ -22,7 +24,7 @@ const MenuCategoryItems = ({ params }: { params: { slug: string } }) => {
   }
 
   return foodOrDrink === 'food' ? (
-    <FoodMenuLayout slug={slug} items={items} />
+    <FoodMenuLayout slug={query} items={items} />
   ) : (
     <DrinkMenuLayout slug={slug} items={items} />
   );
