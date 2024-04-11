@@ -203,61 +203,67 @@
       }
     },
     "coffee-and-tea": {
-      "espresso": {
-        "title": "Espresso",
-        "price": "35 / 40"
+      "description": {
+        "p1": "Johan&Nyström är leverantören av den bästa kvaliteten på vårt kaffe! Vårt bryggkaffe \"Bold Statement\" som bär smaken av choklad, hasselnöt och körsbär är favorit av många!",
+        "p2": "\"Bob-O-Link\" - brasilianska espressobönor som har toner av choklad, karamell och söta plommon lämnar den bästa eftersmaken!"
       },
-      "latte": {
-        "title": "Latte",
-        "price": "50 / 60"
-      },
-      "cappuccino": {
-        "title": "Cappuccino",
-        "price": "55"
-      },
-      "americano": {
-        "title": "Americano",
-        "price": "45"
-      },
-      "flatWhite": {
-        "title": "Flat White",
-        "price": "55"
-      },
-      "cortado": {
-        "title": "Cortado",
-        "price": "55"
-      },
-      "latteMacchiato": {
-        "title": "Latte Macchiato",
-        "price": "55"
-      },
-      "kaffeMocca": {
-        "title": "Kaffe Mocca",
-        "price": "60"
-      },
-      "filterCoffee": {
-        "title": "Bryggkaffe",
-        "price": "35 / 45"
-      },
-      "chaiLatte": {
-        "title": "Chai Latte",
-        "price": "50 / 60"
-      },
-      "dirtyChaiLatte": {
-        "title": "Dirty Chai Latte",
-        "price": "60 / 70"
-      },
-      "hotChocolate": {
-        "title": "Varm Choklad",
-        "price": "55"
-      },
-      "matchaLatte": {
-        "title": "Matcha Latte",
-        "price": "55 / 65"
-      },
-      "tea": {
-        "title": "Te (Olika Smaker)",
-        "price": "35"
+      "items": {
+        "espresso": {
+          "title": "Espresso",
+          "price": "35 / 40"
+        },
+        "latte": {
+          "title": "Latte",
+          "price": "50 / 60"
+        },
+        "cappuccino": {
+          "title": "Cappuccino",
+          "price": "55"
+        },
+        "americano": {
+          "title": "Americano",
+          "price": "45"
+        },
+        "flatWhite": {
+          "title": "Flat White",
+          "price": "55"
+        },
+        "cortado": {
+          "title": "Cortado",
+          "price": "55"
+        },
+        "latteMacchiato": {
+          "title": "Latte Macchiato",
+          "price": "55"
+        },
+        "kaffeMocca": {
+          "title": "Kaffe Mocca",
+          "price": "60"
+        },
+        "filterCoffee": {
+          "title": "Bryggkaffe",
+          "price": "35 / 45"
+        },
+        "chaiLatte": {
+          "title": "Chai Latte",
+          "price": "50 / 60"
+        },
+        "dirtyChaiLatte": {
+          "title": "Dirty Chai Latte",
+          "price": "60 / 70"
+        },
+        "hotChocolate": {
+          "title": "Varm Choklad",
+          "price": "55"
+        },
+        "matchaLatte": {
+          "title": "Matcha Latte",
+          "price": "55 / 65"
+        },
+        "tea": {
+          "title": "Te (Olika Smaker)",
+          "price": "35"
+        }
       }
     },
     "kids-menu": {
@@ -275,63 +281,70 @@
       }
     },
     "other-drinks": {
-      "smoothies": {
-        "kiwi": {
-          "title": "Kiwi+",
-          "ingredients": "Kiwi, Jordgubb, Ananas, Mango",
-          "price": "55"
-        },
-        "beet": {
-          "title": "Beet+",
-          "ingredients": "Rödbeta, Banan, Hallon",
-          "price": "55"
-        },
-        "acai": {
-          "title": "Acai+",
-          "ingredients": "Acai, blåbär, Mango, Jorgubb",
-          "price": "55"
-        },
-        "mango": {
-          "title": "Mango+",
-          "ingredients": "Mango, Passionsfrukt, Ananas",
-          "price": "55"
-        },
-        "avocado": {
-          "title": "Avocado+",
-          "ingredients": "Avokado, Grönkål, Citron, Banan",
-          "price": "55"
-        },
-        "broccoli": {
-          "title": "Broccoli+",
-          "ingredients": "Broccoli, Selleri, Spenat, Banan, Ananas",
-          "price": "55"
-        }
+      "description": {
+        "p1": "Vi har ett stort sortiment/variation av smoothies, där du själv kan välja basen (äppelmust eller kokosvatten).",
+        "p2": "Varje smoothie är fräscht tillagad, unik och näringsrik, som består av olika frukter, bär och grönsaker, odlade med kärlek och omsorg.",
+        "p3": "Varje portion är näringsberikad av en dietist."
       },
-      "milkshakes": {
-        "strawberry": {
-          "title": "Strawberry",
-          "ingredients": "Mjölk, Frysta Jordgubbar och Vaniljglass",
-          "price": "50"
+      "items": {
+        "smoothies": {
+          "kiwi": {
+            "title": "Kiwi+",
+            "ingredients": "Kiwi, Jordgubb, Ananas, Mango",
+            "price": "55"
+          },
+          "beet": {
+            "title": "Beet+",
+            "ingredients": "Rödbeta, Banan, Hallon",
+            "price": "55"
+          },
+          "acai": {
+            "title": "Acai+",
+            "ingredients": "Acai, blåbär, Mango, Jorgubb",
+            "price": "55"
+          },
+          "mango": {
+            "title": "Mango+",
+            "ingredients": "Mango, Passionsfrukt, Ananas",
+            "price": "55"
+          },
+          "avocado": {
+            "title": "Avocado+",
+            "ingredients": "Avokado, Grönkål, Citron, Banan",
+            "price": "55"
+          },
+          "broccoli": {
+            "title": "Broccoli+",
+            "ingredients": "Broccoli, Selleri, Spenat, Banan, Ananas",
+            "price": "55"
+          }
         },
-        "vanilla": {
-          "title": "Vanilla",
-          "ingredients": "Mjölk, Vanilj och Vaniljglass",
-          "price": "45"
-        },
-        "blueberry": {
-          "title": "Blueberry",
-          "ingredients": "Mjölk, Frysta Blåbär och Vaniljglass",
-          "price": "50"
-        },
-        "chocolate": {
-          "title": "Chocolate",
-          "ingredients": "Mjölk och Chokladglass",
-          "price": "45"
-        },
-        "coffee": {
-          "title": "Coffee",
-          "ingredients": "Mjölk, en enkel Espresso och Vaniljglass",
-          "price": "55"
+        "milkshakes": {
+          "strawberry": {
+            "title": "Strawberry",
+            "ingredients": "Mjölk, Frysta Jordgubbar och Vaniljglass",
+            "price": "50"
+          },
+          "vanilla": {
+            "title": "Vanilla",
+            "ingredients": "Mjölk, Vanilj och Vaniljglass",
+            "price": "45"
+          },
+          "blueberry": {
+            "title": "Blueberry",
+            "ingredients": "Mjölk, Frysta Blåbär och Vaniljglass",
+            "price": "50"
+          },
+          "chocolate": {
+            "title": "Chocolate",
+            "ingredients": "Mjölk och Chokladglass",
+            "price": "45"
+          },
+          "coffee": {
+            "title": "Coffee",
+            "ingredients": "Mjölk, en enkel Espresso och Vaniljglass",
+            "price": "55"
+          }
         }
       }
     }

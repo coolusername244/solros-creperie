@@ -203,61 +203,67 @@
       }
     },
     "coffee-and-tea": {
-      "espresso": {
-        "title": "Espresso",
-        "price": "35 / 40"
+      "description": {
+        "p1": "Johan&Nyström is the supplier of the best quality coffee! Our brewed coffee \"Bold Statement\" which has the taste of chocolate, hazelnut and cherry is a favorite of many!",
+        "p2": "\"Bob-O-Link\" - Brazilian espresso beans that have notes of chocolate, caramel and sweet plums leave the best aftertaste!"
       },
-      "latte": {
-        "title": "Latte",
-        "price": "50 / 60"
-      },
-      "cappuccino": {
-        "title": "Cappuccino",
-        "price": "55"
-      },
-      "americano": {
-        "title": "Americano",
-        "price": "45"
-      },
-      "flatWhite": {
-        "title": "Flat White",
-        "price": "55"
-      },
-      "cortado": {
-        "title": "Cortado",
-        "price": "55"
-      },
-      "latteMacchiato": {
-        "title": "Latte Macchiato",
-        "price": "55"
-      },
-      "kaffeMocca": {
-        "title": "Caffè mocha",
-        "price": "60"
-      },
-      "filterCoffee": {
-        "title": "Filter Coffee",
-        "price": "35 / 45"
-      },
-      "chaiLatte": {
-        "title": "Chai Latte",
-        "price": "50 / 60"
-      },
-      "dirtyChaiLatte": {
-        "title": "Dirty Chai Latte",
-        "price": "60 / 70"
-      },
-      "hotChocolate": {
-        "title": "Hot Chocolate",
-        "price": "55"
-      },
-      "matchaLatte": {
-        "title": "Matcha Latte",
-        "price": "55 / 65"
-      },
-      "tea": {
-        "title": "Tea (Various Flavors)",
-        "price": "35"
+      "items": {
+        "espresso": {
+          "title": "Espresso",
+          "price": "35 / 40"
+        },
+        "latte": {
+          "title": "Latte",
+          "price": "50 / 60"
+        },
+        "cappuccino": {
+          "title": "Cappuccino",
+          "price": "55"
+        },
+        "americano": {
+          "title": "Americano",
+          "price": "45"
+        },
+        "flatWhite": {
+          "title": "Flat White",
+          "price": "55"
+        },
+        "cortado": {
+          "title": "Cortado",
+          "price": "55"
+        },
+        "latteMacchiato": {
+          "title": "Latte Macchiato",
+          "price": "55"
+        },
+        "kaffeMocca": {
+          "title": "Caffè mocha",
+          "price": "60"
+        },
+        "filterCoffee": {
+          "title": "Filter Coffee",
+          "price": "35 / 45"
+        },
+        "chaiLatte": {
+          "title": "Chai Latte",
+          "price": "50 / 60"
+        },
+        "dirtyChaiLatte": {
+          "title": "Dirty Chai Latte",
+          "price": "60 / 70"
+        },
+        "hotChocolate": {
+          "title": "Hot Chocolate",
+          "price": "55"
+        },
+        "matchaLatte": {
+          "title": "Matcha Latte",
+          "price": "55 / 65"
+        },
+        "tea": {
+          "title": "Tea (Various Flavors)",
+          "price": "35"
+        }
       }
     },
     "kids-menu": {
@@ -275,63 +281,70 @@
       }
     },
     "other-drinks": {
-      "smoothies": {
-        "kiwi": {
-          "title": "Kiwi+",
-          "ingredients": "Kiwi, Strawberry, Pineapple, Mango",
-          "price": "55"
-        },
-        "beet": {
-          "title": "Beet+",
-          "ingredients": "Beetroot, Banana, Raspberry",
-          "price": "55"
-        },
-        "acai": {
-          "title": "Acai+",
-          "ingredients": "Acai, Blueberry, Mango, Strawberry",
-          "price": "55"
-        },
-        "mango": {
-          "title": "Mango+",
-          "ingredients": "Mango, Passion Fruit, Pineapple",
-          "price": "55"
-        },
-        "avocado": {
-          "title": "Avocado+",
-          "ingredients": "Avocado, Kale, Lemon, Banana",
-          "price": "55"
-        },
-        "broccoli": {
-          "title": "Broccoli+",
-          "ingredients": "Broccoli, Celery, Spinach, Banana, Pineapple",
-          "price": "55"
-        }
+      "description": {
+        "p1": "We have a large selection of smoothies where you can choose the base (apple juice or coconut water).",
+        "p2": "Each smoothie is freshly prepared, unique and nutritious, consisting of different fruits, berries and vegetables grown with love and care.",
+        "p3": "Each serving is a complex of nutritional ingredients recommended by a nutritionist."
       },
-      "milkshakes": {
-        "strawberry": {
-          "title": "Strawberry",
-          "ingredients": "Milk, Frozen Strawberries and Vanilla Ice Cream",
-          "price": "50"
+      "items": {
+        "smoothies": {
+          "kiwi": {
+            "title": "Kiwi+",
+            "ingredients": "Kiwi, Strawberry, Pineapple, Mango",
+            "price": "55"
+          },
+          "beet": {
+            "title": "Beet+",
+            "ingredients": "Beetroot, Banana, Raspberry",
+            "price": "55"
+          },
+          "acai": {
+            "title": "Acai+",
+            "ingredients": "Acai, Blueberry, Mango, Strawberry",
+            "price": "55"
+          },
+          "mango": {
+            "title": "Mango+",
+            "ingredients": "Mango, Passion Fruit, Pineapple",
+            "price": "55"
+          },
+          "avocado": {
+            "title": "Avocado+",
+            "ingredients": "Avocado, Kale, Lemon, Banana",
+            "price": "55"
+          },
+          "broccoli": {
+            "title": "Broccoli+",
+            "ingredients": "Broccoli, Celery, Spinach, Banana, Pineapple",
+            "price": "55"
+          }
         },
-        "vanilla": {
-          "title": "Vanilla",
-          "ingredients": "Milk, Vanilla and Vanilla Ice Cream",
-          "price": "45"
-        },
-        "blueberry": {
-          "title": "Blueberry",
-          "ingredients": "Milk, Frozen Blueberries and Vanilla Ice Cream",
-          "price": "50"
-        },
-        "chocolate": {
-          "title": "Chocolate",
-          "ingredients": "Milk and Chocolate Ice Cream",
-          "price": "45"
-        },
-        "coffee": {
-          "title": "Coffee",
-          "ingredients": "Milk, a simple Espresso and Vanilla Ice Cream",
-          "price": "55"
+        "milkshakes": {
+          "strawberry": {
+            "title": "Strawberry",
+            "ingredients": "Milk, Frozen Strawberries and Vanilla Ice Cream",
+            "price": "50"
+          },
+          "vanilla": {
+            "title": "Vanilla",
+            "ingredients": "Milk, Vanilla and Vanilla Ice Cream",
+            "price": "45"
+          },
+          "blueberry": {
+            "title": "Blueberry",
+            "ingredients": "Milk, Frozen Blueberries and Vanilla Ice Cream",
+            "price": "50"
+          },
+          "chocolate": {
+            "title": "Chocolate",
+            "ingredients": "Milk and Chocolate Ice Cream",
+            "price": "45"
+          },
+          "coffee": {
+            "title": "Coffee",
+            "ingredients": "Milk, a simple Espresso and Vanilla Ice Cream",
+            "price": "55"
+          }
         }
       }
     }
