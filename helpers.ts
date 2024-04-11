@@ -67,22 +67,27 @@ export const getItems = (slug: string) => {
       break;
     case 'sota-crepes':
     case 'sweet-crepes':
+    case 'солодкий-млинці':
       items = crepeItems;
       break;
     case 'toasts-och-paninis':
     case 'toasts-and-paninis':
+    case 'тости-та-паніні':
       items = toastItems;
       break;
     case 'barn-meny':
     case 'kids-menu':
+    case 'дитяче-меню':
       items = kidsItems;
       break;
     case 'kaffe-och-te':
     case 'coffee-and-tea':
+    case 'кава-та-чай':
       items = coffeeTeaItems;
       break;
     case 'ovriga-drycker':
     case 'other-drinks':
+    case 'інші-напої':
       items = otherItems;
       break;
   }
