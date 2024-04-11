@@ -437,120 +437,131 @@ export const kidsItems: MenuItem[] = [
   },
 ];
 
+export const coffeeTeaDescription = [
+  { text: 'description.p1' },
+  { text: 'description.p2' },
+];
+
 export const coffeeTeaItems: MenuItem[] = [
   {
-    title: 'espresso.title',
-    price: 'espresso.price',
+    title: 'items.espresso.title',
+    price: 'items.espresso.price',
   },
   {
-    title: 'latte.title',
-    price: 'latte.price',
+    title: 'items.latte.title',
+    price: 'items.latte.price',
   },
   {
-    title: 'cappuccino.title',
-    price: 'cappuccino.price',
+    title: 'items.cappuccino.title',
+    price: 'items.cappuccino.price',
   },
   {
-    title: 'americano.title',
-    price: 'americano.price',
+    title: 'items.americano.title',
+    price: 'items.americano.price',
   },
   {
-    title: 'flatWhite.title',
-    price: 'flatWhite.price',
+    title: 'items.flatWhite.title',
+    price: 'items.flatWhite.price',
   },
   {
-    title: 'cortado.title',
-    price: 'cortado.price',
+    title: 'items.cortado.title',
+    price: 'items.cortado.price',
   },
   {
-    title: 'latteMacchiato.title',
-    price: 'latteMacchiato.price',
+    title: 'items.latteMacchiato.title',
+    price: 'items.latteMacchiato.price',
   },
   {
-    title: 'kaffeMocca.title',
-    price: 'kaffeMocca.price',
+    title: 'items.kaffeMocca.title',
+    price: 'items.kaffeMocca.price',
   },
   {
-    title: 'filterCoffee.title',
-    price: 'filterCoffee.price',
+    title: 'items.filterCoffee.title',
+    price: 'items.filterCoffee.price',
   },
   {
-    title: 'chaiLatte.title',
-    price: 'chaiLatte.price',
+    title: 'items.chaiLatte.title',
+    price: 'items.chaiLatte.price',
   },
   {
-    title: 'dirtyChaiLatte.title',
-    price: 'dirtyChaiLatte.price',
+    title: 'items.dirtyChaiLatte.title',
+    price: 'items.dirtyChaiLatte.price',
   },
   {
-    title: 'hotChocolate.title',
-    price: 'hotChocolate.price',
+    title: 'items.hotChocolate.title',
+    price: 'items.hotChocolate.price',
   },
   {
-    title: 'matchaLatte.title',
-    price: 'matchaLatte.price',
+    title: 'items.matchaLatte.title',
+    price: 'items.matchaLatte.price',
   },
   {
-    title: 'tea.title',
-    price: 'tea.price',
+    title: 'items.tea.title',
+    price: 'items.tea.price',
   },
+];
+
+export const otherDrinkDescription = [
+  { text: 'description.p1' },
+  { text: 'description.p2' },
+  { text: 'description.p3' },
 ];
 
 export const otherItems: MenuItem[] = [
   {
-    title: 'smoothies.kiwi.title',
-    ingredients: 'smoothies.kiwi.ingredients',
-    price: 'smoothies.kiwi.price',
+    title: 'items.smoothies.kiwi.title',
+    ingredients: 'items.smoothies.kiwi.ingredients',
+    price: 'items.smoothies.kiwi.price',
   },
   {
-    title: 'smoothies.beet.title',
-    ingredients: 'smoothies.beet.ingredients',
-    price: 'smoothies.beet.price',
+    title: 'items.smoothies.beet.title',
+    ingredients: 'items.smoothies.beet.ingredients',
+    price: 'items.smoothies.beet.price',
   },
   {
-    title: 'smoothies.acai.title',
-    ingredients: 'smoothies.acai.ingredients',
-    price: 'smoothies.acai.price',
+    title: 'items.smoothies.acai.title',
+    ingredients: 'items.smoothies.acai.ingredients',
+    price: 'items.smoothies.acai.price',
   },
   {
-    title: 'smoothies.mango.title',
-    ingredients: 'smoothies.mango.ingredients',
-    price: 'smoothies.mango.price',
+    title: 'items.smoothies.mango.title',
+    ingredients: 'items.smoothies.mango.ingredients',
+    price: 'items.smoothies.mango.price',
   },
   {
-    title: 'smoothies.avocado.title',
-    ingredients: 'smoothies.avocado.ingredients',
-    price: 'smoothies.avocado.price',
+    title: 'items.smoothies.avocado.title',
+    ingredients: 'items.smoothies.avocado.ingredients',
+    price: 'items.smoothies.avocado.price',
   },
   {
-    title: 'smoothies.broccoli.title',
-    ingredients: 'smoothies.broccoli.ingredients',
-    price: 'smoothies.broccoli.price',
+    title: 'items.smoothies.broccoli.title',
+    ingredients: 'items.smoothies.broccoli.ingredients',
+    price: 'items.smoothies.broccoli.price',
   },
   {
-    title: 'milkshakes.strawberry.title',
-    ingredients: 'milkshakes.strawberry.ingredients',
-    price: 'milkshakes.strawberry.price',
+    title: 'items.milkshakes.strawberry.title',
+    ingredients: 'items.milkshakes.strawberry.ingredients',
+    price: 'items.milkshakes.strawberry.price',
   },
   {
-    title: 'milkshakes.vanilla.title',
-    ingredients: 'milkshakes.vanilla.ingredients',
-    price: 'milkshakes.vanilla.price',
+    title: 'items.milkshakes.vanilla.title',
+    ingredients: 'items.milkshakes.vanilla.ingredients',
+    price: 'items.milkshakes.vanilla.price',
   },
   {
-    title: 'milkshakes.blueberry.title',
-    ingredients: 'milkshakes.blueberry.ingredients',
-    price: 'milkshakes.blueberry.price',
+    title: 'items.milkshakes.blueberry.title',
+    ingredients: 'items.milkshakes.blueberry.ingredients',
+    price: 'items.milkshakes.blueberry.price',
   },
   {
-    title: 'milkshakes.chocolate.title',
-    ingredients: 'milkshakes.chocolate.ingredients',
-    price: 'milkshakes.chocolate.price',
+    title: 'items.milkshakes.chocolate.title',
+    ingredients: 'items.milkshakes.chocolate.ingredients',
+    price: 'items.milkshakes.chocolate.price',
   },
   {
-    title: 'milkshakes.coffee.title',
-    ingredients: 'milkshakes.coffee.ingredients',
-    price: 'milkshakes.coffee.price',
+    title: 'items.milkshakes.coffee.title',
+    ingredients: 'items.milkshakes.coffee.ingredients',
+    price: 'items.milkshakes.coffee.price',
   },
 ];
 
