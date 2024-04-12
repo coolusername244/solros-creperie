@@ -26,7 +26,7 @@ const MenuCategoryItems = ({ params }: { params: { slug: string } }) => {
   return foodOrDrink === 'food' ? (
     <FoodMenuLayout slug={query} items={items} />
   ) : (
-    <DrinkMenuLayout slug={slug} items={items} />
+    <DrinkMenuLayout slug={query} items={items} />
   );
 };
 
