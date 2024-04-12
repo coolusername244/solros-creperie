@@ -16,7 +16,7 @@ const About = () => {
             <div className="w-full px-6">
               <hr className="h-[2px] bg-slate-500" />
             </div>
-            <h2 className="section-heading text-nowrap">{t(p.text)}</h2>
+            <h2 className="section-heading lg:text-nowrap">{t(p.text)}</h2>
             <div className="w-full px-6">
               <hr className="h-[2px] bg-slate-500" />
             </div>
