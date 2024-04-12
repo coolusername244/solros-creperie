@@ -52,10 +52,6 @@
 }
 /* Navbar end */
 
-.light-mint {
-  /* @apply bg-[#EDFFEE]; */
-}
-
 .section-heading {
   @apply flex
   items-center
