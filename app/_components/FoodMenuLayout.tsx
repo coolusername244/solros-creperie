@@ -11,8 +11,8 @@ const FoodMenuLayout: FC<MenuLayoutProps> = ({ slug, items }) => {
   return (
     <main className="mt-[100px] lg:mt-[130px]">
       {items.map((item, i) => (
-        <article key={i} className="py-12 grid xl:grid-cols-3">
-          <div className="flex flex-col xl:text-right xl:col-span-2">
+        <article key={i} className="py-12 grid md:grid-cols-3">
+          <div className="flex flex-col md:text-right md:col-span-2">
             <h2 className="sub-heading border-b border-slate-500 text-right pr-4">
               {t(item.title)} {item.price && <>- {t(item.price)}</>}
             </h2>
