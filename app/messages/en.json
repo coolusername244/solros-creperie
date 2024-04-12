@@ -6,7 +6,7 @@
   "nav": {
     "menu": "Menu",
     "offers": "Offers",
-    "news": "News",
+    "new": "New",
     "about": "About",
     "contact": "Contact"
   },
@@ -349,7 +349,7 @@
       }
     }
   },
-  "news": {
+  "new": {
     "title": "New",
     "offer-1": {
       "title": "Croffle",

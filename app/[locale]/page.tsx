@@ -1,5 +1,5 @@
 import Menu from '@/_components/menu/Menu';
-import News from '@/_components/news/News';
+import New from '@/_components/new/New';
 import Offers from '@/_components/offers/Offers';
 import About from '@/_components/about/About';
 import Contact from '@/_components/contact/Contact';
@@ -9,7 +9,7 @@ export default function Home() {
     <main>
       <Menu />
       <Offers />
-      <News />
+      <New />
       <About />
       <Contact />
     </main>

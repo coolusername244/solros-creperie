@@ -127,7 +127,7 @@ export const navlinks: Navlink[] = [
     name: 'offers',
   },
   {
-    name: 'news',
+    name: 'new',
   },
   {
     name: 'about',
@@ -215,15 +215,15 @@ export const offersHeros: Hero[] = [
   },
 ];
 
-export const newsHeros: Hero[] = [
+export const newHeros: Hero[] = [
   {
-    title: 'news.offer-1.title',
-    slug: 'news.offer-1.slug',
+    title: 'new.offer-1.title',
+    slug: 'new.offer-1.slug',
     image: hamHarmonyLarge,
   },
   {
-    title: 'news.offer-2.title',
-    slug: 'news.offer-2.slug',
+    title: 'new.offer-2.title',
+    slug: 'new.offer-2.slug',
     image: chocoBanaLarge,
   },
 ];

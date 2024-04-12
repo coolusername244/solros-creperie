@@ -1,14 +1,14 @@
 import React from 'react';
 import { useTranslations } from 'next-intl';
 
-import { newsHeros } from '@/_assets/datasets/data';
+import { newHeros } from '@/_assets/datasets/data';
 import ShowcaseImage from '@/_components/ShowcaseImage';
 
-const News = () => {
-  const t = useTranslations('news');
+const New = () => {
+  const t = useTranslations('new');
 
   return (
-    <section id="news">
+    <section id="new">
       <div className="flex justify-center items-center">
         <div className="w-full pl-12 pr-6">
           <hr className="h-[2px] bg-slate-500" />
@@ -18,7 +18,7 @@ const News = () => {
           <hr className="h-[2px] bg-slate-500" />
         </div>
       </div>
-      <ShowcaseImage heros={newsHeros} />
+      <ShowcaseImage heros={newHeros} />
       {/* <div className="w-[75vw] m-auto h-96 mb-12 justify-center items-center flex text-white text-4xl uppercase text-center bg-slate-600">
         <p>video will go here</p>
       </div> */}
@@ -26,4 +26,4 @@ const News = () => {
   );
 };
 
-export default News;
+export default New;
