@@ -19,9 +19,9 @@ const News = () => {
         </div>
       </div>
       <ShowcaseImage heros={newsHeros} />
-      <div className="w-[75vw] m-auto h-96 mb-12 justify-center items-center flex text-white text-4xl uppercase text-center bg-slate-600">
+      {/* <div className="w-[75vw] m-auto h-96 mb-12 justify-center items-center flex text-white text-4xl uppercase text-center bg-slate-600">
         <p>video will go here</p>
-      </div>
+      </div> */}
     </section>
   );
 };
