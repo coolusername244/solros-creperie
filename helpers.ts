@@ -7,6 +7,7 @@ import {
   otherItems,
 } from '@/_assets/datasets/data';
 import { MenuItem } from '@/_types/types';
+import { useEffect, useState } from 'react';
 
 export const handleClick = (name: string) => {
   const element = document.getElementById(name);
@@ -100,4 +101,17 @@ export const imageSrc = (item: MenuItem) => {
     if (item.imageSmall) return item.imageSmall.src;
   }
   return item.imageLarge!.src;
+};
+
+export const useWindowWidth = () => {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  useEffect(() => {
+    function handleResize() {
+      setWindowWidth(window.innerWidth);
+    }
+    window.addEventListener('resize', handleResize);
+    handleResize();
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+  return windowWidth;
 };
