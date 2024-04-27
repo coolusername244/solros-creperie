@@ -2,7 +2,7 @@
 import React, { FC, useState, useEffect } from 'react';
 import { Navlink } from '@/_types/types';
 import { useTranslations } from 'next-intl';
-import { handleClick } from '../../../helpers';
+import { useRouter, usePathname } from 'next/navigation';
 
 type NavlinksProps = {
   navlink: Navlink;
@@ -12,6 +12,8 @@ type NavlinksProps = {
 const Navlinks: FC<NavlinksProps> = ({ navlink, closeNavItemsHandler }) => {
   const t = useTranslations('nav');
   const [isActive, setIsActive] = useState(false);
+  const router = useRouter();
+  const pathname = usePathname();
 
   useEffect(() => {
     const checkActive = () => {
@@ -30,6 +32,32 @@ const Navlinks: FC<NavlinksProps> = ({ navlink, closeNavItemsHandler }) => {
 
     return () => window.removeEventListener('scroll', checkActive);
   }, [navlink.name]);
+
+  const handleClick = (name: string) => {
+    if (
+      pathname !== '/' &&
+      !pathname.endsWith('/en') &&
+      !pathname.endsWith('/ua')
+    ) {
+      router.back();
+    }
+    setTimeout(() => {
+      const element = document.getElementById(name);
+      let navbarHeight = 100;
+
+      if (window.innerWidth >= 1024) {
+        navbarHeight = 130;
+      }
+
+      if (element) {
+        const offset = element.getBoundingClientRect().top + window.scrollY;
+        window.scrollTo({
+          top: offset - navbarHeight,
+          behavior: 'smooth',
+        });
+      }
+    }, 50);
+  };
 
   return (
     <>
