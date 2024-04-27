@@ -33,7 +33,6 @@ const DrinkMenuLayout: FC<MenuLayoutProps> = ({ slug, items }) => {
           </p>
         ))}
       </section>
-
       <div className="flex">
         <section className="flex flex-col justify-evenly items-end text-right basis-2/3 md:basis-1/3">
           {items.map((item, i) => (
