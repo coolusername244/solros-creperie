@@ -135,6 +135,9 @@ export const navlinks: Navlink[] = [
   {
     name: 'contact',
   },
+  {
+    name: 'order',
+  },
 ];
 
 export const about: AboutParagraph[] = [
