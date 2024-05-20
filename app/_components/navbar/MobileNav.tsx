@@ -2,7 +2,6 @@ import React, { FC } from 'react';
 import Image from 'next/image';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { IoCloseOutline } from 'react-icons/io5';
-import { handleClick } from '../../../helpers';
 
 import Social from './Social';
 import Navlinks from './Navlinks';
@@ -30,7 +29,6 @@ const MobileNav: FC<NavProps> = ({
             alt="Solros Creperie Logo"
             className="navbar-logo"
             priority
-            onClick={() => handleClick('menu')}
           />
         </a>
         <div className="flex ml-auto">
