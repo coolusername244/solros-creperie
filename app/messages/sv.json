@@ -59,63 +59,63 @@
         "ingredients": "Emmentaler, Skinka, Tomat, Isbergssallad",
         "description": "En galette fylld med schweizisk mild emmentalerost, svenska salta skinkan, fräscha tomater som bidrar till saftig textur och krispig isbergssallad. Serveras med krämig ranchsås. En smakrik, harmonisk och balanserad måltid!",
         "price": "140",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Laktos, Kött, Ägg, Senapsfrö, Solrosfrö"
       },
       "chickNCherry": {
         "title": "ChickNCherry",
         "ingredients": "Emmentaler, Kyckling, Salladsmix, Körsbärstomater",
         "description": "Krämiga emmentaler, saftig svensk kyckling, krispig salladsmix med fräscha och söta körsbärstomater. Den salta och milda osten parar sig ihop med den perfekta grillade kycklingen, som är sedan toppad med fräsch spenat och söta körsbärstomater. Serveras med krämig ranchsås. En riktig smakupplevelse!",
         "price": "140",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Laktos, Kött, Ägg, Senapsfrö, Solrosfrö"
       },
       "eggElegy": {
         "title": "EggElegy",
         "ingredients": "Emmentaler, Bacon, Ägg, Svart peppar, Isbergssallad, Gräslök",
         "description": "Vår version av \"English breakfast\": krämiga osten, stekt ägg och bacon med lite pepparmix, toppad med fräsch isbergssallad och gräslök. Man får den salta och mildheten från ägget och osten, som passar bra ihop med bacon och den krispiga isbergssalladen. Serveras med krämig ranchsås. Passar perfekt till frukost, lunch och middag!",
         "price": "140",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Laktos, Kött, Ägg, Peppar, Senapsfrö, Solrosfrö"
       },
       "mozzaMix": {
         "title": "MozzaMix",
         "ingredients": "Salladsmix, Mozzarella, Pesto, Tomat",
         "description": "En galette med ett krämigt lager av mozzarellaost, färska spenatblad, saftiga tomatskivor, toppad med pesto gjord på basilika, cashewnötter och parmigiano. En harmonisk kombination av smaker!",
         "price": "130",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Laktos, Nötter, Solrosfrö"
       },
       "brieBravado": {
         "title": "BrieBravado",
         "ingredients": "Prosciutto, Brieost, Tomat, Torkade tomater, Salladsmix",
         "description": "Den tunna lager av prosciutto, krämiga brieosten som balanserar sig perfekt med de soltorkade tomater med en touch av färsk ruccola - den perfekta måltiden för någon som vill få en unik smakupplevelse! Serveras med krämig ranchsås.",
         "price": "160",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Laktos, Kött, Sulfit, Ägg, Vitlök, Senapsfrö, Solrosfrö"
       },
       "guacaGlow": {
         "title": "GuacaGlow",
         "ingredients": "Gravad Lax, Hemlagad Guacamole, Avokado, Tomat, Rödlök, Citron, Salt, Svart Peppar, Groddar, Salladsmix",
         "description": "En lyxig galette med hemlagad guacamole av mogna avokado, finhackad rödlök, färska tomater, citronjuice och en nypa salt. Därefter läggs en kudde av färsk salladsmix av spenat och ruccola som sedan toppas med stjärnan i maträtten - den gravade laxen! En smakfull galette med den kryddiga och lyxiga laxen. Vår hemlagade guacamole ger den mjukheten och syrligheten som kompletteras perfekt med den fräscha salladsmixen. Serveras med den söta hjortronsylt. Kan lätt vara din favorit!",
         "price": "160",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Fisk, Peppar, Dill, Solrosfrö"
       },
       "greenTango": {
         "title": "GreenTango",
         "ingredients": "Emmentaler, Avokado, Salladsmix, Tomat, Groddar",
         "description": "En härlig och vegetarisk galette med krämig emmentalerost, mogna avokado, fräsch salladsmix och saftiga tomater, toppad med en generös mängd av pesto gjord på basilika, cashewnötter och parmigiano. Serveras med en touch av groddar som ger en härlig textur. En favorit!",
         "price": "140",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Laktos, Nötter, Solrosfrö"
       },
       "cheeseFiesta": {
         "title": "CheeseFiesta",
         "ingredients": "Emmentaler, Cream Cheese, Mozzarella, Halloumi, Salladsmix",
         "description": "En riktig fiesta med kombination av ostar! En galette fylld med krämig mix av schweizisk ost, färsk cream cheese och bitar av mozzarella. Toppad med riven halloumi och färsk ruccola för en fin och unik eftersmak. Serveras med lingonsylt för lite sötma!",
         "price": "160",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Laktos, Solrosfrö"
       },
       "pearlyBoo": {
         "title": "PearlyBoo",
         "ingredients": "Avocado, Tomat, Gul Paprika, Burrata, Pesto, Groddar",
         "description": "En galette med en härlig och fräsch kombination av grönsaker, serveras med burrata ost, smakrik pesto och krispiga groddar. Botten toppas med av mogna avokado, saftiga tomater, krispig gul paprika, krämiga burrata osten och liten touch av pesto och groddar. Smakerna kompletterar varandra perfekt och ger en smakexplosion av sött, salt, syrligt och krämigt!",
         "price": "160",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Laktos, Nötter, Solrosfrö"
       }
     },
     "sweet-crepes": {
@@ -124,56 +124,56 @@
         "ingredients": "Banan, Nutella, Vispgrädde, Fruktsås",
         "description": "En perfekt kombination av smaker som möter i en himmelsk brygd av sött och fruktigt. En crêpe fylld med mogna bananer, söt och krämig nutella, som serveras med fluffig vispgrädde och härlig fruktsås!",
         "price": "110",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Laktos, Gluten, Ägg, Nötter, Solrosfrö"
       },
       "monLemon": {
         "title": "MonLemon",
         "ingredients": "Smör, Citron, Rörsocker, Myntablad",
         "description": "En fräsch och smakrik crêpe som har den perfekta balansen mellan citronens syrlighet, rörsockers sötma, smörets rika smaken och friskheten av myntabladen.",
         "price": "90",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Laktos, Gluten, Ägg, Citron, Rörsocker (kan innehålla spår av Gluten, Jordnötter, Nötter, Soja och Sesamfrö), Solrosfrö"
       },
       "whiteDelight": {
         "title": "WhiteDelight",
         "ingredients": "Jordgubbar eller Blåbär, Vit Choklad, Vispgrädde",
         "description": "En förstklassig crêpe med färska jordgubbar/söta blåbär som skapar en explosion av smaker efter varje tugga. Den vita och krämiga chokladen smälter sig fint över bär och ger den sötman man behöver. Toppad med en fluffig vispgrädde såklart!",
         "price": "120",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Laktos, Gluten, Ägg, Solrosfrö"
       },
       "creamyBerry": {
         "title": "CreamyBerry",
         "ingredients": "Cream Cheese, Jordgubbs eller Blåbärssylt, Vit Choklad Sås, Jordgubb eller blåbär, Hackade Mandlar",
         "description": "Krämigaste crêpen på menyn! En crêpe med krämig cream cheese, sötsyrlig blåbärs eller jordgubbssylt, krämig vitchokladsås. Toppad med färska jordgubbar eller blåbär och krispiga hackade mandlar. En perfekt kombination av smaker och texturer!",
         "price": "130",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Laktos, Gluten, Ägg, Nötter (Mandlar) , Solrosfrö"
       },
       "fruttiDiKeso": {
         "title": "Frutti di Keso",
         "ingredients": "Keso, Russin, Vanilj, Fruktsås",
         "description": "En saftig crêpe fylld med krämig keso, söta russin toppad med en fruktsås av jordgubbar eller hallon. Toppas sedan med en liten mängd vaniljsocker för att skapa en starkare och härligare smakupplevelse. Den här kombinationen av sött och syrligt smälter sig i munnen och lämnar en god eftersmak.",
         "price": "130",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Laktos, Gluten, Ägg, Solrosfrö"
       },
       "appleMaple": {
         "title": "AppleMaple",
         "ingredients": "Smör, Äppelmos, Lönnsirap, Kanel, Pekannötter",
         "description": "En crêpe som ger en perfekt avslutning efter en god måltid! Denna crêpen är fylld med en krämig smör och söt äppelmos, toppad med lönnsirap för att få den extra sötma. Den serveras med lite kanel för värme och smak samt pekannötter för en krispig touch.",
         "price": "120",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Laktos, Gluten, Ägg, Nötter (Pekannötter), Solrosfrö"
       },
       "orangeBliss": {
         "title": "Orange Bliss",
         "ingredients": "Smör, Apelsinmarmelad, Kolasås, Vaniljglass",
         "description": "En crêpe med smakrik smör, söt apelsinmarmelad, ljuvlig kolasås serverad med vaniljglass för en lyxig dessert? Ja, tack! Smöret och apelsinmarmeladen skapar den rika och friska smakupplevelsen. Kolasåsen levererar extra sötman och vaniljglassen ger den krämiga eftersmaken man vill ha.",
         "price": "130",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Laktos, Gluten, Ägg, Solrosfrö"
       },
       "honeyBana": {
         "title": "HoneyBana",
         "ingredients": "Emmentaler, Banan, Honung, Hackade Mandlar",
         "description": "En crêpe som har den perfekta kombinationen av sötma och sälta. Den krämiga smältningen av emmentalerost parar sig bra ihop med söta och mogna bananer, som balanserar sig bra med honungen. Hackade mandlar ger en krispig touch och en nötig smak och kompletterar desserten. Lyxiga och rika smaker med mix av krämig och krispig textur!",
         "price": "130",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Laktos, Gluten, Ägg, Nötter (Mandlar), Pollen, Solrosfrö"
       }
     },
     "toasts-and-paninis": {
@@ -181,25 +181,25 @@
         "title": "Ost & Skinka",
         "ingredients": "Emmentaler, Skinka, Tomat, Spenat",
         "description": "Brödet fylls med generös mängd av en krämig emmentalerost, saftig skinka, färska tomatskivor och krispig spenat. När den grillas blir osten smält och kombineras perfekt med alla färska ingredienser. Smakrik och mättande måltid!",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Laktos, Gluten, Kött"
       },
       "cheeseAndChicken": {
         "title": "Ost & Kyckling",
         "ingredients": "Emmentaler, Isbergsallad, Kyckling, Ränch-sås",
         "description": "En panini med den perfekta smält emmentalerosten som parar sig ihop med den saftiga kycklingen och krispiga isbergssalladen för en crunch och fräsch kombination. För att ta din smakupplevelse till högsta nivå, toppar vi generöst med caesardressingen som lämnar en fin eftersmak.",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Laktos, Gluten, Ägg, Kött och Senapsfrö"
       },
       "mozzarellaAndPesto": {
         "title": "Mozzarella & Pesto",
         "ingredients": "Mozzarella, Pesto, Tomat, Spenat",
         "description": "En panini som är fylld med krämig och smält mozzarellaost som kombineras med den smakrika och aromatiska peston, toppas med den fräscha spenatbladen och saftiga tomatskivor. Fräsch och nyttig måltid!",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Laktos, Gluten, Nötter"
       },
       "avocadoAndPesto": {
         "title": "Avokado & Pesto",
         "ingredients": "Emmentaler, Pesto, Avokado, Spenat",
         "description": "En smakfull panini med emmentaler, pesto, avokado och spenat. Emmentaler smälter sig perfekt och blandas in med kryddiga peston, mogna avokadoskivor och fräscha spenatblad. Alla smaker kommer till sin fulla rätt och levererar den bästa smakupplevelsen!",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Laktos, Gluten, Nötter"
       }
     },
     "coffee-and-tea": {
