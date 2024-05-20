@@ -59,63 +59,63 @@
         "ingredients": "Emmental, Ham, Tomato, Iceberg Lettuce",
         "description": "A galette filled with Swiss mild Emmental cheese, Swedish salty ham, fresh tomatoes that contribute to juicy texture and crispy iceberg lettuce. Served with creamy ranch dressing. A tasty, harmonious and balanced meal!",
         "price": "140",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Lactose, Meat, Eggs, Mustard Seed, Sunflower Seed"
       },
       "chickNCherry": {
         "title": "ChickNCherry",
         "ingredients": "Emmental, Chicken, Salad Mix, Cherry tomatoes",
         "description": "Creamy Emmental, juicy Swedish chicken, crispy salad mix with fresh and sweet cherry tomatoes. The salty and mild cheese pairs perfectly with the grilled chicken, which is then topped with fresh spinach and sweet cherry tomatoes. Served with creamy ranch dressing. A real taste experience!",
         "price": "140",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Lactose, Meat, Eggs, Mustard Seed, Sunflower Seed"
       },
       "eggElegy": {
         "title": "EggElegy",
         "ingredients": "Emmental, Bacon, Egg, Black Pepper, Iceberg Lettuce, Chives",
         "description": "Our version of \"English breakfast\": creamy cheese, fried egg and bacon with a little pepper mix, topped with fresh iceberg lettuce and chives. You get the saltiness and mildness of the egg and cheese, which goes well with the bacon and the crispy iceberg lettuce. Served with creamy ranch dressing Perfect for breakfast, lunch and dinner!",
         "price": "140",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Lactose, Meat, Eggs, Pepper, Mustard Seed, Sunflower Seed"
       },
       "mozzaMix": {
         "title": "MozzaMix",
         "ingredients": "Salad Mix, Mozzarella, Pesto, Tomato",
         "description": "A galette with a creamy layer of mozzarella cheese, fresh spinach leaves, juicy tomato slices, topped with pesto made from basil, cashews and parmigiano. A harmonious combination of flavors!",
         "price": "130",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Lactose, Nuts, Sunflower Seed"
       },
       "brieBravado": {
         "title": "BrieBravado",
         "ingredients": "Prosciutto, Brie, Tomato, Dried Tomatoes, Salad mix",
         "description": "A thin layer of prosciutto, creamy brie cheese that balances perfectly with the sun-dried tomatoes with a touch of fresh arugula - the perfect meal for someone who wants to have a unique taste experience! Served with creamy ranch dressing.",
         "price": "160",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Lactose, Meat, Sulphite, Eggs, Garlic, Mustard Seed, Sunflower Seed"
       },
       "guacaGlow": {
         "title": "GuacaGlow",
         "ingredients": "Diced Salmon, Homemade Guacamole, Avocado, Tomato, Red Onion, Lemon, Salt, Black Pepper, Sprouts, Salad Mix",
         "description": "A luxurious galette with homemade guacamole of ripe avocado, finely chopped red onion, fresh tomatoes, lemon juice and a pinch of salt. Then a pillow of fresh salad mix of spinach and arugula is added, which is then topped with the star of the dish - the grilled salmon! A tasty galette with the spicy and luxurious salmon. Our homemade guacamole provides the softness and acidity that is complemented perfectly with the fresh salad mix. Served with the sweet gooseberry jam. Could easily be your favorite!",
         "price": "160",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Fish, Pepper, Dill, Sunflower Seed"
       },
       "greenTango": {
         "title": "GreenTango",
         "ingredients": "Emmental, Avocado, Salad Mix, Tomato, Sprouts",
         "description": "A delicious, vegetarian galette with creamy Emmental cheese, ripe avocado, fresh salad mix and juicy tomatoes, topped with a generous amount of pesto made from basil, cashews and parmigiano. Served with a touch of sprouts that give a lovely texture. A favorite!",
         "price": "140",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Lactose, Nuts, Sunflower Seed"
       },
       "cheeseFiesta": {
         "title": "CheeseFiesta",
         "ingredients": "Emmental, Cream Cheese, Mozzarella, Halloumi, Salad Mix",
         "description": "A real fiesta with a combination of cheeses! A galette filled with a creamy mix of Swiss cheese, fresh cream cheese and pieces of mozzarella. Topped with grated halloumi and fresh arugula for a nice and unique aftertaste. Served with lingonberry jam for a little sweetness!",
         "price": "160",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Lactose, Sunflower Seed"
       },
       "pearlyBoo": {
         "title": "PearlyBoo",
         "ingredients": "Avocado, Tomato, Yellow Pepper, Burrata, Pesto, Sprouts",
         "description": "A galette with a lovely and fresh combination of vegetables, served with burrata cheese, tasty pesto and crispy sprouts. The base is topped with ripe avocado, juicy tomatoes, crispy yellow peppers, creamy burrata cheese and a small touch of pesto and sprouts. The flavors complement each other perfectly and give a taste explosion of sweet, salty, sour and creamy!",
         "price": "160",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Lactose, Nuts, Sunflower Seed"
       }
     },
     "sweet-crepes": {
@@ -124,56 +124,56 @@
         "ingredients": "Banana, Nutella, Whipped cream, Fruit sauce",
         "description": "A perfect combination of flavors that meet in a heavenly brew of sweet and fruity. A crêpe filled with ripe bananas, sweet and creamy nutella, served with fluffy whipped cream and delicious fruit sauce!",
         "price": "110",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Lactose, Gluten, Eggs, Nuts, Sunflower Seed"
       },
       "monLemon": {
         "title": "MonLemon",
         "ingredients": "Butter, Lemon, Cane Sugar, Mint Leaves",
         "description": "A fresh and tasty crêpe that has the perfect balance between the tartness of the lemon, the sweetness of cane sugar, the rich flavor of the butter and the freshness of the mint leaves.",
         "price": "90",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Lactose, Gluten, Eggs, Citrus, Cane Sugar (may contain traces of Gluten, Peanuts, Tree Nuts, Soy and Sesame Seeds), Sunflower Seed"
       },
       "whiteDelight": {
         "title": "WhiteDelight",
         "ingredients": "Strawberries or Blueberries, White Chocolate, Whipped Cream",
         "description": "A premium crêpe with fresh strawberries/sweet blueberries that creates an explosion of flavors after every bite. The white and creamy chocolate melts nicely over the berries and provides the sweetness you need. Topped with a fluffy whipped cream of course!",
         "price": "120",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Lactose, Gluten, Eggs, Sunflower Seed"
       },
       "creamyBerry": {
         "title": "CreamyBerry",
         "ingredients": "Cream Cheese, Strawberry or Blueberry Jam, White Chocolate Sauce, Strawberry or Blueberry, Chopped Almonds",
         "description": "The creamiest crepe on the menu! A crêpe with creamy cream cheese, sweet and sour blueberry or strawberry jam, creamy white chocolate sauce. Topped with fresh strawberries or blueberries and crunchy chopped almonds. A perfect combination of flavors and textures!",
         "price": "130",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Lactose, Gluten, Eggs, Nuts (Almonds), Sunflower Seed"
       },
       "fruttiDiKeso": {
         "title": "Frutti di Keso",
         "ingredients": "Cottage Cheese, Raisins, Vanilla, Fruit Sauce",
         "description": "A juicy crêpe filled with creamy cottage cheese, sweet raisins topped with a fruit sauce of strawberries or raspberries. Then topped with a small amount of vanilla sugar to create a stronger and more delicious taste experience. This combination of sweet and sour melts in your mouth and leaves a good aftertaste.",
         "price": "130",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Lactose, Gluten, Eggs, Sunflower Seed"
       },
       "appleMaple": {
         "title": "AppleMaple",
         "ingredients": "Butter, Apple Sauce, Maple Syrup, Cinnamon, Pecans",
         "description": "A crêpe that provides a perfect end to a good meal! This crêpe is filled with a creamy butter and sweet applesauce, topped with maple syrup for that extra sweetness. It is served with a little cinnamon for warmth and flavor and pecans for a crunchy touch.",
         "price": "120",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Lactose, Gluten, Eggs, Nuts (Pecans), Sunflower Seed"
       },
       "orangeBliss": {
         "title": "Orange Bliss",
         "ingredients": "Butter, Orange Marmalade, Caramel Sauce, Vanilla Ice Cream",
         "description": "A crêpe with flavorful butter, sweet orange marmalade, delicious caramel sauce served with vanilla ice cream for a luxurious dessert? Yes please! The butter and orange marmalade create the rich and healthy taste experience. The caramel sauce delivers extra sweetness and the vanilla ice cream gives the creamy aftertaste you want.",
         "price": "130",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Lactose, Gluten, Eggs, Sunflower Seed"
       },
       "honeyBana": {
         "title": "HoneyBana",
         "ingredients": "Emmental, Banana, Honey, Chopped Almonds",
         "description": "A crêpe that has the perfect combination of sweetness and saltiness. The creamy melt of Emmental cheese pairs well with sweet and ripe bananas, which balance well with the honey. Chopped almonds add a crunchy touch and a nutty flavor and complete the dessert. Luxurious and rich flavors with a mix of creamy and crunchy texture!",
         "price": "130",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Lactose, Gluten, Eggs, Nuts (Almonds), Pollen, Sunflower Seed"
       }
     },
     "toasts-and-paninis": {
@@ -181,25 +181,25 @@
         "title": "Cheese & Ham",
         "ingredients": "Emmental, Ham, Tomato, Spinach",
         "description": "The bread is filled with a generous amount of a creamy Emmental cheese, juicy ham, fresh tomato slices and crispy spinach. When grilled, the cheese melts and combines perfectly with all the fresh ingredients. Tasty and filling meal!",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Lactose, Gluten, Meat"
       },
       "cheeseAndChicken": {
         "title": "Cheese & Chicken",
         "ingredients": "Emmental, Iceberg Lettuce, Chicken, Ranch Sauce",
         "description": "A panini with the perfect melted Emmental cheese that pairs with the juicy chicken and crispy iceberg lettuce for a crunch and fresh combination. To take your taste experience to the highest level, we top generously with the caesar dressing, which leaves a nice aftertaste.",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Lactose, Gluten, Eggs, Meat and Mustard Seed"
       },
       "mozzarellaAndPesto": {
         "title": "Mozzarella & Pesto",
         "ingredients": "Mozzarella, Pesto, Tomato, Spinach",
         "description": "A panini that is filled with creamy and melted mozzarella cheese combined with the flavorful and aromatic pesto, topped with the fresh spinach leaves and juicy tomato slices. Fresh and healthy meal!",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Lactose, Gluten, Nuts"
       },
       "avocadoAndPesto": {
         "title": "Avocado & Pesto",
         "ingredients": "Emmental, Pesto, Avocado, Spinach",
         "description": "A tasty panini with Emmental, pesto, avocado and spinach. The Emmental blends perfectly and is mixed with spicy pesto, ripe avocado slices and fresh spinach leaves. All flavors come to their full potential and deliver the best taste experience!",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Lactose, Gluten, Nuts"
       }
     },
     "coffee-and-tea": {
@@ -271,13 +271,13 @@
         "title": "SuperHero",
         "description": "Mini galette with Emmental, Ham and Ranch Dressing",
         "price": "75",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Lactose, Meat, Eggs, Mustard Seed, Sunflower Seed"
       },
       "crepeKid": {
         "title": "CrepeKid",
         "description": "A sweet crêpe with a filling: Nutella, Banana, Jam, Vanilla Ice Cream and sauce of your choice",
         "price": "75",
-        "allergy": "Lorem ipsum dolar sit amet consectetur"
+        "allergy": "Lactose, Gluten, Eggs, Sunflower Seed"
       }
     },
     "other-drinks": {
