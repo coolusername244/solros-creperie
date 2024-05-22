@@ -91,16 +91,8 @@ export const socialLinks: SocialLink[] = [
 
 export const openTimes: OpenTime[] = [
   {
-    day: 'monday-friday',
-    times: '08:00 - 20:00',
-  },
-  {
-    day: 'saturday',
-    times: '09:00 - 18:00',
-  },
-  {
-    day: 'sunday',
-    times: '10:00 - 17:00',
+    day: 'monday-sunday',
+    times: '10:00 - 20:00',
   },
 ];
 
@@ -126,17 +118,14 @@ export const navlinks: Navlink[] = [
   {
     name: 'offers',
   },
-  {
-    name: 'new',
-  },
+  // {
+  //   name: 'new',
+  // },
   {
     name: 'about',
   },
   {
     name: 'contact',
-  },
-  {
-    name: 'order',
   },
 ];
 
