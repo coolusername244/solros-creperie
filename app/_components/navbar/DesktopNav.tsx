@@ -28,7 +28,7 @@ const DesktopNav: FC<NavProps> = ({ closeNavItemsHandler }) => {
         <section className="h-1/2">
           <ul className="navbar-link-list">
             {navlinks.map((navlink, i) =>
-              i < 3 ? (
+              i < 2 ? (
                 <Navlinks
                   key={i}
                   navlink={navlink}
@@ -52,7 +52,7 @@ const DesktopNav: FC<NavProps> = ({ closeNavItemsHandler }) => {
         <section className="h-1/2">
           <ul className="navbar-link-list">
             {navlinks.map((navlink, i) =>
-              i >= 3 ? (
+              i >= 2 ? (
                 <Navlinks
                   key={i}
                   navlink={navlink}
