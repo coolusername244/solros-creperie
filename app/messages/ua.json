@@ -374,9 +374,7 @@
     "open-hours": {
       "title": "Години роботи",
       "days": {
-        "monday-friday": "Понеділок - п'ятниця",
-        "saturday": "Субота",
-        "sunday": "неділя"
+        "monday-sunday": "Понеділок - Неділя"
       }
     },
     "find-us": "Знайди нас",

@@ -374,9 +374,7 @@
     "open-hours": {
       "title": "Opening Hours",
       "days": {
-        "monday-friday": "Monday - Friday",
-        "saturday": "Saturday",
-        "sunday": "Sunday"
+        "monday-sunday": "Monday - Sunday"
       }
     },
     "find-us": "Find Us",
