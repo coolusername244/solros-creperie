@@ -191,11 +191,6 @@ export const menuHeros: Hero[] = [
 
 export const offersHeros: Hero[] = [
   {
-    title: 'offers.breakfast.title',
-    slug: 'offers.breakfast.slug',
-    image: hamHarmonyLarge,
-  },
-  {
     title: 'offers.lunch.title',
     slug: 'offers.lunch.slug',
     image: chocoBanaLarge,
