@@ -39,17 +39,13 @@
   },
   "offers": {
     "title": "Offers",
-    "breakfast": {
-      "title": "Breakfast Offer",
-      "slug": "breakfast-offer"
-    },
     "lunch": {
-      "title": "Lunch Offer",
-      "slug": "lunch-offer"
+      "title": "Galette & Coffee/Tea for 125kr",
+      "slug": "galettes"
     },
     "monthly": {
-      "title": "Monthly Offer",
-      "slug": "monthly-offer"
+      "title": "20% off all take-away orders",
+      "slug": "sweet-crepes"
     }
   },
   "food": {
