@@ -39,17 +39,13 @@
   },
   "offers": {
     "title": "Erbjudanden",
-    "breakfast": {
-      "title": "Frukost Erbjudande",
-      "slug": "frukost-erbjudande"
-    },
     "lunch": {
-      "title": "Lunch Erbjudande",
-      "slug": "lunch-erbjudande"
+      "title": "Galette & Kaffe/Te för 125 kr",
+      "slug": "galetter"
     },
     "monthly": {
-      "title": "Månads Erbjudande",
-      "slug": "manads-erbjudande"
+      "title": "20% rabatt på take away ",
+      "slug": "sota-crepes"
     }
   },
   "food": {
