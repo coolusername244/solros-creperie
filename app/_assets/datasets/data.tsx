@@ -118,9 +118,6 @@ export const navlinks: Navlink[] = [
   {
     name: 'offers',
   },
-  // {
-  //   name: 'new',
-  // },
   {
     name: 'about',
   },
