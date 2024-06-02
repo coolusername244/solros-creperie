@@ -3,18 +3,26 @@ import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
+import { useRouter } from 'next/navigation';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { IoCloseOutline } from 'react-icons/io5';
 import { FaInstagram } from 'react-icons/fa';
 
 import SolrosLogo from '@/_assets/images/site-icons/solros-logo.png';
 import LanguageSelector from './LanguageSelector';
-import { usePathname, useRouter } from 'next/navigation';
 
 const Nav = () => {
   const [navItemsShown, setNavItemsShown] = useState<boolean>(false);
+  const [activeSection, setActiveSection] = useState<string>('');
   const router = useRouter();
   const t = useTranslations('nav');
+
+  const navLinks = [
+    { id: 'menu', label: t('menu') },
+    { id: 'offers', label: t('offers') },
+    { id: 'about', label: t('about') },
+    { id: 'contact', label: t('contact') },
+  ];
 
   const navItemsShownHandler = () => {
     setNavItemsShown(!navItemsShown);
@@ -29,7 +37,6 @@ const Nav = () => {
     router.push('/');
   };
 
-  // Smooth scroll to section
   const handleClick = (name: string) => {
     const element = document.getElementById(name);
     let navbarHeight = 100;
@@ -46,6 +53,26 @@ const Nav = () => {
       });
     }
   };
+
+  useEffect(() => {
+    const sections = document.querySelectorAll('section');
+    const observer = new IntersectionObserver(
+      entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            setActiveSection(entry.target.id);
+          }
+        });
+      },
+      { threshold: 0.6 },
+    );
+
+    sections.forEach(section => observer.observe(section));
+
+    return () => {
+      sections.forEach(section => observer.unobserve(section));
+    };
+  }, []);
 
   return (
     <>
@@ -74,45 +101,21 @@ const Nav = () => {
           </div>
           <div className={`${navItemsShown ? 'block' : 'hidden'} w-full`}>
             <ul className="text-center flex flex-col items-center">
-              <li className="navbar-li">
-                <button
-                  className="navbar-link"
-                  onClick={() => {
-                    handleClick('menu');
-                    closeNavItemsHandler();
-                  }}
-                >
-                  {t('menu')}
-                </button>
-              </li>
-
-              <button
-                className="navbar-link navbar-li"
-                onClick={() => {
-                  handleClick('offers');
-                  closeNavItemsHandler();
-                }}
-              >
-                {t('offers')}
-              </button>
-              <button
-                className="navbar-link navbar-li"
-                onClick={() => {
-                  handleClick('about');
-                  closeNavItemsHandler();
-                }}
-              >
-                {t('about')}
-              </button>
-              <button
-                className="navbar-link navbar-li"
-                onClick={() => {
-                  handleClick('contact');
-                  closeNavItemsHandler();
-                }}
-              >
-                {t('contact')}
-              </button>
+              {navLinks.map(link => (
+                <li key={link.id} className="navbar-li">
+                  <button
+                    className={`navbar-link ${
+                      activeSection === link.id ? 'active' : ''
+                    }`}
+                    onClick={() => {
+                      handleClick(link.id);
+                      closeNavItemsHandler();
+                    }}
+                  >
+                    {link.label}
+                  </button>
+                </li>
+              ))}
               <li className="flex items-center justify-center space-x-8 py-6">
                 <button className="navbar-link text-2xl">
                   <Link
@@ -152,22 +155,18 @@ const Nav = () => {
           </div>
           <section className="h-1/2">
             <ul className="navbar-link-list">
-              <li>
-                <button
-                  className="navbar-link"
-                  onClick={() => handleClick('menu')}
-                >
-                  {t('menu')}
-                </button>
-              </li>
-              <li>
-                <button
-                  className="navbar-link"
-                  onClick={() => handleClick('offers')}
-                >
-                  {t('offers')}
-                </button>
-              </li>
+              {navLinks.slice(0, 2).map(link => (
+                <li key={link.id}>
+                  <button
+                    className={`navbar-link ${
+                      activeSection === link.id ? 'active' : ''
+                    }`}
+                    onClick={() => handleClick(link.id)}
+                  >
+                    {link.label}
+                  </button>
+                </li>
+              ))}
             </ul>
           </section>
         </div>
@@ -185,23 +184,20 @@ const Nav = () => {
             <LanguageSelector />
           </section>
           <section className="h-1/2">
-            <div className="navbar-link-list">
-              <button
-                className="navbar-link"
-                onClick={() => handleClick('about')}
-              >
-                {t('about')}
-              </button>
-              <button
-                className="navbar-link"
-                onClick={() => handleClick('contact')}
-              >
-                {t('contact')}
-              </button>
-              {/* <Link href={`/${locale}/order`} className="navbar-link">
-                Order
-              </Link> */}
-            </div>
+            <ul className="navbar-link-list">
+              {navLinks.slice(2).map(link => (
+                <li key={link.id}>
+                  <button
+                    className={`navbar-link ${
+                      activeSection === link.id ? 'active' : ''
+                    }`}
+                    onClick={() => handleClick(link.id)}
+                  >
+                    {link.label}
+                  </button>
+                </li>
+              ))}
+            </ul>
           </section>
         </div>
       </nav>
