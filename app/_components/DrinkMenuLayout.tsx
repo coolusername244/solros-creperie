@@ -37,9 +37,7 @@ const DrinkMenuLayout: FC<MenuLayoutProps> = ({ slug, items }) => {
         <section className="flex flex-col justify-evenly items-end text-right basis-2/3 md:basis-1/3">
           {items.map((item, i) => (
             <div key={i} className="border-b w-full border-slate-500 pr-3">
-              <h4 className="text-xl pb-3">
-                {t(item.title)} {item.price && <>- {t(item.price)}</>}
-              </h4>
+              <h4 className="text-xl pb-3">{t(item.title)}</h4>
               {item.ingredients && (
                 <p className="italic text-right pb-3">{t(item.ingredients)}</p>
               )}
