@@ -9,7 +9,7 @@ const FoodMenuLayout: FC<MenuLayoutProps> = ({ slug, items }) => {
   const t = useTranslations(`food.${query}`);
 
   return (
-    <main className="mt-[100px] lg:mt-[130px] min-h-[calc(100vh_-_186px)]">
+    <main className="min-h-[calc(100vh_-_186px)]">
       {items.map((item, i) => (
         <article key={i} className="py-12 grid md:grid-cols-3">
           <div className="flex flex-col md:text-right md:col-span-2">
