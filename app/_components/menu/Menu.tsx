@@ -8,8 +8,7 @@ const Menu = () => {
   const t = useTranslations('menu');
 
   return (
-    // <section id="menu" className="mt-[100px] lg:mt-[130px]">
-    <section id="menu" className="">
+    <section id="menu" className=" scroll-mt-[130px]">
       <div className="flex justify-center items-center">
         <div className="w-full pl-12 pr-6">
           <hr className="h-[2px] bg-slate-500" />
