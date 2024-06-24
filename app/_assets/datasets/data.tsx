@@ -119,6 +119,9 @@ export const navlinks: Navlink[] = [
     name: 'offers',
   },
   {
+    name: 'prices',
+  },
+  {
     name: 'about',
   },
   {
