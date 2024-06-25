@@ -9,7 +9,7 @@ const About = () => {
   const t = useTranslations('about');
 
   return (
-    <section id="about" className="light-mint px-6">
+    <section id="about" className="scroll-mt-[130px] px-6">
       <div className="xl:w-full">
         {about.slice(0, 1).map((p, i) => (
           <div key={i} className="flex justify-center items-center">
@@ -23,7 +23,7 @@ const About = () => {
           </div>
         ))}
       </div>
-      <div className="xl:w-full">
+      <div className="xl:w-full px-12">
         {about.slice(1, 2).map((p, i) => (
           <p key={i} className="about-text">
             {t(p.text)}
@@ -39,7 +39,7 @@ const About = () => {
             className="pb-6 px-2 md:px-20 lg:px-28 xl:px-0 xl:w-full"
           />
         </div>
-        <div className="xl:w-1/2">
+        <div className="xl:w-1/2 pl-12">
           {about.slice(2, 6).map((p, i) => (
             <p key={i} className="about-text">
               {t(p.text)}
@@ -47,7 +47,7 @@ const About = () => {
           ))}
         </div>
       </div>
-      <div className="xl:w-full ">
+      <div className="xl:w-full px-12">
         {about.slice(6).map((p, i) => (
           <p key={i} className="about-text">
             {t(p.text)}
