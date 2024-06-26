@@ -8,7 +8,7 @@ const Offers = () => {
   const t = useTranslations('offers');
 
   return (
-    <section id="offers" className="light-mint">
+    <section id="offers" className="scroll-mt-[130px]">
       <div className="flex justify-center items-center">
         <div className="w-full pl-12 pr-6">
           <hr className="h-[2px] bg-slate-500" />
